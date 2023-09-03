@@ -1,0 +1,49 @@
+uuid: efade9aa-46d5-4728-b20f-09f67a1ab567
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.backgroup_info.field_analysis_country
+    - field.field.node.backgroup_info.field_children_percent
+    - field.field.node.backgroup_info.field_coverage_maternity
+    - field.field.node.backgroup_info.field_coverage_unemploy
+    - field.field.node.backgroup_info.field_coverage_work_injury
+    - field.field.node.backgroup_info.field_gdp
+    - field.field.node.backgroup_info.field_infant
+    - field.field.node.backgroup_info.field_life_expectancy
+    - field.field.node.backgroup_info.field_maternal
+    - field.field.node.backgroup_info.field_old_percent
+    - field.field.node.backgroup_info.field_pop_affiliated
+    - field.field.node.backgroup_info.field_pop_cover
+    - field.field.node.backgroup_info.field_total_expenditure
+    - field.field.node.backgroup_info.field_total_pop
+    - node.type.backgroup_info
+  module:
+    - user
+id: node.backgroup_info.teaser
+targetEntityType: node
+bundle: backgroup_info
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_analysis_country: true
+  field_children_percent: true
+  field_coverage_maternity: true
+  field_coverage_unemploy: true
+  field_coverage_work_injury: true
+  field_gdp: true
+  field_infant: true
+  field_life_expectancy: true
+  field_maternal: true
+  field_old_percent: true
+  field_pop_affiliated: true
+  field_pop_cover: true
+  field_total_expenditure: true
+  field_total_pop: true
+  search_api_excerpt: true

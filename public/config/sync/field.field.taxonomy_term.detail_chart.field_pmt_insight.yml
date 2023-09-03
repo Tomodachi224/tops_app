@@ -1,0 +1,19 @@
+uuid: 105d50ac-4ec1-4839-9917-a5648ba08431
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_pmt_insight
+    - taxonomy.vocabulary.detail_chart
+id: taxonomy_term.detail_chart.field_pmt_insight
+field_name: field_pmt_insight
+entity_type: taxonomy_term
+bundle: detail_chart
+label: 'PMT Insight'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

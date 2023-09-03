@@ -1,0 +1,23 @@
+uuid: 03438dd8-5109-4aca-ae24-c4192dd60aac
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_total_pop
+    - node.type.backgroup_info
+id: node.backgroup_info.field_total_pop
+field_name: field_total_pop
+entity_type: node
+bundle: backgroup_info
+label: 'Total population'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: float

@@ -1,0 +1,19 @@
+.scroll-spy-content {
+  position: relative;
+  height: 1000px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -ms-overflow-style: none;
+  /* Internet Explorer 10+ */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.scroll-spy-content::-webkit-scrollbar {
+  display: none;
+  /* Safari and Chrome */
+}
+
+.about-anchor {
+  scroll-margin-top: calc(100px - 10px);
+}

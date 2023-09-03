@@ -1,0 +1,268 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("fonts/OpenSans-Regular.ttf");
+}
+@font-face {
+    font-family: "Open Sans";
+    src: url("fonts/OpenSans-Bold.ttf");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Open Sans";
+    src: url("fonts/OpenSans-Italic.ttf");
+    font-style: italic;
+}
+@font-face {
+    font-family: "Open Sans";
+    src: url("fonts/OpenSans-BoldItalic.ttf");
+    font-weight: bold;
+    font-style: italic;
+}
+
+  
+#tab-6448, #outer, #section-top { margin-bottom: 3em; }
+ .section .container {
+  background-image: url(http://www.socialprotection-toolbox.org/themes/cantaloupe/images/background-body.png);
+  background-repeat: repeat-y;
+  background-size: cover;
+  text-align: center;
+  }
+  
+div.main-container {
+  max-width: 1200px;
+  background-image: url(http://www.socialprotection-toolbox.org/themes/cantaloupe/images/background-body.png);
+  background-repeat: repeat-y;
+}
+  
+.checkbox input[type=checkbox], .checkbox-inline input[type=checkbox], .radio input[type=radio], .radio-inline input[type=radio] {
+    position: absolute;
+    margin-top: 4px\9;
+    margin-left: -20px;
+    text-indent: 50%;
+
+    
+} 
+#loading-content {
+  position: absolute;
+  background: #f2f2f2;
+  opacity: 0.9;
+  z-index: 50;
+  left: 0;
+  right: 0;
+  height: 100%;
+  text-align: center;
+  color:  black;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;;
+}
+
+		#logo {
+			float: left;
+			margin: 0;
+			padding: 0;
+			padding-top: 20px;
+		}
+		
+		#logo img { vertical-align: bottom; }
+		
+		#menu {
+		  float: right;
+		  position: middle;
+		}
+
+html, body {
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+body {
+	margin: 0; 
+	padding: 0;
+  background-color: #FFF;
+  color: #333;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;;
+  font-style: normal;
+  font-weight: 300;
+  margin-top: 50px;
+}
+
+h1 {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;;
+  font-style: normal;
+  font-weight: 400;
+}
+
+h2 {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;;
+  font-style: normal;
+  font-weight: 400;
+}
+
+h3 {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;;
+  font-style: normal;
+  font-weight: 400;
+}
+
+h4 {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+h5 {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;;
+  font-style: normal;
+  font-weight: 400;
+}
+
+h6 {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.navbar { 
+		  position: fixed;
+		  top: 0;
+		  left: 0;
+		  right: 0;
+		  min-height: 80px;
+		  z-index: 100;
+		  -moz-box-shadow: 0 3px 10px rgba(15, 15, 15, 0.5);
+		  -webkit-box-shadow: 0 3px 10px rgba(15, 15, 15, 0.5);
+		  box-shadow: 0 3px 10px rgba(15, 15, 15, 0.5);
+		  background-color: #fff167;
+}
+
+
+.navbar > .container-fluid {
+  position: relative;
+		  background: url('https://www.socialprotection-toolbox.org/themes/cantaloupe/images/background-header.png') 0 0 no-repeat;
+		  min-height: 90px;
+}
+  
+
+#app-content > .container-fluid > .container-fluid {
+  background-image: url(https://www.socialprotection-toolbox.org/themes/cantaloupe/images/background-body.png);
+  background-repeat: repeat-y;
+  }
+
+.navbar-dropdown { 
+    background-color: #FEF167;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;;
+    font-size: 13px;
+    color: #FF0000; 
+}
+
+.navbar-default .navbar-brand {
+    color: #231F20;
+}
+
+.navbar-default .nav > li > a {
+  color: #999999;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+.navbar-default .brand:hover,
+.navbar-default .nav > li > a:hover {
+  color: #ffffff;
+  background-color: transparent
+}
+.navbar-default .nav > li > a:focus,
+.navbar-default .nav > li > a:hover {
+  background-color: transparent;
+  color: #ffffff;
+}
+.navbar-default .nav .active > a,
+.navbar-default .nav .active > a:hover,
+.navbar-default .nav .active > a:focus {
+  color: #333;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.navbar-default .navbar-nav>li>a {
+  	margin-top: 1.5em;
+    color: #000000;
+    font-weight: bold;
+}
+.nav > .disabled > a:hover {
+  text-decoration: none;
+  background-color: transparent;
+  cursor: default;
+}
+.col-sm-4 >.well {
+			margin: 0 auto;
+			text-align: left;
+			padding: 1.5em;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			box-shadow: 0 3px 10px rgba(15, 15, 15, 0.5);
+			background-color: #ffffff;
+}
+
+#endnote {
+	margin-top: 3em;
+	font-size: 1em;
+	color: #666;
+}
+
+#footer {
+	background: #f2f3f3;
+  height: 100px;
+  margin: 0;
+  padding: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  max-width: 100%;
+}
+
+#footer .container {
+  padding-top: 1em;
+  color: #333;
+  font-size: 0.85em;
+}
+
+
+.tabbable > .nav > li > a{
+  background-color: #E2E4EA;  
+  color:#FFFFFF;
+  font-weight: bold;
+}
+.tabbable > .nav > li[class=active]    > a {
+  background-color: #04506D ; 
+  color:#FFFFFF
+  
+}
+.irs-bar-edge, .irs-bar {
+    background: #04506D !important;
+}
+.irs-single {
+    background: #04506D !important;
+}
+.irs-to {
+    background: #04506D !important;
+}
+.irs-from {
+    background: #04506D !important;
+}
+.irs-from:after, .irs-to:after, .irs-single:after {
+  
+  border-top-color: #04506D;
+}
+.irs-slider.type_last, .irs-line-mid, .irs-line-left, .irs-line-right, .irs-bar, .irs-bar-edge, .irs-slider {
+    background: url(../img/sprite-skin-flat.png) repeat-x;
+}
+
+ul[id=testcss] > li > a {background-color: #E2E4EA !important;  color:#FFFFFF !important}
+
+ul[id=testcss] > li[class=active] > a {background-color: #04506D !important;  color:#FFFFFF !important}
+  
+.checkbox > li[class=active] > a{background-color: #F36E58;  color:white}
+
+.infobox {
+  padding: 1em 1em 1em 4em;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background: #f2f2f2 5px center/3em no-repeat;
+}
+

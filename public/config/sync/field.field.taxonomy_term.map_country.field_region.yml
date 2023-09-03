@@ -1,0 +1,19 @@
+uuid: bc20c408-628b-4d4e-8eb3-0ce6eb438489
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_region
+    - taxonomy.vocabulary.map_country
+id: taxonomy_term.map_country.field_region
+field_name: field_region
+entity_type: taxonomy_term
+bundle: map_country
+label: Region
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

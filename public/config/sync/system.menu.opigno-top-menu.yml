@@ -1,0 +1,8 @@
+uuid: 87be3c7f-4476-4097-a627-7a2264f6398f
+langcode: en
+status: true
+dependencies: {  }
+id: opigno-top-menu
+label: 'Opigno Top Menu'
+description: ''
+locked: false

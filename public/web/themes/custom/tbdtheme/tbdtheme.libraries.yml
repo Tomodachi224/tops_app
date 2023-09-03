@@ -1,0 +1,40 @@
+tbdtheme-js-latest:
+  version: "5.1.3"
+  js:
+    https://unpkg.com/vue@2.6.14/dist/vue.min.js: { type: external, minified: true, weight: -1 }
+    assets/dist/js/plugins.js: {}
+    assets/dist/js/theme.js: {}
+    assets/dist/js/theme_tbd_custom.js: {}
+    assets/dist/js/userway.js: {}
+
+  dependencies:
+    - core/jquery
+
+global-styling:
+  css:
+    theme:
+      assets/dist/css/plugins.css: {}
+      assets/dist/css/style.css: {}
+      assets/dist/css/colors/project.css: {}
+      https://fonts.googleapis.com/css?family=Roboto Condensed: { external: true, minified: true }
+
+
+vue-app:
+  js:
+    assets/dist-vue/app.umd.min.js: {}
+  css:
+    theme:
+      assets/dist-vue/app.css: {}
+
+# vac:
+#   js:
+#     assets/dist-vac/vac.umd.min.js: {}
+#   css:
+#     theme:
+#       assets/dist-vac/vac.css: {}
+
+webcomponents:
+  js:
+    assets/dist-webcomponents/map-chart/map-chart.min.js: {}
+    assets/dist-webcomponents/map-wrapper/map-wrapper.min.js: {}
+    assets/dist-webcomponents/table-wrapper/table-wrapper.min.js: {}

@@ -1,0 +1,31 @@
+uuid: 5a503ce1-d533-41b6-948c-e6c856aa5e64
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.methodology.field_anchor
+    - taxonomy.vocabulary.methodology
+  module:
+    - text
+id: taxonomy_term.methodology.default
+targetEntityType: taxonomy_term
+bundle: methodology
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_anchor:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  search_api_excerpt: true

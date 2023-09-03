@@ -1,0 +1,51 @@
+uuid: 2a06572d-84d9-4a55-aed9-57306b2c1854
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.background_information.field_enable
+    - field.field.taxonomy_term.background_information.field_field_name
+    - field.field.taxonomy_term.background_information.field_unit
+    - taxonomy.vocabulary.background_information
+  module:
+    - text
+id: taxonomy_term.background_information.default
+targetEntityType: taxonomy_term
+bundle: background_information
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_enable:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_field_name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_unit:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  search_api_excerpt: true

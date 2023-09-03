@@ -1,0 +1,25 @@
+uuid: 5d7806c0-334d-4417-96cd-87e93a569256
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - aristotle_tbd
+_core:
+  default_config_hash: HNfKjY9E46c4Vbbjqha1tR8RAuO8GIG5Wv72eGkJAqE
+id: aristotle_tbd_branding
+theme: aristotle_tbd
+region: branding
+weight: -5
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

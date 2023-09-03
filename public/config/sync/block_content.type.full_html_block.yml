@@ -1,0 +1,8 @@
+uuid: 9901485b-2508-4f4d-92f6-28e59cb4de24
+langcode: en
+status: true
+dependencies: {  }
+id: full_html_block
+label: 'Full HTML Block'
+revision: 0
+description: 'Custom block for full HTML'

@@ -1,0 +1,37 @@
+ʹc4-for-un-Social Protection Online Tool-c2.puml
+@startuml 2.SPOT-System-Container
+!includeurl https://raw.githubusercontent.com/seungsoo0son/c4-plantuml-for-un/master/c4-for-un.puml
+ 
+LAYOUT_WITH_LEGEND()
+title Social Protection Online Tool - Container Diagram
+caption by paul@thinkbluedata.com
+ 
+Person_Ext(person1Alias, "Public User")
+Person(person2Alias, "Admin User")
+ 
+System_Boundary(rrpAlias, "Social Protection Online Tool"){
+   Container(containerD1Alias, "Drupal and Vue.js Frontend-UI", "PHP, Vue.js", "UI for all users to access website content.")
+   Container(containerD2Alias, "Drupal Backend-UI", "PHP", "UI for admin user to manage contents.")
+   Container(containerD3Alias, "MongoDB", "Database outside Drupal to store pre-generated of simulation tool data")
+   Container(containerD4Alias, "Plumber APIs", "Rscript", "Provides simulation data APIs")
+ 
+   Access(containerD1Alias, containerD2Alias, "Read Published data \n[PULL: data]")
+   Access(containerD1Alias, containerD4Alias, "Get detailed data of simulation tool \n[PULL: data]")
+   Access(containerD1Alias, containerD3Alias, "Get pre-generated data of simulation tool \n[PULL: data]")
+
+}
+ 
+Access(person2Alias, containerD2Alias, "Manage overall website configurations. Manage web page contents.")
+Access(person1Alias, containerD1Alias, "Access public contents of the site.")
+ 
+System_Ext(system2Alias, "Drupal", "Monitor Drupal library versions and security issues")
+System_Ext(system3Alias, "SendGrid", "Send email from SDG7 Localisation Tool system to the configured email when software updates are available to Admin.")
+System_Ext(system4Alias, "Google Analytics", "Site tracking statistics")
+System_Ext(system5Alias, "Simulation Servers", "Calculates data for simulation tool")
+ 
+Access(containerD2Alias, system2Alias, "Update Drupal \n [PULL: Drupal libraries]")
+Access(containerD2Alias, system4Alias, "Send tracking data \n [PUSH: tracking]")
+Access(containerD4Alias, system5Alias, "Get simulation data \n [PULL: data]")
+Access_U(system3Alias, person2Alias, "Send e-mails \n [PUSH: e-mail]")
+ 
+@enduml

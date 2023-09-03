@@ -1,0 +1,26 @@
+uuid: 9574e532-09e7-41f5-b93b-5f0bcac32980
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - aristotle_tbd
+_core:
+  default_config_hash: LAjbHuXwCmY_WUH9vg17NHUfJhaC7Q_jLipWVodFAtQ
+id: aristotle_tbd_local_actions
+theme: aristotle_tbd
+region: content
+weight: -2
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '/analysis-app/*'

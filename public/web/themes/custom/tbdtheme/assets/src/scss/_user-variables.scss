@@ -1,0 +1,78 @@
+// Use this to overwrite Bootstrap and theme variables
+
+// Example of a variable override to change the theme font.
+// Remove the "//" to uncomment it and see it in action.
+// $font-family-sans-serif: "Manrope", sans-serif;
+
+// To use a custom font, first add the font files inside folder src/assets/fonts/
+// Then use the example below to import your custom font here.
+// @import "../../fonts/myfont/myfont.css";
+// $font-family-sans-serif: "My Font Name", sans-serif;
+
+// To use a Google font use the example below
+// @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+// $font-family-sans-serif: 'Montserrat', sans-serif;
+
+// Bootstrap variables (overrides).
+
+// override default bootstrap colors for accessibility
+//$white: #fff !default;
+//$black: #000 !default;
+//$gray-700: #495057 !default;
+
+// $blue: #003cc5 !default;
+
+//$cyan: #006170 !default;
+//$pink: #e21181 !default;
+//$green: #008a00 !default;
+
+//$breadcrumb-divider-color: $gray-700 !default;
+//$breadcrumb-active-color: $gray-700 !default;
+
+//$navbar-light-color: rgba($black, .6) !default;
+//$navbar-dark-color: rgba($white, .6) !default;
+
+$form-text-margin-top: 0 !default;
+$legend-font-size: 1rem !default;
+$table-cell-padding-x: 0.75rem;
+
+// Drupal Theme variables.
+
+$navbar-brand-image-height: 36px !default;
+$navbar-brand-image-height-lg: 40px !default;
+$navbar-brand-small-image-height-lg: 32px !default;
+$navbar-brand-image-width: auto !default;
+$navbar-brand-image-margin: 0 1rem 0 0 !default;
+
+$navbar-brand-site-title-text-transform: uppercase !default;
+$navbar-brand-site-title-font-size: 1.5rem !default;
+$navbar-brand-site-title-font-weight: bold !default;
+$navbar-brand-site-title-letter-spacing: 2px !default;
+$navbar-brand-site-slogan-font-size: 0.875rem !default;
+
+$region-padding: 0 0.5rem !default;
+
+$footer-padding: 2rem 0 !default;
+
+$nav-tabs-link-active-bg-sm: #dee2e6 !default;
+
+$local-tasks-primary-margin: 1rem 0 !default;
+$local-tasks-secondary-margin: 0 0 1rem 0 !default;
+
+$table-striped-bg: #f9f9f9 !default;
+
+$R01: #50bfa5;
+$R02: #3ebba9;
+$R03: #29b6ad;
+$R04: #05b2b1;
+$R05: #00adb4;
+$R06: #00a8b7;
+$R07: #00a2ba;
+$R08: #009dbc;
+$R09: #0097bd;
+$R10: #0092bd;
+$R11: #008cbc;
+$R12: #0085bb;
+$R13: #1d7fb8;
+$R14: #3179b5;
+$R15: #3f72b0;

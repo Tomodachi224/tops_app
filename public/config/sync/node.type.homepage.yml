@@ -1,0 +1,11 @@
+uuid: da6797cc-934a-4a6c-97ae-50d2bd1f3ae4
+langcode: en
+status: true
+dependencies: {  }
+name: HomePage
+type: homepage
+description: 'Multiple Blocks'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,88 @@
+uuid: b9c5260d-0e17-41d1-92f0-12a616853d99
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.detail_chart.field_information
+    - field.field.taxonomy_term.detail_chart.field_insight
+    - field.field.taxonomy_term.detail_chart.field_insight2
+    - field.field.taxonomy_term.detail_chart.field_paragraph
+    - field.field.taxonomy_term.detail_chart.field_pmt_insight
+    - field.field.taxonomy_term.detail_chart.field_title
+    - field.field.taxonomy_term.detail_chart.field_x_label
+    - field.field.taxonomy_term.detail_chart.field_y_label
+    - taxonomy.vocabulary.detail_chart
+  module:
+    - text
+id: taxonomy_term.detail_chart.default
+targetEntityType: taxonomy_term
+bundle: detail_chart
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_information:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_insight:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_insight2:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_paragraph:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 8
+    region: content
+  field_pmt_insight:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_title:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_x_label:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_y_label:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+hidden:
+  search_api_excerpt: true

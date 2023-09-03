@@ -1,0 +1,126 @@
+uuid: e3ff8600-4e93-4e5c-a587-c034d9a474bd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.detail_chart.field_information
+    - field.field.taxonomy_term.detail_chart.field_insight
+    - field.field.taxonomy_term.detail_chart.field_insight2
+    - field.field.taxonomy_term.detail_chart.field_paragraph
+    - field.field.taxonomy_term.detail_chart.field_pmt_insight
+    - field.field.taxonomy_term.detail_chart.field_title
+    - field.field.taxonomy_term.detail_chart.field_x_label
+    - field.field.taxonomy_term.detail_chart.field_y_label
+    - taxonomy.vocabulary.detail_chart
+  module:
+    - path
+    - text
+id: taxonomy_term.detail_chart.default
+targetEntityType: taxonomy_term
+bundle: detail_chart
+mode: default
+content:
+  description:
+    type: text_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_information:
+    type: string_textarea
+    weight: 105
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_insight:
+    type: string_textarea
+    weight: 104
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_insight2:
+    type: string_textarea
+    weight: 106
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_paragraph:
+    type: string_textarea
+    weight: 132
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_pmt_insight:
+    type: string_textarea
+    weight: 131
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_title:
+    type: string_textarea
+    weight: 101
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_x_label:
+    type: string_textfield
+    weight: 102
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_y_label:
+    type: string_textfield
+    weight: 103
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  simple_sitemap:
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  simple_sitemap_index_now:
+    weight: 130
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 100
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+hidden: {  }

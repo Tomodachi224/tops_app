@@ -1,0 +1,11 @@
+uuid: 7ad46c49-488c-4097-9a44-1c1e439aab0f
+langcode: en
+status: true
+dependencies: {  }
+name: 'Custom Layout Page'
+type: custom_layout_page
+description: 'Content type for pages that have customize layout'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

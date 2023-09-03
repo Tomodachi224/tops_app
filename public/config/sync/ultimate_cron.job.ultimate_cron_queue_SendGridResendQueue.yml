@@ -1,0 +1,20 @@
+uuid: ae9480f9-2a6c-4bf9-ad15-c15e7e603c38
+langcode: en
+status: true
+dependencies:
+  module:
+    - sendgrid_integration
+title: 'Queue: SendGrid Resend queue'
+id: ultimate_cron_queue_SendGridResendQueue
+weight: 10
+module: sendgrid_integration
+callback: 'ultimate_cron.queue_worker:queueCallback'
+scheduler:
+  id: simple
+  configuration:
+    rules:
+      - '* * * * *'
+launcher:
+  id: serial
+logger:
+  id: database

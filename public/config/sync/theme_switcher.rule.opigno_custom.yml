@@ -1,0 +1,25 @@
+uuid: b033f5be-ce00-44fd-88a3-b66a163fb6de
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_visibility_conditions
+    - system
+id: opigno_custom
+label: 'Opigno Custom'
+weight: -10
+theme: aristotle_tbd
+admin_theme: aristotle_tbd
+visibility:
+  not_node_type:
+    id: not_node_type
+    bundles: {  }
+    negate: null
+  not_taxonomy_vocabulary:
+    id: not_taxonomy_vocabulary
+    bundles: {  }
+    negate: null
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/catalogue\r\n/statistics/*\r\n/group/*\r\n/opigno_module/*\r\n/admin/structure/opigno_module/*/edit\r\n/admin/structure/opigno_import/*\r\n/admin/structure/opigno_activity/add/*\r\n/admin/structure/opigno_activity/*/edit\r\n/admin/content/certificates/\r\n/certificate/*\r\n/module/*\r\n/opigno/*\r\n/calendar/*\r\n/opigno_notifications\r\n/private-messages\r\n/manage-connections\r\n/user-profile/*\r\n/user/*/achievements\r\n/activity/*\r\n/user/*"

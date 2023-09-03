@@ -1,0 +1,34 @@
+# assessment_tool.map:
+#   path: '/engage'
+#   defaults:
+#     _form: '\Drupal\assessment_tool\Form\Map'
+#     _title: 'Select your region to assess the gap'
+#   requirements:
+#     _permission: 'access content'
+
+assessment_tool.region:
+  path: '/engage/regions/{region}'
+  defaults:
+    _controller: '\Drupal\assessment_tool\Controller\Regions:setRedirect'
+    _title: 'Select your region to assess the gap'
+    region: 'asia-pacific'
+  requirements:
+    _permission: 'access content'
+
+assessment_tool.engage:
+  path: '/engage/assessment-tool'
+  defaults:
+    _form: '\Drupal\assessment_tool\Form\Engage'
+    _title: 'How broad is social protection coverage in your country?'
+  requirements:
+    _permission: 'access content'
+
+assessment_tool.results:
+  path: '/engage/assessment-tool/{region}'
+  defaults:
+    _controller: '\Drupal\assessment_tool\Controller\Results::page'
+    _title: 'Good Practices from country and comparative examples from other regions'
+  requirements:
+    _permission: 'access content'
+  options:
+    no_cache: TRUE

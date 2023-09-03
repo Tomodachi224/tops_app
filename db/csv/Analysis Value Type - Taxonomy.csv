@@ -1,0 +1,18 @@
+name,tid,weight,field_color,field_axis_label,field_axis_unit,field_display_name
+Total,10001,1,#0D3562,,,Total
+Urban,10002,2,#2971B4,,,Urban
+Rural,10003,3,#A0CDF8,,,Rural
+With existing schemes,10004,4,#0D3562,,,With existing schemes
+Post reform,10005,5,#2971B4,,,Post reform
+Other benefit,10012,6,#2971B4,,,Post reforms
+Basic,10013,7,#00ccd4,,,Post reforms
+Enhanced,10014,8,#3ac9a8,,,Post reforms
+Change (%),10006,9,#A0CDF8,,,Change (%)
+With no schemes,10007,10,#0D3562,,,With no schemes
+Recipients (thousands),10008,11,#0D3562,Recipients (thousands),thousands,Recipients (thousands)
+Spending (billions),10009,12,#2971B4,Spending (billions [[currency]]),billions [[currency]],Spending (billions)
+Spending (percent of GDP),10010,13,#A0CDF8,Spending (% of GDP),% of GDP,Spending (percent of GDP)
+Percentage of government revenue,10011,14,#0D3562,Percentage of government revenue,,Percentage of government revenue
+Expenditure (% of GDP),10015,15,,,,Expenditure (% of GDP)
+Cost of programme(s) (% of GDP),10016,16,,,,Cost of programme(s) (% of GDP)
+Value,10017,17,,,,Value

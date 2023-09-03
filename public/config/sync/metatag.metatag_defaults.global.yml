@@ -1,0 +1,12 @@
+uuid: 79cb1146-6ac0-404f-83d1-0dc9ca0a5217
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: sL588ui1E_8-2c_UupwyYxcqX2OVyMFp3HTLbbFqvPc
+id: global
+label: Global
+tags:
+  canonical_url: '[current-page:url]'
+  og_image: 'https://spot.unescap.org/sites/default/files/2023-08/site_thumbnail.png'
+  title: 'SPOT: Social Protection Online Tool'

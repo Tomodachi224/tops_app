@@ -1,0 +1,8 @@
+uuid: 7bfbd497-5083-4fc7-aee9-be3fc4ccb7bd
+langcode: en
+status: true
+dependencies: {  }
+name: 'KP Series'
+vid: kp_series
+description: 'Knowledge Product Series'
+weight: 0

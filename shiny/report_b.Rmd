@@ -1,0 +1,141 @@
+---
+header-includes:
+     - \usepackage[default,oldstyle,scale=0.95]{opensans}
+     - \usepackage[T1]{fontenc}
+
+output: 
+  pdf_document:
+    toc: true
+    fig_caption: yes
+    keep_tex: yes
+title: 'Social Protection Impact and Financing Tool: `r params$input_country`, Scenario B'
+params:
+        input_mattransfer: NA
+        input_childtransfer: NA
+        input_disabtransfer: NA
+        input_oldtransfer: NA
+        input_hhtransfer: NA
+        input_mat_cov: NA
+        input_child_cov: NA
+        input_disab_cov: NA
+        input_old_cov: NA
+        input_mat_length: NA
+        input_child_age: NA
+        input_disab_age: NA
+        input_old_age: NA
+        input_hh_cov: NA
+        input_country: NA
+        plot_graphcov_exp_pdf: NA
+        plot_graphcov_age_pdf: NA
+        plot_graphexp_all_pdf: NA
+        plot_graphexp_ben_pdf: NA
+        plot_graphpov_pdf: NA
+        plot_graphgap_pdf: NA
+        plot_cost_pdf: NA
+        data_textfin1_pdf: NA
+        plot_graphfin1_pdf: NA
+        plot_graphfin2_pdf: NA
+        data_textfin3_pdf: NA
+        text_pdf: NA
+        data_textpovineq_pdf: NA
+---
+
+\newpage
+
+# Policy parameters
+
+This simulation looks at the potential impacts of introducing non-contributory social protection programme(s) in `r params$input_country`. The following programme(s), along with their parameters on age eligibility, coverage and transfer values were considered:
+
+`r if(params$input_mattransfer>0){paste0("* **Maternity Benefit Programme**\n    + Length of benefit: ",params$input_mat_length," montths\n    + Coverage: ",params$input_mat_cov," per cent of age eligible mothers\n    + Transfer values: ",format(params$input_mattransfer,nsmall = 0 ,big.mark = ",")," per month in local currency")}`
+`r if(params$input_childtransfer>0){paste0("* **Child Benefit Programme**\n    + Age eligibility: children aged ",params$input_child_age[1],"-",params$input_child_age[2]," years\n    + Coverage: ",params$input_child_cov," per cent of age eligible children\n    + Transfer values: ",format(params$input_childtransfer,nsmall = 0 ,big.mark = ",")," per month in local currency")}`
+`r if(params$input_disabtransfer>0){paste0("* **Disability Benefit Programme**\n    + Age eligibility: persons with severe disability aged ",params$input_disab_age[1],"-",params$input_disab_age[2]," years\n    + Coverage: ",params$input_disab_cov," per cent of age-eligible persons with disability\n    + Transfer values: ",format(params$input_disabtransfer,nsmall = 0 ,big.mark = ",")," per month in local currency")}`
+`r if(params$input_oldtransfer>0){paste0("* **Old Age Benefit Programme**\n    + Age eligibility: older people aged ",params$input_old_age,"+ years\n    + Coverage: ",params$input_old_cov," per cent of age-eligible older people\n    + Transfer values: ",format(params$input_oldtransfer,nsmall = 0 ,big.mark = ",")," per month in local currency")}`
+`r if(params$input_hhtransfer>0){paste0("* **Household means-tested Programme**\n    + Coverage: ",params$input_hh_cov," per cent of households\n    + Transfer values: ",format(params$input_hhtransfer,nsmall = 0 ,big.mark = ",")," per month in local currency")}`
+
+\newpage
+
+# Simulated impact figures of all programmes combined
+
+## Coverage
+
+The figure below depicts the simulated coverage by consumption expenditure deciles after the proposed reforms. Simulations indicate that `r params$text_pdf[1][1]` per cent of the population are likely to benefit directly or indirectly from the programme(s). Across welfare deciles, coverage will range from `r params$text_pdf[2][1]` per cent in the lowest decile and `r params$text_pdf[3][1]` per cent in the highest decile. The simulated coverage of social protection programmes after the reforms are estimated to be `r params$text_pdf[4]` per cent among children under 18 years, `r params$text_pdf[5]` per cent among younger adults (18-59 years), and `r params$text_pdf[6]` per cent among older people 60 + years.
+
+```{r cov_exp, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center', fig.width=8,fig.height=4,fig.pos = "h", fig.cap="\\label{fig:cov_exp}Simulated coverage among national population, by consumption expenditure percentiles"}
+
+library(ggplot2)
+  params$plot_graphcov_exp_pdf
+```
+
+## Household consumption expenditure
+
+Figure \ref{fig:exp_all} shows the potential impact of the proposed reforms on household consumption expenditure. On average, the national population of `r params$input_country` will receive `r params$text_pdf[7]` per cent of their current consumption expenditure. Those in the lowest decile will potentially see an increase in per capita consumption expenditure by `r params$text_pdf[8]` per cent, while those in the highest decile will receive on average the equivalent of `r params$text_pdf[9]` per cent of their household per capita expenditure.
+
+```{r exp_all, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center', fig.width=8,fig.height=4,fig.pos = "h", fig.cap="\\label{fig:exp_all}Simulated increase in household consumption expenditure among national population, by consumption expenditure deciles"}
+
+library(ggplot2)
+  params$plot_graphexp_all_pdf
+```
+
+Similarly, Figure \ref{fig:exp_ben} shows the simulated impact of the reforms on household consumption expenditure but now among beneficiaries. Beneficiaries on average will receive in transfer values the equivalent to `r params$text_pdf[10]` per cent of household per capita expenditure. Recipients in the lowest decile will receive on average `r params$text_pdf[11]` per cent of per capita consumption, while their counterparts in the highest decile `r params$text_pdf[12]` per cent.
+
+```{r exp_ben, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center', fig.width=8,fig.height=4,fig.pos = "h", fig.cap="\\label{fig:exp_ben}Simulated increase in household consumption expenditure among recipients, by consumption expenditure deciles"}
+
+library(ggplot2)
+  params$plot_graphexp_ben_pdf
+```
+
+## Poverty and Inequality
+
+The simulated overall poverty reduction is `r params$data_textpovineq_pdf$povall[3]` per cent reduction. Among beneficiaries, the poverty rate will decrease `r params$data_textpovineq_pdf$povben[3]` per cent. The simulations also suggest a `r params$data_textpovineq_pdf$gapall[3]` per cent reduction in the national poverty gap, and `r params$data_textpovineq_pdf$gapben[3]` per cent among recipients. National inequality is expected to decrease by `r params$data_textpovineq_pdf$gini[3]` per cent when measured by the Gini index. Figure \ref{fig:pov_all} shows the simulated effect of reforms on  poverty rates by different poverty lines.
+
+```{r pov_all, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center', fig.width=8,fig.height=4,fig.pos = "h", fig.cap="\\label{fig:pov_all}Simulated national poverty rate before and after the introduction of the programme, by five-year age groups"}
+
+library(ggplot2)
+  params$plot_graphpov_pdf
+```
+
+The simulated impact of the programme(s) on the national poverty gap can also be seen below (Figure \ref{fig:gap_all}), with the current national poverty gap of `r params$data_textpovineq_pdf$gapall[1]` per cent and a post reform poverty gap of `r params$data_textpovineq_pdf$gapall[2]` per cent. Among recipients, the poverty gap changes from `r params$data_textpovineq_pdf$gapben[1]` per cent to `r params$data_textpovineq_pdf$gapben[2]` per cent.
+
+```{r gap_all, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center', fig.width=8,fig.height=4,fig.pos = "h", fig.cap="\\label{fig:gap_all}Simulated national poverty gap before and after the introduction of the programme, by five-year age groups"}
+
+library(ggplot2)
+  params$plot_graphgap_pdf
+```
+
+\newpage
+
+## Cost
+
+The area plot below shows the estimated annual costs of the programmes combined, as a percentage of gross domestic product (GDP), in 2022 and up to 2031 (Figure \ref{fig:costs_all}). The tool uses data on economic growth and population projections sourced from IMF and UN DESA.
+
+```{r costs_all, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center', fig.width=8,fig.height=4,fig.pos = "h", fig.cap="\\label{fig:costs_all}Projected annual cost (as percentage of GDP), by programme, 2022 to 2031"}
+
+library(ggplot2)
+  params$plot_cost_pdf
+```
+
+Besides highlighting potential impacts in coverage, consumption and poverty and inequality; today, any investiment in social protection has to be presented as affordable. This section also provides a few of the possible financing streams that can make sensible reforms affordable. Note, however, that each country is unique, and that all and any alternative options should be carrefully examined against its context.
+
+### Investment as a percentage of government revenue
+
+`r params$data_textfin1_pdf`
+
+```{r fin1, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center', fig.width=8,fig.height=4,fig.pos = "h", fig.cap="\\label{fig:fin1} Required investment as a percentage of government revenue, by year"}
+
+library(ggplot2)
+  params$plot_graphfin1_pdf
+```
+
+### A comparison of the estimated cost of the simulated programme(s) with public spending on other sectors in 2022
+
+One option is to reallocate current government expenditure. The figure below highlights current government expenditure by functional outlays against the required investment
+
+```{r fin2, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center', fig.width=8,fig.height=5,fig.pos = "h", fig.cap="\\label{fig:fin2} Public spending on functional expenses as percentage of GDP, 2022"}
+
+library(ggplot2)
+  params$plot_graphfin2_pdf
+```
+
+### Government tax revenue from income and corporate taxes
+
+`r params$data_textfin3_pdf`

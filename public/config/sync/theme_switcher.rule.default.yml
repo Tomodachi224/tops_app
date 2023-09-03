@@ -1,0 +1,25 @@
+uuid: a06713c1-b5ac-4fbd-85a8-dcd20a8230d2
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_visibility_conditions
+    - system
+id: default
+label: Default
+weight: -9
+theme: claro
+admin_theme: claro
+visibility:
+  not_node_type:
+    id: not_node_type
+    bundles: {  }
+    negate: null
+  not_taxonomy_vocabulary:
+    id: not_taxonomy_vocabulary
+    bundles: {  }
+    negate: null
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/user/login\r\n/user/register\r\n/user/password"

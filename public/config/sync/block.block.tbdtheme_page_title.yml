@@ -1,0 +1,37 @@
+uuid: a630222f-da45-40dc-9465-82bd1cd43e23
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_visibility_conditions
+    - system
+  theme:
+    - tbdtheme
+_core:
+  default_config_hash: vXFad_UaJheoHZUGSd1PuqE3U9jl--KOBlvlMsgEZhc
+id: tbdtheme_page_title
+theme: tbdtheme
+region: content
+weight: -4
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: "<front>\r\n/home\r\n/analysis-app/*/*\r\n/dashboard-app\r\n/dashboard-app/*/*\r\n/action-plan\r\n/e-learning\r\n/knowledge-products\r\n/explore\r\n/simulation-tool\r\n/about-us\r\n/glossary\r\n/methodology-app\r\n/covid\r\n/regional-comparison-app"
+  not_node_type:
+    id: not_node_type
+    bundles:
+      custom_layout_page: custom_layout_page
+      knowledge_product: knowledge_product
+    negate: null
+  not_taxonomy_vocabulary:
+    id: not_taxonomy_vocabulary
+    bundles: {  }
+    negate: null

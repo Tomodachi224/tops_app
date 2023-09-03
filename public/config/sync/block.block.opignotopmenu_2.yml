@@ -1,0 +1,34 @@
+uuid: 3dfc520e-fa3f-4bfb-a663-25c0d1575064
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.opigno-top-menu
+  module:
+    - block_visibility_conditions
+    - system
+  theme:
+    - aristotle_tbd
+id: opignotopmenu_2
+theme: aristotle_tbd
+region: menu
+weight: -4
+provider: null
+plugin: 'system_menu_block:opigno-top-menu'
+settings:
+  id: 'system_menu_block:opigno-top-menu'
+  label: 'Opigno Top Menu'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: true
+visibility:
+  not_node_type:
+    id: not_node_type
+    bundles: {  }
+    negate: null
+  not_taxonomy_vocabulary:
+    id: not_taxonomy_vocabulary
+    bundles: {  }
+    negate: null

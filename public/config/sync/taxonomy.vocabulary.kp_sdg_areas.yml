@@ -1,0 +1,8 @@
+uuid: 7cd07e35-a1c9-46a0-adfe-a3cc83a13757
+langcode: en
+status: true
+dependencies: {  }
+name: 'KP SDG Areas'
+vid: kp_sdg_areas
+description: 'Knowledge Product SDG Areas'
+weight: 0

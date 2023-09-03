@@ -1,0 +1,29 @@
+uuid: 95259cf3-f578-4c8d-a767-a22068db36fa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sdg_areas
+    - node.type.knowledge_product
+    - taxonomy.vocabulary.kp_sdg_areas
+id: node.knowledge_product.field_sdg_areas
+field_name: field_sdg_areas
+entity_type: node
+bundle: knowledge_product
+label: 'SDG Area'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      kp_sdg_areas: kp_sdg_areas
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

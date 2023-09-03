@@ -1,0 +1,59 @@
+/* iCheck plugin flat skin, black
+----------------------------------- */
+.icheckbox_flat-yesno,
+.iradio_flat-yesno {
+    display: inline-block;
+    *display: inline;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    background: url(yesno.png) no-repeat;
+    border: none;
+    cursor: pointer;
+}
+.icheckbox_flat-yesno {
+    width: 72px;
+}
+
+.icheckbox_flat-yesno {
+    background-position: -175px 0;
+}
+    .icheckbox_flat-yesno.checked {
+        background-position: -249px 0;
+    }
+    .icheckbox_flat-yesno.disabled {
+        background-position: -322px 0;
+        cursor: default;
+    }
+    .icheckbox_flat-yesno.checked.disabled {
+        background-position: -323px 0;
+    }
+
+.iradio_flat-yesno {
+    background-position: -88px 0;
+}
+    .iradio_flat-yesno.checked {
+        background-position: -110px 0;
+    }
+    .iradio_flat-yesno.disabled {
+        background-position: -132px 0;
+        cursor: default;
+    }
+    .iradio_flat-yesno.checked.disabled {
+        background-position: -154px 0;
+    }
+
+/* Retina support */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+       only screen and (-moz-min-device-pixel-ratio: 1.5),
+       only screen and (-o-min-device-pixel-ratio: 3/2),
+       only screen and (min-device-pixel-ratio: 1.5) {
+    .icheckbox_flat-yesno,
+    .iradio_flat-yesno {
+        background-image: url(yesno@2x.png);
+        -webkit-background-size: 176px 22px;
+        background-size: 176px 22px;
+    }
+}

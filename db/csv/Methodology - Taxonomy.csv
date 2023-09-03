@@ -1,0 +1,361 @@
+tid,weight,parent,name,field_anchor,description
+180001,0,,Introduction,introduction,"<p><em>The&nbsp;<strong>Social Protection Simulator</strong>&nbsp;provides simulations of the impact and cost of core non-contributory social protection schemes across 19 countries in Asia and the Pacific (see table below). It can be used to estimate the impact of different social protection schemes on coverage, household purchasing power, poverty, and inequality, along with their cost implications. The tool also illustrates scheme affordability by comparing estimated costs against alternative financing streams.</em></p>
+
+<p><em>Users can develop different policy options by simulating the introduction of non-contributory social protection schemes. The tool includes two types of schemes: inclusive programmes organised around the lifecycle (children, older persons, and persons with disabilities); and means-tested household programmes. Users can set parameters related to eligibility criteria, desired levels of coverage, and benefit levels. Users may also modify parameters related to the expected real annual growth rate of the economy, and administrative programme costs.</em><br />
+<br />
+&nbsp;</p>
+[[table_chart:1]]<br />
+&nbsp;
+<p>Once parameters of the selected schemes have been defined and set, the tool provides the results to the users through interactive and easy-to-understand tables and graphs. The tool also allows the user to download a pdf report with all the key results and charts.</p>
+
+<p>Different scenarios can be built to simulate, compare, and combine the impacts of different schemes across countries</p>
+
+<div class=""alert alert-info"">
+<p><strong>Simulate:</strong>&nbsp;The simplest application entails the simulation of one social protection scheme in a given country.</p>
+
+<p><strong>Compare:</strong>&nbsp;Users can simulate the presence of multiple schemes within the same country and obtain estimates of their impacts individually and as a system.</p>
+
+<p><strong>Compare:</strong>&nbsp;Users can compare alternative scenarios, simulating – for instance – the impact of a given scheme across two different countries or the impact of two alternative schemes in a given country.</p>
+</div>
+
+<p>The simulations allow users to observe what would have happened, in terms of household welfare, if such programmes had been in place in the year of the household survey. The simulated impacts show changes in key outcomes related to scheme coverage and the estimated impacts on poverty and inequality. The outcomes are:</p>
+
+<ul>
+	<li><strong>Scheme coverage:</strong>&nbsp;the estimated percentage of the population eligible for the simulated scheme(s), in total and disaggregated by deciles of household income (or expenditure), location (urban/rural) and household living arrangement type.</li>
+	<li><strong>Impact on purchasing power:</strong>&nbsp;the estimated increase in households’ consumption expenditure as a result of the scheme(s), disaggregated by deciles of household income (or expenditure), location (urban/rural) and household living arrangement type.</li>
+	<li><strong>Impact on poverty:</strong>&nbsp;the estimated reduction in levels of poverty among recipients of the scheme(s) and among the general population as measured by the Foster-Greer-Thorbecke (FGT) class of poverty measures (headcount ratio and poverty gap), using different poverty lines. These poverty measures are compared in the context of no schemes and with any existing country schemes identified in the Household Income Expenditure Survey.</li>
+	<li><strong>Impact on inequality:</strong>&nbsp;the estimated reduction in inequality as measured by the Gini index, the Quintile ratio, and the Palma ratio.</li>
+</ul>
+
+<p>In countries with no or limited social protection coverage, it is often argued that social protection is not affordable and that governments have insufficient fiscal space to introduce new schemes. The tool computes the relative cost of simulated schemes and provides different illustrative options available to expand fiscal space for the proposed scheme. The tool provides the following cost and affordability indicators:</p>
+
+<ul>
+	<li><strong>Projected annual cost of the simulated scheme(s):</strong>&nbsp;the estimated projected annual costs up to 2031 of the scheme(s), provided both in absolute values and expressed as a percentage of gross domestic product (GDP).</li>
+	<li><strong>Required investment as a percentage of government revenue:</strong>&nbsp;the projected annual costs expressed as a percentage of current government revenue (2021).</li>
+	<li><strong>A comparison of the estimated cost of the simulated scheme(s) with public spending on other sectors:</strong>&nbsp;the estimated total cost of the scheme relative to other functions of government spending, such as defence, health, and education.</li>
+	<li><strong>A comparison of the estimated cost of the simulated scheme(s) with government revenue generated by income and corporate taxes:&nbsp;</strong>the estimated total cost of the scheme relative to how much corporate and income tax revenue would have to increase in order to invest in the desired reforms.</li>
+</ul>
+
+<p>All the simulations built into the tool are computed using R, an open-source statistical software package and based on nationally representative household-level micro data such as Household Income and Expenditure Surveys. The online tool was developed using Shiny which is an R package developed by RStudio. Below is a detailed description of the methods and assumptions used in the tool to simulate impacts and project costs and affordability indicators.</p>
+"
+180002,1,,Methods and Assumptions,methods-and-assumptions,
+180003,7,,Data sources,data-sources,"<ul class=""nav nav-tabs"" id=""tab3"" role=""tablist"">
+        <li class=""nav-item"" role=""presentation""><button aria-controls=""economicData"" aria-selected=""true"" class=""nav-link active"" data-bs-target=""#economicData"" data-bs-toggle=""tab"" id=""economicData-tab"" role=""tab"" type=""button"">Step 1</button></li>
+        <li class=""nav-item"" role=""presentation""><button aria-controls=""populationProjectionData"" aria-selected=""false"" class=""nav-link"" data-bs-target=""#populationProjectionData"" data-bs-toggle=""tab"" id=""populationProjectionData-tab"" role=""tab"" type=""button"">Step 2</button></li>
+        <li class=""nav-item"" role=""presentation""><button aria-controls=""householdSurveys"" aria-selected=""false"" class=""nav-link"" data-bs-target=""#householdSurveys"" data-bs-toggle=""tab"" id=""householdSurveys-tab"" role=""tab"" type=""button"">Step 3</button></li>
+        <li class=""nav-item"" role=""presentation""><button aria-controls=""otherDataSources"" aria-selected=""false"" class=""nav-link"" data-bs-target=""#otherDataSources"" data-bs-toggle=""tab"" id=""otherDataSources-tab"" role=""tab"" type=""button"">Step 4</button></li>
+</ul>
+
+<div class=""tab-content"" id=""tab3Content"">
+<div aria-labelledby=""economicData-tab"" class=""tab-pane fade show active"" id=""economicData"" role=""tabpanel"">
+<ul>
+        <li>International Monetary Fund, World Economic Outlook Database, April 2021<a href=""/methodology-app#fn7"" id=""fnref7"" class=""methodology-anchor""><sup>7</sup></a></li>
+</ul>
+</div>
+
+<div aria-labelledby=""populationProjectionData-tab"" class=""tab-pane fade"" id=""populationProjectionData"" role=""tabpanel"">
+<ul>
+        <li>UN-DESA Population Prospects 2019 revision<a href=""/methodology-app#fn8"" id=""fnref8"" class=""methodology-anchor""><sup>8</sup></a></li>
+</ul>
+</div>
+
+<div aria-labelledby=""householdSurveys-tab"" class=""tab-pane fade"" id=""householdSurveys"" role=""tabpanel"">
+<ul>
+        <li>Armenia: Households’ Integrated Living Conditions Survey (HILCS), 2019</li>
+        <li>Bangladesh: Household Income and Expenditure Surveys (HIES), 2016</li>
+        <li>Bhutan: Bhutan Living Standard Survey (BLSS), 2017</li>
+        <li>Cambodia: Cambodia Socio-Economic Survey (CSES), 2019-20</li>
+        <li>Cook Islands: Household Income and Expenditure Surveys (HIES), 2015</li>
+        <li>Georgia: Household Incomes and Expenditures Survey (HIES), 2021</li>
+        <li>India: India Human Development Survey (IHDS), 2012</li>
+        <li>Indonesia: National Socio-Economic Survey (SUSENAS), 2017</li>
+        <li>Kiribati: Household Income and Expenditure Surveys (HIES), 2019</li>
+        <li>Kyrgyzstan: Kyrgyz Integrated Household Survey (KIHS), 2018</li>
+        <li>Maldives: Household Income and Expenditure Surveys (HIES) (2019)</li>
+        <li>Mongolia: Household Socio-Economic Survey (HSES), 2018</li>
+        <li>Nepal: Annual Household Survey (AHS), 2015-16</li>
+        <li>Pakistan: Household Integrated Income &amp; Consumption survey (HIICS), 2015-2016</li>
+        <li>Philippines: Annual Poverty Indicator Survey (APIS), 2019</li>
+        <li>Sri Lanka: Household Income and Expenditure Surveys (HIES), 2016</li>
+        <li>Thailand: Household Socio-Economic Survey (SES), 2018</li>
+        <li>Türkiye: Household Budget Survey (HBS), 2019</li>
+        <li>Uzbekistan: Listening to the Citizens of Uzbekistan (L2CU), 2018</li>
+        <li>Viet Nam: Vietnam Household Living Standards Survey (VHLSS), 2016</li>
+</ul>
+</div>
+
+<div aria-labelledby=""otherDataSources-tab"" class=""tab-pane fade"" id=""otherDataSources"" role=""tabpanel"">
+<ul>
+        <li>IMF – Expenditure by Functions of Government (COFOG), accessed Sept 2021</li>
+        <li>WB – Tax revenue (% GDP), accessed Sept 2021&nbsp;<a href=""https://data.worldbank.org/indicator/GC.TAX.TOTL.GD.ZS"">https://data.worldbank.org/indicator/GC.TAX.TOTL.GD.ZS</a></li>
+        <li>OECD - Revenue Statistics in Asian and Pacific Economies, 2020</li>
+        <li>OECD Stats, accessed Sep 2021 -&nbsp;<a href=""https://stats.oecd.org/"">https://stats.oecd.org/</a></li>
+        <li>KPMG – Individual tax rates for 2011 – 2021, accessed Sept 2021</li>
+        <li>KPMG - Corporate tax rates for 2011 – 2021, accessed Sept 2021</li>
+        <li>CEIC, accessed Sept 2021-&nbsp;<a href=""https://www.ceicdata.com/en"">https://www.ceicdata.com/en</a></li>
+        <li>PWC – Kyrgyzstan tax summaries, accessed Sept 2021</li>
+        <li>PFK – Nepal’s Tax rates for 2021-22, 2021</li>
+        <li>Global Financial Integrity - Illicit financial flows to and from developing countries: 2005-2014, 2017</li>
+        <li>Cambodia’s Ministry of Economy and Finance – State Budget Implementation, December 2020</li>
+        <li>Reports from the Royal Government of Bhutan’s Ministry of Finance</li>
+        <li>Reports from the Government of the Cook Islands’ Ministry of Finance and Economic Management</li>
+        <li>Reports from the Kiribati’s Ministry of Finance and Economic Development</li>
+</ul>
+</div>
+</div>
+"
+180004,8,,Limitations,limitations,"<p>The Social Protection Simulator has several limitations. The limitations derive from the assumptions and datasets used to run the tool. Below is a description of the main limitations.</p>
+
+<h6>Limitations with the assumptions</h6>
+
+<p>The assumptions utilized vary in terms of how restrictive they are, and ultimately affect how accurately the tool can estimate impact, costs, and affordability. Thus, the user should see the model as a tool that can guide initial discussions in reforming social protection programmes in these countries, rather than a tool that provides precise estimates of impact, costs, and affordability.</p>
+
+<p>A key limitation of the tool is how persons with disabilities are identified in the simulations when household surveys do not provide measures of disability. The model takes on a very simplistic approach as it only looks at one dimension – age – to assign persons with disabilities. This potentially has great repercussions on the simulated impact results that either look directly or indirectly at the welfare of the households, for example simulated coverage by welfare deciles. However, because persons with disabilities usually represent a very small share of the total population, especially of those under 60 years of age, these limitations are less likely to impact the overall estimates of the reforms.</p>
+
+<p>It should also be highlighted that the affordability indicators in the tool do not take into account existing government expenditure on social protection programmes that are similar to those in the tool. Discontinuing any existing schemes in favour to the simulated ones would free up resources to be reallocated towards universal social protection. Therefore, affordability indicators for countries that are already investing in social protection are potentially underestimating governments’ real fiscal space capacity to invest in social protection programmes (i.e., they will need to mobilise less resources than what the tool suggests).</p>
+
+<h6>Limitations with the datasets</h6>
+
+<p><strong>Bhutan:</strong>&nbsp;The dataset does not include a household expenditure aggregate, which had to be computed based on the BLSSR 2017 report.</p>
+
+<p><strong>Cook Islands:</strong>&nbsp;The Cook Islands are a small island state in the Pacific, inhabited by just over 17,500 people. The risk of respondent identification implied that HIES was heavily anonymised: data on age in single years was not disclosed (only age by five-year groups), neither was disability status of survey participants available. As age in single years is a necessary input for the online tool, this has been simulated based on age by five-year groups using a uniform distribution. Disability status was simulated as detailed in 2.1.2 Step 1. Further challenges were faced to retrieve the other necessary data points as the Cook Islands does not feature in any of the main datasets used (UNDESA, IMF, WB). Official reports from the local Ministry of Finance and Economic Management were used when possible but some results are still missing from the tool. No official poverty line or poverty rate was identified so a relative measure of poverty (belonging to the bottom quintile of the welfare distribution) is being used instead. Finally, population by single age cohorts and by year (2015 to 2100) was estimated based on population by five-year age groups and projected changes in population between 2015 and 2025.</p>
+
+<p><strong>Georgia:</strong>&nbsp;The 2015 Welfare Monitoring Survey poverty estimates are provided using per adult equivalent household consumption expenditure. This tool, however, uses per capita household consumption expenditure as the measure of welfare. Therefore, in order to maintain the same reported poverty levels and use per capita measures of consumption expenditure, a new poverty line had to be created.</p>
+
+<p><strong>Indonesia:</strong>&nbsp;Because of usability of the tool and the time it takes to carry out the simulations using the full sample in the 2017 SUSENAS, the simulations for Indonesia are only carried out in 10 per cent of the sample in the SUSENAS dataset.</p>
+
+<p><strong>Kiribati:</strong>&nbsp;Survey data was anonymised and data on age in single years was not available, hence this has been simulated based on age by five-year groups using a uniform distribution. Data on education levels and assets ownership was also unavailable, weakening the quality of the regression based PMT model.</p>
+
+<p><strong>Kyrgyzstan:</strong>&nbsp;Due to data access limitations it was not possible to construct a more accurate PMT indicator as is the case with the other countries in the tool. Whilst it is possible to identify individuals and households that were receiving social protection, it was not possible to see the transfer value for each programme and so values had to be imposed.</p>
+
+<p><strong>Mongolia:</strong>&nbsp;For the most part, the household surveys used for the simulations included household expenditure aggregates that were constructed by the dataset proprietor. This meant that it was possible to replicate welfare and poverty levels outlined in their respective official reports. However, this was not the case for Mongolia, where household expenditure aggregates had to be computed following the methodology outlined in Annex B of the ‘2016 Poverty Profile’ of the Household Socioeconomic Survey (HSES) 2016 final report, under the assumption that the methodology would be similar for 2018. The household consumption variable consisted of consumption of food, non-food, durable goods, housing rents and energy consumption, which were aggregated at the household level to construct household monthly consumption expenditure per capita.</p>
+
+<p><strong>Nepal:</strong>&nbsp;The available dataset does not include information on marital status, education, employment, and location (urban/rural and region), weakening the quality of the regression based PMT model.</p>
+
+<p><strong>Philippines:</strong>&nbsp;Data on household consumption expenditure was not available, so household income was used instead as the welfare measure. Particular care should be taken when comparing results for Philippines with other countries.</p>
+
+<p><strong>Türkiye:</strong>&nbsp;Data on household location (urban or rural) was not available hence the disaggregation of outcomes by location within the tool is disabled. The regression based PMT tool is also weakened due to the unavailability of data on the region in which the household resides.</p>
+
+<h6>Limitations with the other data sources</h6>
+
+<p>In order for the economic and finance indicators to be as consistent as possible, efforts were made to source the data points for all the countries from the same sources. Unfortunately, this was not always possible, potentially leading to discrepancies or inconsistencies when comparing countries in relation to said indicators.</p>
+"
+180005,9,,Acronyms,acronyms,"[[table_chart:4]]
+<hr class=""my-4"" />
+<p><strong>Suggested Citation</strong></p>
+
+<p>Economic and Social Commission for Asia and the Pacific (ESCAP) , Social Protection Simulator. Available at&nbsp;<a href=""https://www.socialprotection-toolbox.org/simulation-tool"">https://www.socialprotection-toolbox.org/simulation-tool</a>&nbsp;(accessed on&nbsp;5 May 2022).</p>
+
+<hr class=""my-4"" />
+<ol>
+	<li class=""methodology-anchor"" id=""fn1"">
+	<p>Figari, F., Paulus, A., &amp; Sutherland, H. (2015). Microsimulation and policy analysis. In Handbook of income distribution (Vol. 2, pp.&nbsp;2141-2221). Elsevier.<a href=""/methodology-app#fnref1"">↩</a></p>
+	</li>
+	<li class=""methodology-anchor"" id=""fn2"">
+	<p>When possible, household consumption is calculated and adjusted for regional prices and then the per capita value is calculated by dividing this figure by household size.<a href=""/methodology-app#fnref2"">↩</a></p>
+	</li>
+	<li class=""methodology-anchor"" id=""fn3"">
+	<p>Some of the affordability indicators are derived from Ortiz, Cummins and Karunanethy 2017 working paper “Fiscal space for social protection and the SDGs: Options to expand social investments in 187 countries”.<a href=""/methodology-app#fnref3"">↩</a></p>
+	</li>
+	<li class=""methodology-anchor"" id=""fn4"">
+	<p>Except Cook Islands.<a href=""/methodology-app#fnref4"">↩</a></p>
+	</li>
+	<li class=""methodology-anchor"" id=""fn5"">
+	<p>Costs are calculated in the same way from 2022 to 2031 and transfer values and, by extension, administrative costs are constant overtime.<a href=""/methodology-app#fnref5"">↩</a></p>
+	</li>
+	<li class=""methodology-anchor"" id=""fn6"">
+	<p>This approach and the selection of covariates is based on literature and closely follows standard practises as outlined in Brown, Caitlin &amp; Ravallion, Martin &amp; van de Walle, Dominique, 2018. “A poor means test? Econometric targeting in Africa,” Journal of Development Economics, Elsevier, vol.&nbsp;134(C), pages 109-124.<a href=""/methodology-app#fnref6"">↩</a></p>
+	</li>
+	<li class=""methodology-anchor"" id=""fn7"">
+	<p>Not available for Cook Islands, MFEM reports used instead<a href=""/methodology-app#fnref7"">↩</a></p>
+	</li>
+	<li class=""methodology-anchor"" id=""fn8"">
+	<p>Not available for Cook Islands, MFEM reports used instead<a href=""/methodology-app#fnref8"">↩</a></p>
+	</li>
+</ol>
+"
+180006,0,180002,Simulating impacts,simulating-impacts,"<p>The simulations in the tool answer&nbsp;<em>“what if”</em>&nbsp;questions in a static and backward-looking manner (ex-ante simulations). Using nationally representative household surveys, the simulations provide estimates of how the introduction of non-contributory cash transfer programmes would impact the standards of living of individuals, including those directly and indirectly benefiting from the programmes. The simulations attempt to construct a hypothetical scenario of what would have happened to households if such programmes had been in place in the year of the household survey. By looking at the household unit, the distributional effects of the simulated schemes can also be analysed. To this end, impact estimates are also presented by expenditure deciles, location (i.e., rural and urban) and living arrangements.</p>
+
+<p>Behind these hypothetical calculations are a number of assumptions. The main assumption in the microsimulation model is that households spend 100 per cent of the additional income from cash transfers. That is, the model does not incorporate other possible behavioural responses to changes in household income. In other words, in the simulations, households do not save any portion of the transfers received.</p>
+
+<div class=""alert alert-info"">
+<p><strong>Welfare measures</strong></p>
+
+<p>Income and consumption represent the two most popular choices when it comes to measure welfare. While high-income countries tend to use income as their preferred welfare measure, most statistical offices in low-income countries use consumption.</p>
+
+<p>Compared to income, consumption is argued to be more directly connected to economic welfare, especially if a large share of the population is employed in the informal sector or self-employed, or if households produce most of the food they consume. Additionally, consumption is usually characterised by lower variance and an overall “smoother” distribution compared to income. On the other hand, collecting data on consumption is more challenging and time consuming.</p>
+
+<p>The tool uses household consumption expenditure as the default measure of households’ living standards. Philippines represents the only instance in which income is used as the welfare measure due to data constraints.</p>
+</div>"
+180007,0,180006,The conceptual framework,the-conceptual-framework,"<p>The model underlying the Tool is a linear approximation model such as the one outlined by Figari, Paulus and Sutherland (2015)<a href=""/methodology-app#fn1"" id=""fnref1"" class=""methodology-anchor""><sup>1</sup></a>, which decomposes household expenditure to isolate the effect of a cash transfer to the household, conditional on a set of household socio-demographic characteristics, as selected by the user of the Tool. Baseline and counterfactual scenarios are established in order to infer the absolute effects of a hypothetical policy change.</p>
+
+<p>Following the formal framework outlined by Figari, Paulus and Sutherland (2015), household welfare y can be expressed as</p>
+
+<p><math xmlns=""http://www.w3.org/1998/Math/MathML""><mi>y</mi><mo>(</mo><mi>c</mi><mo>,</mo><mi>x</mi><mo>,</mo><msub><mi>m</mi><mi>k</mi></msub><mo>)</mo><mo>=</mo><mi>x</mi><mo>+</mo><msub><mi>f</mi><mi>k</mi></msub><mo>(</mo><mi>c</mi><mo>,</mo><mi>x</mi><mo>,</mo><msub><mi>m</mi><mi>k</mi></msub><mo>)</mo></math></p>
+
+<p>where&nbsp;<math xmlns=""http://www.w3.org/1998/Math/MathML""><mi>k</mi></math> denotes the benefit system in which the household is in,&nbsp;<math xmlns=""http://www.w3.org/1998/Math/MathML""><mi>c</mi></math> denotes a vector of idiosyncratic characteristics of a given household,&nbsp;<math xmlns=""http://www.w3.org/1998/Math/MathML""><msub><mi>m</mi><mi>k</mi></msub></math>&nbsp;denotes the benefit parameter. Finally, a household’s disposable income is a linear combination of the household’s original level of income (that is income prior to any cash transfers)&nbsp;<math xmlns=""http://www.w3.org/1998/Math/MathML""><mi>x</mi></math>&nbsp;and transfer&nbsp;<math xmlns=""http://www.w3.org/1998/Math/MathML""><msub><mi>f</mi><mi>k</mi></msub></math>&nbsp;from programme&nbsp;<math xmlns=""http://www.w3.org/1998/Math/MathML""><mi>k</mi></math>, which is itself a function of the household’s income and characteristics, and the benefit level.</p>
+
+<p>To ascertain the change in a household’s welfare post transfer—which here is measured as the level of per capita consumption expenditure—, household’s consumption expenditure under Scenario 0 (no transfer) is compared against Scenario 1 (with transfer),</p>
+
+<p><math xmlns=""http://www.w3.org/1998/Math/MathML""><mi>&#916;</mi><mi>y</mi><mo>=</mo><msub><mi>y</mi><mn>1</mn></msub><mo>(</mo><mi>c</mi><mo>,</mo><mi>x</mi><mo>,</mo><mover><msub><mi>m</mi><mi>k</mi></msub><mo>&#175;</mo></mover><mo>)</mo><mo>-</mo><msub><mi>y</mi><mn>0</mn></msub><mo>(</mo><mi>c</mi><mo>,</mo><mi>x</mi><mo>,</mo><msub><mi>m</mi><mi>k</mi></msub><mo>)</mo><mtext>,</mtext></math></p>
+
+<p>where&nbsp;<math xmlns=""http://www.w3.org/1998/Math/MathML""><msub><mi>m</mi><mi>k</mi></msub><mo>,</mo><mover><msub><mi>m</mi><mi>k</mi></msub><mo>&#175;</mo></mover><mo>&#8805;</mo><mn>0</mn></math>, and&nbsp;<math xmlns=""http://www.w3.org/1998/Math/MathML""><mover><msub><mi>m</mi><mi>k</mi></msub><mo>&#175;</mo></mover></math>&nbsp;refers to the reforms to the parameters of the programme&nbsp;<math xmlns=""http://www.w3.org/1998/Math/MathML""><mi>k</mi></math>,&nbsp;<math xmlns=""http://www.w3.org/1998/Math/MathML""><msub><mi>m</mi><mi>k</mi></msub></math>.This can be described as a “morning-after” change, i.e., policy changes take effect in the same time period (hence, household income and characteristics do not change).</p>
+
+<p>In practice, we impose a functional form onto&nbsp;<math xmlns=""http://www.w3.org/1998/Math/MathML""><msub><mi>f</mi><mi>k</mi></msub></math></p>
+
+<p></p>
+
+<p><math xmlns=""http://www.w3.org/1998/Math/MathML""><msub><mi>f</mi><mi>k</mi></msub><mo>(</mo><mi>c</mi><mo>,</mo><mi>x</mi><mo>,</mo><msub><mi>m</mi><mi>k</mi></msub><mo>)</mo><mo>=</mo><msub><mi>t</mi><mi>k</mi></msub><msub><mn>1</mn><mrow><mo>(</mo><msub><mi>D</mi><mi>k</mi></msub><mo>=</mo><mn>1</mn><mo>|</mo><mi>c</mi><mo>)</mo></mrow></msub><mtext>,</mtext></math></p>
+
+<p>where&nbsp;<math xmlns=""http://www.w3.org/1998/Math/MathML""><msub><mi>t</mi><mi>k</mi></msub></math>&nbsp;is the transfer value, and&nbsp;<math xmlns=""http://www.w3.org/1998/Math/MathML""><msub><mi>D</mi><mi>k</mi></msub></math>&nbsp;is a binary variable that assumes value 1 if the household is participating in programme&nbsp;<math xmlns=""http://www.w3.org/1998/Math/MathML""><mi>k</mi></math>, conditional on household on characteristics&nbsp;<math xmlns=""http://www.w3.org/1998/Math/MathML""><mi>c</mi></math>, and 0 in case of non-participation. By extension, transfers post-reform can be expressed as:</p>
+
+<p><math xmlns=""http://www.w3.org/1998/Math/MathML""><msub><mi>f</mi><mi>k</mi></msub><mo>(</mo><mi>c</mi><mo>,</mo><mi>x</mi><mo>,</mo><mover><msub><mi>m</mi><mi>k</mi></msub><mo>&#175;</mo></mover><mo>)</mo><mo>=</mo><mover><msub><mi>t</mi><mi>k</mi></msub><mo>&#175;</mo></mover><msub><mn>1</mn><mrow><mo>(</mo><msub><mi>D</mi><mi>k</mi></msub><mo>=</mo><mn>1</mn><mo>|</mo><mi>c</mi><mo>)</mo></mrow></msub><mtext>.</mtext></math></p>
+
+<p>For household consumption expenditure, we do not impose any functional forms but instead observe the values for each household. Moving forward, household consumption expenditure variables will have a subscript of 0 (no transfer) or 1 (with transfer)—when either subscript is missing, this refers to current (observed) expenditure values.</p>
+"
+180008,1,180006,The theoretical framework in practice: application in the Social Protection Simulator,the-theoretical-framework,"<p>The simulation model uses per capita consumption expenditure as the measure for household welfare and looks at impacts across four different sets of outcomes: scheme coverage, household consumption expenditure levels, poverty, and inequality.</p>
+
+<p>A preliminary step consists in identifying any existing non-contributory benefit schemes that are similar to the proposed ones (child benefit, disability benefit, old age benefit). The table below lists the current schemes that were identified, either directly from the household survey data or indirectly through a different source, by type of scheme. When selecting a new scheme to simulate, users are made aware of whether a comparable scheme exists in that country, as the tool presents them with a short description including age eligibility and benefit level.<br />
+<br />
+[[table_chart:2]]<br />
+<br />
+Four basic steps are then taken to estimate the simulated impacts.</p>
+
+<ul class=""nav nav-tabs"" id=""tab1"" role=""tablist"">
+	<li class=""nav-item"" role=""presentation""><button aria-controls=""home"" aria-selected=""true"" class=""nav-link active"" data-bs-target=""#step1"" data-bs-toggle=""tab"" id=""step1-tab"" role=""tab"" type=""button"">Step 1</button></li>
+	<li class=""nav-item"" role=""presentation""><button aria-controls=""profile"" aria-selected=""false"" class=""nav-link"" data-bs-target=""#step2"" data-bs-toggle=""tab"" id=""step2-tab"" role=""tab"" type=""button"">Step 2</button></li>
+	<li class=""nav-item"" role=""presentation""><button aria-controls=""contact"" aria-selected=""false"" class=""nav-link"" data-bs-target=""#step3"" data-bs-toggle=""tab"" id=""step3-tab"" role=""tab"" type=""button"">Step 3</button></li>
+	<li class=""nav-item"" role=""presentation""><button aria-controls=""contact"" aria-selected=""false"" class=""nav-link"" data-bs-target=""#step4"" data-bs-toggle=""tab"" id=""step4-tab"" role=""tab"" type=""button"">Step 4</button></li>
+</ul>
+
+<div class=""tab-content"" id=""tab1Content"">
+<div aria-labelledby=""step1-tab"" class=""tab-pane fade show active"" id=""step1"" role=""tabpanel"">
+<h5>Identify scheme recipients</h5>
+
+<p>From the parameters set by the user for each scheme, age-eligible individuals and households are identified in the dataset. A recipient household can be defined as follows:</p>
+
+<p><math xmlns=""http://www.w3.org/1998/Math/MathML""><mi>R</mi><mi>e</mi><mi>c</mi><mi>i</mi><mi>p</mi><mi>i</mi><mi>e</mi><mi>n</mi><msub><mi>t</mi><mi>h</mi></msub><mo>=</mo><msub><mn>1</mn><mrow><mo>(</mo><msub><mi>D</mi><mi>j</mi></msub><mo>=</mo><mn>1</mn><mo>|</mo><msub><mi>c</mi><mi>h</mi></msub><mo>)</mo></mrow></msub><mtext>,</mtext></math></p>
+
+<p>where&nbsp;<math xmlns=""http://www.w3.org/1998/Math/MathML""><msub><mi>D</mi><mi>j</mi></msub></math>&nbsp;is a binary variable with 1 representing if household is participating in scheme&nbsp;jj, conditional on household being eligible for the scheme,&nbsp;chch&nbsp;and 0 otherwise. In this case&nbsp;chch&nbsp;captures, for example, whether the household has an age-eligible older person, person with disabilities, or child in the inclusive lifecycle schemes.</p>
+
+<p>When the scheme is not universal (i.e., coverage is not 100 per cent) it becomes means-tested. However, in order to mimic current practice, eligible individuals and households in means-tested programmes are identified using the proxy means-test (PMT) approach. More detail on the PMT used in each country can be found below.</p>
+
+<p>For countries where datasets do not include disability-related questions, the tool randomly assigns persons in different age groups with disabilities such that national prevalence and distribution of disability by age groups match as close as possible those reported in the ‘Disability in a Glance 2015’ report, prepared by UNESCAP. When the distribution of disability by age groups is not available—Georgia, Kyrgyzstan and Pakistan—, the international distribution of disability by age groups is assumed in these countries. The table below provides a summary of the disability national prevalence and distribution by age groups for each country. The table also indicates for which country persons with disability were not randomly assigned, that is, persons with disabilities were identified through the survey questionnaire. For those countries, the prevalence and age distribution estimates are based on the survey datasets.</p>
+[[table_chart:3]]
+<strong><em>Note</em></strong>: In India, eight questions on activities of daily living were applied to all those aged 8 and over. A person with disability is then defined as someone who answered ‘unable to do it’ to at least one activity. For children aged 7 years and under, the model assumes a disability prevalence of 1 per cent, following international estimates.
+</div>
+
+<div aria-labelledby=""step2-tab"" class=""tab-pane fade"" id=""step2"" role=""tabpanel"">
+<h5>Calculate hypothetical household consumption expenditure</h5>
+
+<p>Once potential recipients and their households have been identified, the specified monthly benefits for the selected scheme(s) are distributed to the recipients. All benefits are aggregated at the household level before constructing household per capita monthly benefits. Then, new post-reforms (ex-post) values of household per capita expenditure are estimated by adding the per capita transfer values simulated from each of the selected schemes. If ex-post household expenditure is&nbsp;<math xmlns=""http://www.w3.org/1998/Math/MathML""><msub><mi>y</mi><mo>(</mo></msub><mi>h</mi><mo>,</mo><mn>1</mn><mo>)</mo></math>, this can be formally shown as follows:<br />
+<math xmlns=""http://www.w3.org/1998/Math/MathML""><msub><mi>y</mi><mrow><mi>h</mi><mo>,</mo><mn>1</mn></mrow></msub><mo>=</mo><msub><mi>y</mi><mrow><mi>h</mi><mo>,</mo><mn>0</mn></mrow></msub><mo>+</mo><mover><msub><mi>t</mi><mi>h</mi></msub><mo>&#175;</mo></mover><msub><mn>1</mn><mrow><mo>(</mo><msub><mi>D</mi><mi>j</mi></msub><mo>=</mo><mn>1</mn><mo>|</mo><msub><mi>c</mi><mi>h</mi></msub><mo>)</mo></mrow></msub><mtext>,</mtext></math><br />
+where,&nbsp;<math xmlns=""http://www.w3.org/1998/Math/MathML""><msub><mi>y</mi><mo>(</mo></msub><mi>h</mi><mo>,</mo><mn>0</mn><mo>)</mo></math>&nbsp;is household consumption expenditure before the reform and $({t_h}), is the new transfer (post-reform). Under the assumption that any existing schemes do not have a significant impact on the country’s welfare distribution, it is not necessary to take away transfers from existing schemes (this is a necessary step to estimate poverty outcomes).</p>
+</div>
+
+<div aria-labelledby=""step3-tab"" class=""tab-pane fade"" id=""step3"" role=""tabpanel"">
+<h5>Simulate changes in welfare-based outcomes</h5>
+
+<h6>Coverage</h6>
+
+<p>Once the user has selected the parameters of the schemes and beneficiaries are identified; coverage for a given scheme is then estimated as the share of the eligible population living in households with at least one recipient. Coverage is then disaggregated by household expenditure deciles, by urban/rural location and household living arrangement types. Formally, total coverage of programme j can be expressed as,</p>
+
+<p><math xmlns=""http://www.w3.org/1998/Math/MathML""><mi>C</mi><mi>o</mi><mi>v</mi><mi>e</mi><mi>r</mi><mi>a</mi><mi>g</mi><msub><mi>e</mi><mi>j</mi></msub><mo>=</mo><mfrac><mrow><msubsup><mo>&#8721;</mo><mrow><mi>i</mi><mo>,</mo><mi>h</mi></mrow><mi>j</mi></msubsup><msub><mi>w</mi><mrow><mi>i</mi><mi>h</mi><mi>j</mi></mrow></msub><msub><mn>1</mn><mrow><mo>(</mo><msub><mi>D</mi><mi>j</mi></msub><mo>=</mo><mn>1</mn><mo>|</mo><msub><mi>c</mi><mi>h</mi></msub><mo>)</mo></mrow></msub></mrow><mrow><msubsup><mo>&#8721;</mo><mrow><mi>i</mi><mo>,</mo><mi>h</mi></mrow><mi>j</mi></msubsup><msub><mi>w</mi><mrow><mi>i</mi><mi>h</mi><mi>j</mi></mrow></msub><msub><mn>1</mn><msub><mi>c</mi><mi>h</mi></msub></msub></mrow></mfrac></math></p>
+
+<p>where&nbsp;<math xmlns=""http://www.w3.org/1998/Math/MathML""><msub><mi>w</mi><mrow><mi>i</mi><mi>h</mi><mi>j</mi></mrow></msub></math>&nbsp;is the sample weight of household h assigned to household member i.&nbsp;<math xmlns=""http://www.w3.org/1998/Math/MathML""><msub><mi>D</mi><mi>j</mi></msub></math>&nbsp;is a binary variable with 1 representing if household is participating in programme&nbsp;jj, conditional on the household being eligible&nbsp;<math xmlns=""http://www.w3.org/1998/Math/MathML""><msub><mi>c</mi><mi>h</mi></msub></math>&nbsp;and 0 otherwise—this is summed over all the population and divided by the total population. Household eligibility means that the household has age-eligible members for the lifecycle schemes or all households in the case of a means-tested scheme.</p>
+
+<h6>Household consumption</h6>
+
+<p>The increase in household purchasing power is estimated by calculating the average of per capita benefit value as a percentage of household per capita consumption expenditure.<a class=""methodology-anchor"" href=""/methodology-app#fn2"" id=""fnref2""><sup>2</sup></a></p>
+
+<p>The percentage increase in household&nbsp;<math xmlns=""http://www.w3.org/1998/Math/MathML""><mi>i</mi></math>’s purchasing power can be expressed as<br />
+<math xmlns=""http://www.w3.org/1998/Math/MathML""><mfrac><mrow><mover><msub><mi>t</mi><mrow><mi>j</mi><mo>,</mo><mi>h</mi></mrow></msub><mo>&#175;</mo></mover><mo>&#215;</mo><mn>100</mn></mrow><msub><mi>y</mi><mi>h</mi></msub></mfrac></math></p>
+
+<p>where&nbsp;<math xmlns=""http://www.w3.org/1998/Math/MathML""><mover><msub><mi>t</mi><mrow><mi>j</mi><mo>,</mo><mi>h</mi></mrow></msub><mo>&#175;</mo></mover></math>&nbsp;is the per capita monthly cash transfer received by household h under the reform of scheme&nbsp;<math xmlns=""http://www.w3.org/1998/Math/MathML""><mi>j</mi></math>.</p>
+
+<p>It is assumed that the simulated change in consumption when adding benefits to the current consumption level would be similar to adding benefits to a “no benefits scenario” in which existing benefits have been preemptively taken away. Not taking away existing benefits, other than reducing chances of error (avoiding additional assumptions relative to existing schemes), also avoids obtaining negative impacts whenever simulating schemes that are less generous than those already in place.</p>
+
+<p>Estimates are provided by expenditure deciles, location, and household type, and for both the total household population and beneficiary households.</p>
+
+<h6>Poverty outcomes</h6>
+
+<p>Two poverty outcome measures are considered. Poverty headcount of the general population and poverty gap of the general population. For both outcomes, household consumption expenditure is used as the measure of welfare and four absolute poverty lines are used: the national poverty line and three international poverty lines.</p>
+
+<p>National poverty lines are sourced either from the household survey data or from official reports. If a poverty line in local currency is not available, it will be indirectly derived from the poverty rate. The table below reports the average value of the poverty line (per individual per month) for each country in the tool, expressed in local currency in the year of the survey.</p>
+</div>
+
+<div aria-labelledby=""step4-tab"" class=""tab-pane fade"" id=""step4"" role=""tabpanel"">
+<h5>Projecting costs and affordability indicators</h5>
+
+<p>In order to highlight the sustainability of the proposed reforms in terms of its costs and affordability, the tool also projects the cost going forward and provides different illustrative options to expand fiscal space for social protection. Below is a description of how scheme costs are projected and how the affordability measures are calculated.<a class=""methodology-anchor"" href=""/methodology-app#fn3"" id=""fnref3""><sup>3</sup></a></p>
+
+<h6>Projected annual cost of the simulated programme(s)</h6>
+
+<p>The costs in real values (in 2021 prices) are projected using UNDESA Population Prospects 2019 revision data and the selected parameters of the proposed programme(s): eligibility criteria, monthly transfer values and administrative cost. The UNDESA data provide for each of the countries in the tool<a class=""methodology-anchor"" href=""/methodology-app#fn4"" id=""fnref4""><sup>4</sup></a>&nbsp;the projected total number of people in each year going forward by single age groups. The estimated projected annual costs in the tool are for the years 2022 to 2031.</p>
+
+<p>While projecting annual costs of the child and old age benefit schemes is straightforward in the tool, it is not for the means-tested household scheme and the disability benefit scheme. For the child and old age benefit schemes, the total annual costs in 2021 prices is simply the product of the following factors: projected total number of individuals that fall under the age-eligibility criterion&nbsp;<math xmlns=""http://www.w3.org/1998/Math/MathML""><mi>P</mi><mi>o</mi><msubsup><mi>p</mi><mi>t</mi><mi>j</mi></msubsup></math>, coverage criterion,&nbsp;<math xmlns=""http://www.w3.org/1998/Math/MathML""><mi>C</mi><mi>r</mi><mi>i</mi><mi>t</mi><mi>e</mi><mi>r</mi><mi>i</mi><mi>o</mi><msub><mi>n</mi><mi>j</mi></msub></math>, as the proportion of the total number of individuals&nbsp;ii&nbsp;that fall under the age-eligibility criteria in a given time period, annualised transfer value in 2021 prices, and one plus the administrative cost as a proportion of the total transfer cost.<a class=""methodology-anchor"" href=""/methodology-app#fn5"" id=""fnref5""><sup>5</sup></a>&nbsp;The above can be presented as follows:</p>
+
+<p><math xmlns=""http://www.w3.org/1998/Math/MathML""><mi>C</mi><mi>o</mi><mi>s</mi><mi>t</mi><msub><mi>s</mi><mrow><mi>j</mi><mo>,</mo><mi>t</mi></mrow></msub><mo>=</mo><mi>P</mi><mi>o</mi><msubsup><mi>p</mi><mi>t</mi><mi>j</mi></msubsup><mo>&#215;</mo><mi>C</mi><mi>r</mi><mi>i</mi><mi>t</mi><mi>e</mi><mi>r</mi><mi>i</mi><mi>o</mi><msub><mi>n</mi><mi>j</mi></msub><mo>&#215;</mo><mo>(</mo><msub><mi>m</mi><mi>j</mi></msub><mo>*</mo><mn>12</mn><mo>)</mo><mo>&#215;</mo><mo>(</mo><mn>1</mn><mo>+</mo><mi>a</mi><mi>d</mi><mi>m</mi><mi>i</mi><msub><mi>n</mi><mi>j</mi></msub><mo>)</mo><mtext>.</mtext></math><br />
+However, because the population projection data do not provide the projected total number of persons with disabilities by single age groups, nor the projected total number of households, additional assumptions are required to project the annual costs of the means-tested household programme and the disability benefit programme.</p>
+
+<p>To project the total number of persons with disabilities by single age groups, the tool assumes constant disability prevalence rates by single age groups. The rates are assumed to be the same as those in the household surveys or constructed into the survey datasets as explained in Step 1 of the algorithm used to simulate impacts. Once the total number of households and persons with disabilities by single age groups have been projected for future years, the estimation of the annual costs of the means-tested household programme and the disability benefit programme follows the same approach used to estimate the annual costs of the child and old age benefit programmes.</p>
+
+<p>In the means-tested household scheme, the total number of households in a country is estimated by dividing its total projected population in a given year by the projected average household size for that same year.</p>
+
+<p>Projecting population of households is complex and requires information on trends in household structure. However, there is a world trend in declining household size in low and middle countries which is factored in. A simplified approach is adopted where the projected number of households for year t is calculated as the number of households in 2021 times the share of adults (18 – 69 years) in year&nbsp;tt, divided by the share of adults (18 – 69 years) in 2021, so that the ratio between number of households in year&nbsp;<math xmlns=""http://www.w3.org/1998/Math/MathML""><mi>t</mi></math>&nbsp;and number of households in the base year is the same as the ratio between number of adults in year t and number of adults in the base year. Formally, the number of households in year t can be expressed as:</p>
+
+<p><math xmlns=""http://www.w3.org/1998/Math/MathML""><mi>H</mi><mi>o</mi><mi>u</mi><mi>s</mi><mi>e</mi><mi>h</mi><mi>o</mi><mi>l</mi><mi>d</mi><msub><mi>s</mi><mi>t</mi></msub><mo>=</mo><mi>H</mi><mi>o</mi><mi>u</mi><mi>s</mi><mi>e</mi><mi>h</mi><mi>o</mi><mi>l</mi><mi>d</mi><msub><mi>s</mi><mn>2021</mn></msub><mo>&#215;</mo><mfrac><mrow><mi>A</mi><mi>d</mi><mi>u</mi><mi>l</mi><mi>t</mi><msub><mi>s</mi><mi>t</mi></msub></mrow><mrow><mi>A</mi><mi>d</mi><mi>u</mi><mi>l</mi><mi>t</mi><msub><mi>s</mi><mn>2021</mn></msub></mrow></mfrac><mtext>.</mtext></math></p>
+
+<p>The projected number of households for 2021, can be expressed as:</p>
+
+<p><math xmlns=""http://www.w3.org/1998/Math/MathML""><mi>H</mi><mi>o</mi><mi>u</mi><mi>s</mi><mi>e</mi><mi>h</mi><mi>o</mi><mi>l</mi><mi>d</mi><msub><mi>s</mi><mn>2021</mn></msub><mo>=</mo><mfrac><mrow><mi>P</mi><mi>o</mi><msub><mi>p</mi><mn>2021</mn></msub></mrow><mrow><mi>S</mi><mi>i</mi><mi>z</mi><msub><mi>e</mi><mrow><mi>s</mi><mi>u</mi><mi>r</mi><mi>v</mi><mi>e</mi><mi>y</mi><mtext>&#160;</mtext><mi>y</mi><mi>e</mi><mi>a</mi><mi>r</mi></mrow></msub></mrow></mfrac></math></p>
+
+<p>The projected annual costs are also expressed as a percentage of gross domestic product (GDP). These are estimated by dividing the projected annual costs of each of the schemes in 2021 prices by the projected GDP of the country in 2021 prices. To estimate GDP in real values for the following years, the tool uses the 2021 GDP estimates from the IMF’s World Economic Outlook (WEO) database and the average annual real growth for the period 2021 to 2026 also in the WEO.</p>
+
+<p>Note that the cost estimates do not account for current expenditure on social protection. If a country already provides non-contributory schemes similar to those simulated, the cost projections do not refer to the additional resources needed to implement the proposed scheme(s) but to the total resources, including those that are already being spent on the existing schemes.</p>
+
+<h6>Required investment as a percentage of government revenue</h6>
+
+<p>The first affordability indicator shows the total cost of the proposed reforms as a percentage of government revenue. This is then projected forward by assuming government revenue to be a constant share of GDP. Estimates of government revenue as a percentage of GDP are from the IMF’s World Economic Outlook database.</p>
+
+<h6>A comparison of the estimated cost of the simulated schemes(s) with public spending on other sectors</h6>
+
+<p>The second indicator compares the estimated total cost of the proposed reforms in 2021 with government estimated spending on key functions in the latest available year. The key functional government expenses follow those that are presented in the IMF’s Expenditure by Functions of Government database or in the Government Finance Statistics (GFS) database. IMF data was not available for Cambodia, Cook Islands, Pakistan, and Viet Nam. For these countries, government spending on key functions was retrieved from their latest Annual Budgets documents.</p>
+
+<h6>A comparison of the estimated cost of the simulated scheme(s) with government revenue generated by income and corporate taxes</h6>
+
+<p>A third affordability indicator looks at how much the relevant government would be required to increase revenue from income and corporate taxes by. This is demonstrated by showing the total cost of the proposed reforms in 2021 as a percentage of government’s estimated income and corporate tax revenue in 2021 Estimates of government income and corporate tax revenues as a percentage of GDP were drawn from different sources, as detailed in the next section.</p>
+</div>
+</div>
+"
+180009,2,180006,Proxy means test,proxy-means-test,"<ul class=""nav nav-tabs"" id=""tab2"" role=""tablist"">
+	<li class=""nav-item"" role=""presentation""><button aria-controls=""home"" aria-selected=""true"" class=""nav-link active"" data-bs-target=""#pmt"" data-bs-toggle=""tab"" id=""pmt-tab"" role=""tab"" type=""button"">PMT</button></li>
+	<li class=""nav-item"" role=""presentation""><button aria-controls=""profile"" aria-selected=""false"" class=""nav-link"" data-bs-target=""#regressionOutput"" data-bs-toggle=""tab"" id=""regressionOutput-tab"" role=""tab"" type=""button"">Regression outputs</button></li>
+</ul>
+
+<div class=""tab-content"" id=""tab2Content"">
+<div aria-labelledby=""pmt-tab"" class=""tab-pane fade show active"" id=""pmt"" role=""tabpanel"">As discussed in Step 1 of the simulation algorithm, proxy means-tests (PMT) are used to rank households to assess their eligibility for a means-tested scheme when the policymaker opts out of a universal approach to offer coverage for all. Following standard practices, the PMTs in the tool are developed using regression models of household welfare on a selection of welfare-related covariates (proxies). The PMTs are based on ordinary least squares (OLS) estimates of linear models of household per capita expenditure in natural logs on observable household characteristics, formalised as<br />
+<math xmlns=""http://www.w3.org/1998/Math/MathML""><mi>P</mi><mi>M</mi><msub><mi>T</mi><mi>h</mi></msub><mo>=</mo><mi>exp</mi><mrow><mo>(</mo><msub><mover><mi>y</mi><mo>^</mo></mover><mi>h</mi></msub><mo>)</mo></mrow><mo>=</mo><mi>exp</mi><mrow><mo>(</mo><mover><mi>&#946;</mi><mo>^</mo></mover><msub><mi>X</mi><mi>h</mi></msub><mo>)</mo></mrow><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#8704;</mo><mi>h</mi><mo>=</mo><mn>1</mn><mo>,</mo><mo>&#8230;</mo><mo>,</mo><mi>N</mi><mo>,</mo></math><br />
+where&nbsp;<math xmlns=""http://www.w3.org/1998/Math/MathML""><msub><mover><mi>y</mi><mo>^</mo></mover><mi>h</mi></msub></math>&nbsp;is the predicted value of household&nbsp;<math xmlns=""http://www.w3.org/1998/Math/MathML""><mi>h</mi></math>’s per capita expenditure in logs, and&nbsp;<math xmlns=""http://www.w3.org/1998/Math/MathML""><mover><mi>&#946;</mi><mo>^</mo></mover></math>&nbsp;is a vector of estimated coefficients associated with the vector&nbsp;<math xmlns=""http://www.w3.org/1998/Math/MathML""><mi>X</mi></math>&nbsp;of covariates.</div>
+
+<div aria-labelledby=""regressionOutput-tab"" class=""tab-pane fade"" id=""regressionOutput"" role=""tabpanel"">The table below presents the results of these regression models separately for each country, together with goodness-of-fit statistics (R-squared) of the regression models.<a href=""/methodology-app#fn6"" id=""fnref6"" class=""methodology-anchor""><sup>6</sup></a> [[table_chart:5]]<br />
+<strong><em>Note</em></strong>: the models also include variables for: maximum level of education of the household head, marital status of the household head, type of toilet facility and/or whether shared, type of dwelling, material of roof/walls/floor, region; (b) variables may have been specified slightly differently across countries due to the nature of the data and/or the context. *** p&lt;0.01, ** p&lt;0.05, * p&lt;0.2</div>
+</div>
+"
+180010,3,180006,List of main assumptions,list-of-main-assumptions,"
+<div class=""alert alert-info"">
+<p><strong>Welfare measure:</strong>&nbsp;households’ economic welfare is measured by consumption expenditure (income for Philippines)</p>
+
+<p><strong>Welfare distribution:</strong>&nbsp;within each country, the current welfare distribution is assumed to be similar to the one at the time of the survey. The welfare distribution in the absence of the existing schemes is not substantially different to the observed distribution (with the current schemes)</p>
+
+<p><strong>Savings:</strong>&nbsp;households spend 100 per cent of the additional income from cash transfers</p>
+
+<p><strong>Inflation:</strong>&nbsp;transfer values are expressed in 2021 prices</p>
+
+<p><strong>Disability rates:</strong>&nbsp;the prevalence rate of disability by single age groups is constant over time and it corresponds to that in the household surveys (either available in the survey or constructed within it)</p>
+
+<p><strong>Government revenues:</strong>&nbsp;government revenues as a share of GDP are constant over time</p>
+
+<p><strong>Change in consumption:</strong>&nbsp;the change in consumption when adding benefits to the current consumption level would be similar to the change in consumption when adding benefits to a “no benefits scenario” in which existing benefits have been preemptively taken away</p>
+</div>
+"

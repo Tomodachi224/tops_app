@@ -1,0 +1,8 @@
+[submodule "public/web/modules/custom"]
+	path = public/web/modules/custom
+	url = git@bitbucket.org:company/drupal-custom-modules.git
+	branch = master
+[submodule "node/webcomponents"]
+	path = node/webcomponents
+	url = git@bitbucket.org:company/webcomponents.git
+	branch = master

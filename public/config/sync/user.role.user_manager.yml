@@ -1,0 +1,52 @@
+uuid: 24a455fa-62cd-4920-82f6-973bbe690656
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.image
+  module:
+    - contextual
+    - entity_browser
+    - group
+    - media
+    - opigno_calendar_event
+    - opigno_dashboard
+    - opigno_ilt
+    - opigno_learning_path
+    - opigno_messaging
+    - opigno_moxtra
+    - role_delegation
+_core:
+  default_config_hash: nYNpXp-G28h3XA0CDYq9e7V7xc0_F4ga5kJ5xzlZc-U
+id: user_manager
+label: 'User manager'
+weight: -6
+is_admin: null
+permissions:
+  - 'access contextual links'
+  - 'access media_entity_browser_groups entity browser pages'
+  - 'access users overview'
+  - 'add any members to calendar event'
+  - 'administer ilt entities'
+  - 'administer meeting entities'
+  - 'administer users'
+  - 'assign collaborative_features role'
+  - 'cancel users by role'
+  - 'create opigno_class group'
+  - 'create users'
+  - 'delete any image media'
+  - 'delete opigno_calendar_event'
+  - 'delete own image media'
+  - 'edit any image media'
+  - 'edit own image media'
+  - 'edit users by role'
+  - 'manage group members in any group'
+  - 'message all groups'
+  - 'message anyone regardless of groups'
+  - 'opigno dashboard layout access'
+  - 'role-assign users by role'
+  - 'score ilt entities'
+  - 'score meeting'
+  - 'update opigno_calendar_event'
+  - 'view opigno_calendar_event'
+  - 'view users by role'

@@ -1,0 +1,19 @@
+uuid: a85ad615-8e18-4ca4-87b6-3571c643ba1d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_poverty_type
+    - taxonomy.vocabulary.analysis_country
+id: taxonomy_term.analysis_country.field_poverty_type
+field_name: field_poverty_type
+entity_type: taxonomy_term
+bundle: analysis_country
+label: 'Poverty Type'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

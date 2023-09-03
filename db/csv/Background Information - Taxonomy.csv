@@ -1,0 +1,14 @@
+tid,name,field_field_name,field_unit,weight,field_enable
+90001,Total population,field_total_pop,,1,1
+90002,Children (0-14),field_children_percent,%,2,1
+90003,Old-age population (65+),field_old_percent,%,3,1
+90004,Infant mortality rate,field_infant,"(per 1,000 live births)",4,1
+90005,Maternal mortality,field_maternal,"(per 100,000 live births)",5,1
+90006,Life expectancy at birth,field_life_expectancy,(years),6,1
+90007,Population Covered by at least one social protection benefit,field_pop_cover,%,7,0
+90008,Population Affiliated to a social health protection scheme,field_pop_affiliated,%,8,0
+90009,Effective Coverage for Unemployment,field_coverage_unemploy,%,9,0
+90010,Effective Coverage for Work Injury,field_coverage_work_injury,%,10,0
+90011,Effective Coverage for Maternity,field_coverage_maternity,%,11,0
+90012,Total Expenditure on Social Protection w/o Health,field_total_expenditure,%,12,0
+90013,GDP per capita,field_gdp,(current USD),13,1

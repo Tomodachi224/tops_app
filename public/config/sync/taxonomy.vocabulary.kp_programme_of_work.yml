@@ -1,0 +1,8 @@
+uuid: 748df1fa-9373-46b3-b84d-9b255ff27056
+langcode: en
+status: true
+dependencies: {  }
+name: 'KP Programme of Work'
+vid: kp_programme_of_work
+description: 'Knowledge Product Programme of Work and Areas of Work'
+weight: 0

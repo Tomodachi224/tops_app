@@ -1,0 +1,21 @@
+uuid: 9430ec88-30e1-4224-a9ec-d16ab168ec84
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.contact_us
+    - field.storage.contact_message.field_your_profession
+  module:
+    - options
+id: contact_message.contact_us.field_your_profession
+field_name: field_your_profession
+entity_type: contact_message
+bundle: contact_us
+label: 'Your Profession'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

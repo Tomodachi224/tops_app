@@ -1,0 +1,30 @@
+uuid: 8b495a4d-d083-47d0-aad3-968182ea6f8d
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.contact_us
+    - field.field.contact_message.contact_us.field_your_profession
+  module:
+    - options
+id: contact_message.contact_us.default
+targetEntityType: contact_message
+bundle: contact_us
+mode: default
+content:
+  field_your_profession:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  message:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  search_api_excerpt: true

@@ -1,0 +1,8 @@
+uuid: 12d3fb21-1537-4ac2-94c2-2e005e11e88a
+langcode: en
+status: true
+dependencies: {  }
+name: 'Map Indicator'
+vid: map_indicator
+description: ''
+weight: 0

@@ -1,0 +1,27 @@
+uuid: ef329913-83a7-4eec-9b44-eee2c3a14215
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.covid_resource.field_attach_images
+    - field.field.node.covid_resource.field_description
+    - field.field.node.covid_resource.field_link
+    - node.type.covid_resource
+  module:
+    - user
+id: node.covid_resource.teaser
+targetEntityType: node
+bundle: covid_resource
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_attach_images: true
+  field_description: true
+  field_link: true
+  search_api_excerpt: true

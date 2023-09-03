@@ -1,0 +1,19 @@
+uuid: 58c0f558-7636-4645-83c2-933f559493b2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_paragraph
+    - taxonomy.vocabulary.detail_chart
+id: taxonomy_term.detail_chart.field_paragraph
+field_name: field_paragraph
+entity_type: taxonomy_term
+bundle: detail_chart
+label: paragraph
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

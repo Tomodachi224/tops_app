@@ -1,0 +1,22 @@
+uuid: 19130ec9-a7a8-4679-9bc2-0a0c88a1574e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_color
+    - taxonomy.vocabulary.analysis_value_types
+  module:
+    - color_field
+id: taxonomy_term.analysis_value_types.field_color
+field_name: field_color
+entity_type: taxonomy_term
+bundle: analysis_value_types
+label: Color
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  opacity: 1
+field_type: color_field_type

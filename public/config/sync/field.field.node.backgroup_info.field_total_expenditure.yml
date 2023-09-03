@@ -1,0 +1,23 @@
+uuid: c6f79991-1665-4d5a-bf80-2d7bc2c3055a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_total_expenditure
+    - node.type.backgroup_info
+id: node.backgroup_info.field_total_expenditure
+field_name: field_total_expenditure
+entity_type: node
+bundle: backgroup_info
+label: 'Total Expenditure on Social Protection w/o Health'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: float

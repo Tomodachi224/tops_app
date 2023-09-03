@@ -1,0 +1,15 @@
+.hoverable {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.clickable {
+  &:hover {
+    border: 1px solid $simulator-tool-text !important;
+  }
+}
+
+.clickable.active {
+  border: 1px solid $simulator-tool-text !important;
+}

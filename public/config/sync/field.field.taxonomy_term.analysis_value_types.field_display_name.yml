@@ -1,0 +1,19 @@
+uuid: 2828e372-780f-4bf1-805c-53d27fb364c9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_display_name
+    - taxonomy.vocabulary.analysis_value_types
+id: taxonomy_term.analysis_value_types.field_display_name
+field_name: field_display_name
+entity_type: taxonomy_term
+bundle: analysis_value_types
+label: 'Display Name'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

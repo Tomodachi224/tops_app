@@ -1,0 +1,14 @@
+uuid: 3beb653b-6885-43f1-ae70-35b352d05b66
+langcode: en
+status: true
+dependencies:
+  module:
+    - search_api_db
+id: database_search
+name: 'Database Search'
+description: ''
+backend: search_api_db
+backend_config:
+  database: 'default:default'
+  min_chars: 1
+  matching: prefix

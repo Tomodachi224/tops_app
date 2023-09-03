@@ -1,0 +1,30 @@
+uuid: 09a76a94-3026-479c-97fe-c9f86c3534db
+langcode: en
+status: true
+dependencies:
+  module:
+    - comment
+    - comment
+title: 'Store the maximum possible comments per thread'
+id: comment_cron
+weight: 0
+module: comment
+callback: comment_cron
+scheduler:
+  id: simple
+  configuration:
+    rules:
+      - '0+@ */12 * * *'
+launcher:
+  id: serial
+  configuration:
+    timeouts:
+      lock_timeout: 3600
+    launcher:
+      thread: 0
+logger:
+  id: database
+  configuration:
+    method: '3'
+    expire: 1209600
+    retain: 1000

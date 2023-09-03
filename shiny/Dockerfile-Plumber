@@ -1,0 +1,17 @@
+FROM rstudio/plumber
+
+# Install Ubuntu packages
+RUN apt-get update -qq
+
+RUN R -e "install.packages('broom')"
+
+# Install R packages that are required
+RUN R -e "install.packages(c('feather', 'dplyr', 'readr', 'stringr', 'lubridate', 'openssl'), repos='http://cran.rstudio.com/')"
+
+WORKDIR /api
+
+COPY . /api
+
+EXPOSE 8000
+
+CMD ["/api/Plumber.R"]

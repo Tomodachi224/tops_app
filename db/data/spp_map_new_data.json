@@ -1,0 +1,2158 @@
+[
+    {
+        "indicator": "150001",
+        "indicator_name": "Expenditure on Social Protection, % of GDP (excl healthcare)",
+        "country": "Afghanistan",
+        "value": 1.8,
+        "year": 2021
+    },
+    {
+        "indicator": "150001",
+        "indicator_name": "Expenditure on Social Protection, % of GDP (excl healthcare)",
+        "country": "Armenia",
+        "value": 6.8,
+        "year": 2021
+    },
+    {
+        "indicator": "150001",
+        "indicator_name": "Expenditure on Social Protection, % of GDP (excl healthcare)",
+        "country": "Australia",
+        "value": 9.4,
+        "year": 2021
+    },
+    {
+        "indicator": "150001",
+        "indicator_name": "Expenditure on Social Protection, % of GDP (excl healthcare)",
+        "country": "Azerbaijan",
+        "value": 6,
+        "year": 2021
+    },
+    {
+        "indicator": "150001",
+        "indicator_name": "Expenditure on Social Protection, % of GDP (excl healthcare)",
+        "country": "Bangladesh",
+        "value": 0.7,
+        "year": 2021
+    },
+    {
+        "indicator": "150001",
+        "indicator_name": "Expenditure on Social Protection, % of GDP (excl healthcare)",
+        "country": "Bhutan",
+        "value": 1,
+        "year": 2021
+    },
+    {
+        "indicator": "150001",
+        "indicator_name": "Expenditure on Social Protection, % of GDP (excl healthcare)",
+        "country": "Brunei Darussalam",
+        "value": 0.2,
+        "year": 2021
+    },
+    {
+        "indicator": "150001",
+        "indicator_name": "Expenditure on Social Protection, % of GDP (excl healthcare)",
+        "country": "Cambodia",
+        "value": 0.9,
+        "year": 2021
+    },
+    {
+        "indicator": "150001",
+        "indicator_name": "Expenditure on Social Protection, % of GDP (excl healthcare)",
+        "country": "China",
+        "value": 7.2,
+        "year": 2021
+    },
+    {
+        "indicator": "150001",
+        "indicator_name": "Expenditure on Social Protection, % of GDP (excl healthcare)",
+        "country": "Fiji",
+        "value": 2.5,
+        "year": 2021
+    },
+    {
+        "indicator": "150001",
+        "indicator_name": "Expenditure on Social Protection, % of GDP (excl healthcare)",
+        "country": "Georgia",
+        "value": 7.1,
+        "year": 2021
+    },
+    {
+        "indicator": "150001",
+        "indicator_name": "Expenditure on Social Protection, % of GDP (excl healthcare)",
+        "country": "India",
+        "value": 3.2,
+        "year": 2021
+    },
+    {
+        "indicator": "150001",
+        "indicator_name": "Expenditure on Social Protection, % of GDP (excl healthcare)",
+        "country": "Indonesia",
+        "value": 1.3,
+        "year": 2021
+    },
+    {
+        "indicator": "150001",
+        "indicator_name": "Expenditure on Social Protection, % of GDP (excl healthcare)",
+        "country": "Iran, Islamic Republic of",
+        "value": 10.1,
+        "year": 2021
+    },
+    {
+        "indicator": "150001",
+        "indicator_name": "Expenditure on Social Protection, % of GDP (excl healthcare)",
+        "country": "Japan",
+        "value": 16.1,
+        "year": 2021
+    },
+    {
+        "indicator": "150001",
+        "indicator_name": "Expenditure on Social Protection, % of GDP (excl healthcare)",
+        "country": "Kazakhstan",
+        "value": 5.1,
+        "year": 2021
+    },
+    {
+        "indicator": "150001",
+        "indicator_name": "Expenditure on Social Protection, % of GDP (excl healthcare)",
+        "country": "Kiribati",
+        "value": 1.3,
+        "year": 2021
+    },
+    {
+        "indicator": "150001",
+        "indicator_name": "Expenditure on Social Protection, % of GDP (excl healthcare)",
+        "country": "Kyrgyzstan",
+        "value": 10.3,
+        "year": 2021
+    },
+    {
+        "indicator": "150001",
+        "indicator_name": "Expenditure on Social Protection, % of GDP (excl healthcare)",
+        "country": "Lao People's Democratic Republic",
+        "value": 0.7,
+        "year": 2021
+    },
+    {
+        "indicator": "150001",
+        "indicator_name": "Expenditure on Social Protection, % of GDP (excl healthcare)",
+        "country": "Malaysia",
+        "value": 4.2,
+        "year": 2021
+    },
+    {
+        "indicator": "150001",
+        "indicator_name": "Expenditure on Social Protection, % of GDP (excl healthcare)",
+        "country": "Maldives",
+        "value": 2.9,
+        "year": 2021
+    },
+    {
+        "indicator": "150001",
+        "indicator_name": "Expenditure on Social Protection, % of GDP (excl healthcare)",
+        "country": "Marshall Islands",
+        "value": 3.4,
+        "year": 2021
+    },
+    {
+        "indicator": "150001",
+        "indicator_name": "Expenditure on Social Protection, % of GDP (excl healthcare)",
+        "country": "Micronesia, Federated States of",
+        "value": 0.4,
+        "year": 2021
+    },
+    {
+        "indicator": "150001",
+        "indicator_name": "Expenditure on Social Protection, % of GDP (excl healthcare)",
+        "country": "Mongolia",
+        "value": 15.9,
+        "year": 2021
+    },
+    {
+        "indicator": "150001",
+        "indicator_name": "Expenditure on Social Protection, % of GDP (excl healthcare)",
+        "country": "Myanmar",
+        "value": 0.8,
+        "year": 2021
+    },
+    {
+        "indicator": "150001",
+        "indicator_name": "Expenditure on Social Protection, % of GDP (excl healthcare)",
+        "country": "Nauru",
+        "value": 4.5,
+        "year": 2021
+    },
+    {
+        "indicator": "150001",
+        "indicator_name": "Expenditure on Social Protection, % of GDP (excl healthcare)",
+        "country": "Nepal",
+        "value": 2.1,
+        "year": 2021
+    },
+    {
+        "indicator": "150001",
+        "indicator_name": "Expenditure on Social Protection, % of GDP (excl healthcare)",
+        "country": "New Zealand",
+        "value": 11.5,
+        "year": 2021
+    },
+    {
+        "indicator": "150001",
+        "indicator_name": "Expenditure on Social Protection, % of GDP (excl healthcare)",
+        "country": "Pakistan",
+        "value": 1.9,
+        "year": 2021
+    },
+    {
+        "indicator": "150001",
+        "indicator_name": "Expenditure on Social Protection, % of GDP (excl healthcare)",
+        "country": "Palau",
+        "value": 9.5,
+        "year": 2021
+    },
+    {
+        "indicator": "150001",
+        "indicator_name": "Expenditure on Social Protection, % of GDP (excl healthcare)",
+        "country": "Papua New Guinea",
+        "value": 1.1,
+        "year": 2021
+    },
+    {
+        "indicator": "150001",
+        "indicator_name": "Expenditure on Social Protection, % of GDP (excl healthcare)",
+        "country": "Philippines",
+        "value": 2.6,
+        "year": 2021
+    },
+    {
+        "indicator": "150001",
+        "indicator_name": "Expenditure on Social Protection, % of GDP (excl healthcare)",
+        "country": "Korea, Republic of",
+        "value": 6.3,
+        "year": 2021
+    },
+    {
+        "indicator": "150001",
+        "indicator_name": "Expenditure on Social Protection, % of GDP (excl healthcare)",
+        "country": "Russian Federation",
+        "value": 13.4,
+        "year": 2021
+    },
+    {
+        "indicator": "150001",
+        "indicator_name": "Expenditure on Social Protection, % of GDP (excl healthcare)",
+        "country": "Samoa",
+        "value": 1.2,
+        "year": 2021
+    },
+    {
+        "indicator": "150001",
+        "indicator_name": "Expenditure on Social Protection, % of GDP (excl healthcare)",
+        "country": "Singapore",
+        "value": 4.6,
+        "year": 2021
+    },
+    {
+        "indicator": "150001",
+        "indicator_name": "Expenditure on Social Protection, % of GDP (excl healthcare)",
+        "country": "Sri Lanka",
+        "value": 5.2,
+        "year": 2021
+    },
+    {
+        "indicator": "150001",
+        "indicator_name": "Expenditure on Social Protection, % of GDP (excl healthcare)",
+        "country": "Tajikistan",
+        "value": 4,
+        "year": 2021
+    },
+    {
+        "indicator": "150001",
+        "indicator_name": "Expenditure on Social Protection, % of GDP (excl healthcare)",
+        "country": "Thailand",
+        "value": 3,
+        "year": 2021
+    },
+    {
+        "indicator": "150001",
+        "indicator_name": "Expenditure on Social Protection, % of GDP (excl healthcare)",
+        "country": "Timor-Leste",
+        "value": 8,
+        "year": 2021
+    },
+    {
+        "indicator": "150001",
+        "indicator_name": "Expenditure on Social Protection, % of GDP (excl healthcare)",
+        "country": "Tonga",
+        "value": 1.1,
+        "year": 2021
+    },
+    {
+        "indicator": "150001",
+        "indicator_name": "Expenditure on Social Protection, % of GDP (excl healthcare)",
+        "country": "Türkiye",
+        "value": 9.9,
+        "year": 2021
+    },
+    {
+        "indicator": "150001",
+        "indicator_name": "Expenditure on Social Protection, % of GDP (excl healthcare)",
+        "country": "Uzbekistan",
+        "value": 7.8,
+        "year": 2021
+    },
+    {
+        "indicator": "150001",
+        "indicator_name": "Expenditure on Social Protection, % of GDP (excl healthcare)",
+        "country": "Vanuatu",
+        "value": 1.7,
+        "year": 2021
+    },
+    {
+        "indicator": "150001",
+        "indicator_name": "Expenditure on Social Protection, % of GDP (excl healthcare)",
+        "country": "Viet Nam",
+        "value": 3.7,
+        "year": 2021
+    },
+    {
+        "indicator": "150002",
+        "indicator_name": "Population covered by at least one social protection benefit",
+        "country": "Afghanistan",
+        "value": 7.5,
+        "year": 2019
+    },
+    {
+        "indicator": "150002",
+        "indicator_name": "Population covered by at least one social protection benefit",
+        "country": "Armenia",
+        "value": 54.4,
+        "year": 2019
+    },
+    {
+        "indicator": "150002",
+        "indicator_name": "Population covered by at least one social protection benefit",
+        "country": "Australia",
+        "value": 100,
+        "year": 2019
+    },
+    {
+        "indicator": "150002",
+        "indicator_name": "Population covered by at least one social protection benefit",
+        "country": "Azerbaijan",
+        "value": 39,
+        "year": 2019
+    },
+    {
+        "indicator": "150002",
+        "indicator_name": "Population covered by at least one social protection benefit",
+        "country": "Bangladesh",
+        "value": 28.4,
+        "year": 2019
+    },
+    {
+        "indicator": "150002",
+        "indicator_name": "Population covered by at least one social protection benefit",
+        "country": "Bhutan",
+        "value": 8.8,
+        "year": 2019
+    },
+    {
+        "indicator": "150002",
+        "indicator_name": "Population covered by at least one social protection benefit",
+        "country": "Brunei Darussalam",
+        "value": 34.1,
+        "year": 2019
+    },
+    {
+        "indicator": "150002",
+        "indicator_name": "Population covered by at least one social protection benefit",
+        "country": "Cambodia",
+        "value": 6.2,
+        "year": 2019
+    },
+    {
+        "indicator": "150002",
+        "indicator_name": "Population covered by at least one social protection benefit",
+        "country": "China",
+        "value": 70.7,
+        "year": 2019
+    },
+    {
+        "indicator": "150002",
+        "indicator_name": "Population covered by at least one social protection benefit",
+        "country": "Cook Islands",
+        "value": 86.3,
+        "year": 2019
+    },
+    {
+        "indicator": "150002",
+        "indicator_name": "Population covered by at least one social protection benefit",
+        "country": "Georgia",
+        "value": 97.1,
+        "year": 2019
+    },
+    {
+        "indicator": "150002",
+        "indicator_name": "Population covered by at least one social protection benefit",
+        "country": "Indonesia",
+        "value": 27.8,
+        "year": 2019
+    },
+    {
+        "indicator": "150002",
+        "indicator_name": "Population covered by at least one social protection benefit",
+        "country": "Iran, Islamic Republic of",
+        "value": 27.8,
+        "year": 2019
+    },
+    {
+        "indicator": "150002",
+        "indicator_name": "Population covered by at least one social protection benefit",
+        "country": "Japan",
+        "value": 76,
+        "year": 2019
+    },
+    {
+        "indicator": "150002",
+        "indicator_name": "Population covered by at least one social protection benefit",
+        "country": "Kazakhstan",
+        "value": 100,
+        "year": 2019
+    },
+    {
+        "indicator": "150002",
+        "indicator_name": "Population covered by at least one social protection benefit",
+        "country": "Kiribati",
+        "value": 21,
+        "year": 2019
+    },
+    {
+        "indicator": "150002",
+        "indicator_name": "Population covered by at least one social protection benefit",
+        "country": "Korea, Republic of",
+        "value": 67,
+        "year": 2019
+    },
+    {
+        "indicator": "150002",
+        "indicator_name": "Population covered by at least one social protection benefit",
+        "country": "Kyrgyzstan",
+        "value": 41.7,
+        "year": 2019
+    },
+    {
+        "indicator": "150002",
+        "indicator_name": "Population covered by at least one social protection benefit",
+        "country": "Lao People's Democratic Republic",
+        "value": 12.1,
+        "year": 2019
+    },
+    {
+        "indicator": "150002",
+        "indicator_name": "Population covered by at least one social protection benefit",
+        "country": "Malaysia",
+        "value": 27.3,
+        "year": 2019
+    },
+    {
+        "indicator": "150002",
+        "indicator_name": "Population covered by at least one social protection benefit",
+        "country": "Maldives",
+        "value": 21.2,
+        "year": 2019
+    },
+    {
+        "indicator": "150002",
+        "indicator_name": "Population covered by at least one social protection benefit",
+        "country": "Marshall Islands",
+        "value": 25.2,
+        "year": 2019
+    },
+    {
+        "indicator": "150002",
+        "indicator_name": "Population covered by at least one social protection benefit",
+        "country": "Micronesia, Federated States of",
+        "value": 8.2,
+        "year": 2019
+    },
+    {
+        "indicator": "150002",
+        "indicator_name": "Population covered by at least one social protection benefit",
+        "country": "Mongolia",
+        "value": 85,
+        "year": 2019
+    },
+    {
+        "indicator": "150002",
+        "indicator_name": "Population covered by at least one social protection benefit",
+        "country": "Myanmar",
+        "value": 6.3,
+        "year": 2019
+    },
+    {
+        "indicator": "150002",
+        "indicator_name": "Population covered by at least one social protection benefit",
+        "country": "Nauru",
+        "value": 45.4,
+        "year": 2019
+    },
+    {
+        "indicator": "150002",
+        "indicator_name": "Population covered by at least one social protection benefit",
+        "country": "Nepal",
+        "value": 17,
+        "year": 2019
+    },
+    {
+        "indicator": "150002",
+        "indicator_name": "Population covered by at least one social protection benefit",
+        "country": "New Zealand",
+        "value": 100,
+        "year": 2019
+    },
+    {
+        "indicator": "150002",
+        "indicator_name": "Population covered by at least one social protection benefit",
+        "country": "Pakistan",
+        "value": 8,
+        "year": 2019
+    },
+    {
+        "indicator": "150002",
+        "indicator_name": "Population covered by at least one social protection benefit",
+        "country": "Papua New Guinea",
+        "value": 9.6,
+        "year": 2019
+    },
+    {
+        "indicator": "150002",
+        "indicator_name": "Population covered by at least one social protection benefit",
+        "country": "Philippines",
+        "value": 36.7,
+        "year": 2019
+    },
+    {
+        "indicator": "150002",
+        "indicator_name": "Population covered by at least one social protection benefit",
+        "country": "Russian Federation",
+        "value": 90.1,
+        "year": 2019
+    },
+    {
+        "indicator": "150002",
+        "indicator_name": "Population covered by at least one social protection benefit",
+        "country": "Singapore",
+        "value": 100,
+        "year": 2019
+    },
+    {
+        "indicator": "150002",
+        "indicator_name": "Population covered by at least one social protection benefit",
+        "country": "Solomon Islands",
+        "value": 1.1,
+        "year": 2019
+    },
+    {
+        "indicator": "150002",
+        "indicator_name": "Population covered by at least one social protection benefit",
+        "country": "Sri Lanka",
+        "value": 31,
+        "year": 2019
+    },
+    {
+        "indicator": "150002",
+        "indicator_name": "Population covered by at least one social protection benefit",
+        "country": "Tajikistan",
+        "value": 26.6,
+        "year": 2019
+    },
+    {
+        "indicator": "150002",
+        "indicator_name": "Population covered by at least one social protection benefit",
+        "country": "Thailand",
+        "value": 68,
+        "year": 2019
+    },
+    {
+        "indicator": "150002",
+        "indicator_name": "Population covered by at least one social protection benefit",
+        "country": "Timor-Leste",
+        "value": 30.6,
+        "year": 2019
+    },
+    {
+        "indicator": "150002",
+        "indicator_name": "Population covered by at least one social protection benefit",
+        "country": "Tonga",
+        "value": 22.2,
+        "year": 2019
+    },
+    {
+        "indicator": "150002",
+        "indicator_name": "Population covered by at least one social protection benefit",
+        "country": "Türkiye",
+        "value": 79.8,
+        "year": 2019
+    },
+    {
+        "indicator": "150002",
+        "indicator_name": "Population covered by at least one social protection benefit",
+        "country": "Uzbekistan",
+        "value": 42.7,
+        "year": 2019
+    },
+    {
+        "indicator": "150002",
+        "indicator_name": "Population covered by at least one social protection benefit",
+        "country": "Vanuatu",
+        "value": 57.4,
+        "year": 2019
+    },
+    {
+        "indicator": "150002",
+        "indicator_name": "Population covered by at least one social protection benefit",
+        "country": "Viet Nam",
+        "value": 38,
+        "year": 2019
+    },
+    {
+        "indicator": "150003",
+        "indicator_name": "Children/households receiving child/family cash benefits",
+        "country": "Afghanistan",
+        "value": 0.4,
+        "year": 2019
+    },
+    {
+        "indicator": "150003",
+        "indicator_name": "Children/households receiving child/family cash benefits",
+        "country": "Armenia",
+        "value": 30.2,
+        "year": 2019
+    },
+    {
+        "indicator": "150003",
+        "indicator_name": "Children/households receiving child/family cash benefits",
+        "country": "Australia",
+        "value": 100,
+        "year": 2019
+    },
+    {
+        "indicator": "150003",
+        "indicator_name": "Children/households receiving child/family cash benefits",
+        "country": "Azerbaijan",
+        "value": 16.9,
+        "year": 2019
+    },
+    {
+        "indicator": "150003",
+        "indicator_name": "Children/households receiving child/family cash benefits",
+        "country": "Bangladesh",
+        "value": 24,
+        "year": 2019
+    },
+    {
+        "indicator": "150003",
+        "indicator_name": "Children/households receiving child/family cash benefits",
+        "country": "Bhutan",
+        "value": 13.5,
+        "year": 2019
+    },
+    {
+        "indicator": "150003",
+        "indicator_name": "Children/households receiving child/family cash benefits",
+        "country": "Brunei Darussalam",
+        "value": 0,
+        "year": 2019
+    },
+    {
+        "indicator": "150003",
+        "indicator_name": "Children/households receiving child/family cash benefits",
+        "country": "Cambodia",
+        "value": 4.5,
+        "year": 2019
+    },
+    {
+        "indicator": "150003",
+        "indicator_name": "Children/households receiving child/family cash benefits",
+        "country": "China",
+        "value": 2.9,
+        "year": 2019
+    },
+    {
+        "indicator": "150003",
+        "indicator_name": "Children/households receiving child/family cash benefits",
+        "country": "Cook Islands",
+        "value": 100,
+        "year": 2019
+    },
+    {
+        "indicator": "150003",
+        "indicator_name": "Children/households receiving child/family cash benefits",
+        "country": "Georgia",
+        "value": 48.1,
+        "year": 2019
+    },
+    {
+        "indicator": "150003",
+        "indicator_name": "Children/households receiving child/family cash benefits",
+        "country": "Indonesia",
+        "value": 25.6,
+        "year": 2019
+    },
+    {
+        "indicator": "150003",
+        "indicator_name": "Children/households receiving child/family cash benefits",
+        "country": "Iran, Islamic Republic of",
+        "value": 16.4,
+        "year": 2019
+    },
+    {
+        "indicator": "150003",
+        "indicator_name": "Children/households receiving child/family cash benefits",
+        "country": "Japan",
+        "value": 85.4,
+        "year": 2019
+    },
+    {
+        "indicator": "150003",
+        "indicator_name": "Children/households receiving child/family cash benefits",
+        "country": "Kazakhstan",
+        "value": 57.4,
+        "year": 2019
+    },
+    {
+        "indicator": "150003",
+        "indicator_name": "Children/households receiving child/family cash benefits",
+        "country": "Kiribati",
+        "value": 1.3,
+        "year": 2019
+    },
+    {
+        "indicator": "150003",
+        "indicator_name": "Children/households receiving child/family cash benefits",
+        "country": "Korea, Republic of",
+        "value": 22.9,
+        "year": 2019
+    },
+    {
+        "indicator": "150003",
+        "indicator_name": "Children/households receiving child/family cash benefits",
+        "country": "Kyrgyzstan",
+        "value": 16.9,
+        "year": 2019
+    },
+    {
+        "indicator": "150003",
+        "indicator_name": "Children/households receiving child/family cash benefits",
+        "country": "Lao People's Democratic Republic",
+        "value": 0,
+        "year": 2019
+    },
+    {
+        "indicator": "150003",
+        "indicator_name": "Children/households receiving child/family cash benefits",
+        "country": "Malaysia",
+        "value": 2.8,
+        "year": 2019
+    },
+    {
+        "indicator": "150003",
+        "indicator_name": "Children/households receiving child/family cash benefits",
+        "country": "Maldives",
+        "value": 8.2,
+        "year": 2019
+    },
+    {
+        "indicator": "150003",
+        "indicator_name": "Children/households receiving child/family cash benefits",
+        "country": "Marshall Islands",
+        "value": 0,
+        "year": 2019
+    },
+    {
+        "indicator": "150003",
+        "indicator_name": "Children/households receiving child/family cash benefits",
+        "country": "Micronesia, Federated States of",
+        "value": 6.8,
+        "year": 2019
+    },
+    {
+        "indicator": "150003",
+        "indicator_name": "Children/households receiving child/family cash benefits",
+        "country": "Mongolia",
+        "value": 85,
+        "year": 2019
+    },
+    {
+        "indicator": "150003",
+        "indicator_name": "Children/households receiving child/family cash benefits",
+        "country": "Myanmar",
+        "value": 2.1,
+        "year": 2019
+    },
+    {
+        "indicator": "150003",
+        "indicator_name": "Children/households receiving child/family cash benefits",
+        "country": "Nepal",
+        "value": 22.9,
+        "year": 2019
+    },
+    {
+        "indicator": "150003",
+        "indicator_name": "Children/households receiving child/family cash benefits",
+        "country": "New Zealand",
+        "value": 67.1,
+        "year": 2019
+    },
+    {
+        "indicator": "150003",
+        "indicator_name": "Children/households receiving child/family cash benefits",
+        "country": "Pakistan",
+        "value": 4,
+        "year": 2019
+    },
+    {
+        "indicator": "150003",
+        "indicator_name": "Children/households receiving child/family cash benefits",
+        "country": "Philippines",
+        "value": 31.1,
+        "year": 2019
+    },
+    {
+        "indicator": "150003",
+        "indicator_name": "Children/households receiving child/family cash benefits",
+        "country": "Russian Federation",
+        "value": 100,
+        "year": 2019
+    },
+    {
+        "indicator": "150003",
+        "indicator_name": "Children/households receiving child/family cash benefits",
+        "country": "Sri Lanka",
+        "value": 32,
+        "year": 2019
+    },
+    {
+        "indicator": "150003",
+        "indicator_name": "Children/households receiving child/family cash benefits",
+        "country": "Tajikistan",
+        "value": 14,
+        "year": 2019
+    },
+    {
+        "indicator": "150003",
+        "indicator_name": "Children/households receiving child/family cash benefits",
+        "country": "Thailand",
+        "value": 21,
+        "year": 2019
+    },
+    {
+        "indicator": "150003",
+        "indicator_name": "Children/households receiving child/family cash benefits",
+        "country": "Timor-Leste",
+        "value": 38.2,
+        "year": 2019
+    },
+    {
+        "indicator": "150003",
+        "indicator_name": "Children/households receiving child/family cash benefits",
+        "country": "Tonga",
+        "value": 3.3,
+        "year": 2019
+    },
+    {
+        "indicator": "150003",
+        "indicator_name": "Children/households receiving child/family cash benefits",
+        "country": "Uzbekistan",
+        "value": 29.2,
+        "year": 2019
+    },
+    {
+        "indicator": "150003",
+        "indicator_name": "Children/households receiving child/family cash benefits",
+        "country": "Vanuatu",
+        "value": 12.9,
+        "year": 2019
+    },
+    {
+        "indicator": "150003",
+        "indicator_name": "Children/households receiving child/family cash benefits",
+        "country": "Viet Nam",
+        "value": 1,
+        "year": 2019
+    },
+    {
+        "indicator": "150004",
+        "indicator_name": "Persons with severe disabilities collecting disability social protection benefits",
+        "country": "Afghanistan",
+        "value": 13.6,
+        "year": 2019
+    },
+    {
+        "indicator": "150004",
+        "indicator_name": "Persons with severe disabilities collecting disability social protection benefits",
+        "country": "Armenia",
+        "value": 100,
+        "year": 2019
+    },
+    {
+        "indicator": "150004",
+        "indicator_name": "Persons with severe disabilities collecting disability social protection benefits",
+        "country": "Australia",
+        "value": 100,
+        "year": 2019
+    },
+    {
+        "indicator": "150004",
+        "indicator_name": "Persons with severe disabilities collecting disability social protection benefits",
+        "country": "Azerbaijan",
+        "value": 100,
+        "year": 2019
+    },
+    {
+        "indicator": "150004",
+        "indicator_name": "Persons with severe disabilities collecting disability social protection benefits",
+        "country": "Bangladesh",
+        "value": 18.3,
+        "year": 2019
+    },
+    {
+        "indicator": "150004",
+        "indicator_name": "Persons with severe disabilities collecting disability social protection benefits",
+        "country": "Brunei Darussalam",
+        "value": 100,
+        "year": 2019
+    },
+    {
+        "indicator": "150004",
+        "indicator_name": "Persons with severe disabilities collecting disability social protection benefits",
+        "country": "Cambodia",
+        "value": 70.1,
+        "year": 2019
+    },
+    {
+        "indicator": "150004",
+        "indicator_name": "Persons with severe disabilities collecting disability social protection benefits",
+        "country": "China",
+        "value": 33,
+        "year": 2019
+    },
+    {
+        "indicator": "150004",
+        "indicator_name": "Persons with severe disabilities collecting disability social protection benefits",
+        "country": "Georgia",
+        "value": 100,
+        "year": 2019
+    },
+    {
+        "indicator": "150004",
+        "indicator_name": "Persons with severe disabilities collecting disability social protection benefits",
+        "country": "Indonesia",
+        "value": 2.5,
+        "year": 2019
+    },
+    {
+        "indicator": "150004",
+        "indicator_name": "Persons with severe disabilities collecting disability social protection benefits",
+        "country": "Iran, Islamic Republic of",
+        "value": 9.3,
+        "year": 2019
+    },
+    {
+        "indicator": "150004",
+        "indicator_name": "Persons with severe disabilities collecting disability social protection benefits",
+        "country": "Japan",
+        "value": 56.1,
+        "year": 2019
+    },
+    {
+        "indicator": "150004",
+        "indicator_name": "Persons with severe disabilities collecting disability social protection benefits",
+        "country": "Kazakhstan",
+        "value": 100,
+        "year": 2019
+    },
+    {
+        "indicator": "150004",
+        "indicator_name": "Persons with severe disabilities collecting disability social protection benefits",
+        "country": "Korea, Republic of",
+        "value": 24.8,
+        "year": 2019
+    },
+    {
+        "indicator": "150004",
+        "indicator_name": "Persons with severe disabilities collecting disability social protection benefits",
+        "country": "Kyrgyzstan",
+        "value": 76,
+        "year": 2019
+    },
+    {
+        "indicator": "150004",
+        "indicator_name": "Persons with severe disabilities collecting disability social protection benefits",
+        "country": "Lao People's Democratic Republic",
+        "value": 0.3,
+        "year": 2019
+    },
+    {
+        "indicator": "150004",
+        "indicator_name": "Persons with severe disabilities collecting disability social protection benefits",
+        "country": "Malaysia",
+        "value": 30.5,
+        "year": 2019
+    },
+    {
+        "indicator": "150004",
+        "indicator_name": "Persons with severe disabilities collecting disability social protection benefits",
+        "country": "Maldives",
+        "value": 42.7,
+        "year": 2019
+    },
+    {
+        "indicator": "150004",
+        "indicator_name": "Persons with severe disabilities collecting disability social protection benefits",
+        "country": "Mongolia",
+        "value": 100,
+        "year": 2019
+    },
+    {
+        "indicator": "150004",
+        "indicator_name": "Persons with severe disabilities collecting disability social protection benefits",
+        "country": "Myanmar",
+        "value": 10.6,
+        "year": 2019
+    },
+    {
+        "indicator": "150004",
+        "indicator_name": "Persons with severe disabilities collecting disability social protection benefits",
+        "country": "Nauru",
+        "value": 84.6,
+        "year": 2019
+    },
+    {
+        "indicator": "150004",
+        "indicator_name": "Persons with severe disabilities collecting disability social protection benefits",
+        "country": "Nepal",
+        "value": 13.7,
+        "year": 2019
+    },
+    {
+        "indicator": "150004",
+        "indicator_name": "Persons with severe disabilities collecting disability social protection benefits",
+        "country": "New Zealand",
+        "value": 82,
+        "year": 2019
+    },
+    {
+        "indicator": "150004",
+        "indicator_name": "Persons with severe disabilities collecting disability social protection benefits",
+        "country": "Philippines",
+        "value": 3.3,
+        "year": 2019
+    },
+    {
+        "indicator": "150004",
+        "indicator_name": "Persons with severe disabilities collecting disability social protection benefits",
+        "country": "Russian Federation",
+        "value": 100,
+        "year": 2019
+    },
+    {
+        "indicator": "150004",
+        "indicator_name": "Persons with severe disabilities collecting disability social protection benefits",
+        "country": "Singapore",
+        "value": 57.7,
+        "year": 2019
+    },
+    {
+        "indicator": "150004",
+        "indicator_name": "Persons with severe disabilities collecting disability social protection benefits",
+        "country": "Sri Lanka",
+        "value": 18,
+        "year": 2019
+    },
+    {
+        "indicator": "150004",
+        "indicator_name": "Persons with severe disabilities collecting disability social protection benefits",
+        "country": "Tajikistan",
+        "value": 49,
+        "year": 2019
+    },
+    {
+        "indicator": "150004",
+        "indicator_name": "Persons with severe disabilities collecting disability social protection benefits",
+        "country": "Thailand",
+        "value": 73,
+        "year": 2019
+    },
+    {
+        "indicator": "150004",
+        "indicator_name": "Persons with severe disabilities collecting disability social protection benefits",
+        "country": "Timor-Leste",
+        "value": 19.3,
+        "year": 2019
+    },
+    {
+        "indicator": "150004",
+        "indicator_name": "Persons with severe disabilities collecting disability social protection benefits",
+        "country": "Tonga",
+        "value": 20.2,
+        "year": 2019
+    },
+    {
+        "indicator": "150004",
+        "indicator_name": "Persons with severe disabilities collecting disability social protection benefits",
+        "country": "Türkiye",
+        "value": 5.6,
+        "year": 2019
+    },
+    {
+        "indicator": "150004",
+        "indicator_name": "Persons with severe disabilities collecting disability social protection benefits",
+        "country": "Uzbekistan",
+        "value": 39.7,
+        "year": 2019
+    },
+    {
+        "indicator": "150004",
+        "indicator_name": "Persons with severe disabilities collecting disability social protection benefits",
+        "country": "Viet Nam",
+        "value": 83.5,
+        "year": 2019
+    },
+    {
+        "indicator": "150005",
+        "indicator_name": "Mothers with newborns receiving maternity benefits",
+        "country": "Afghanistan",
+        "value": 1.7,
+        "year": 2019
+    },
+    {
+        "indicator": "150005",
+        "indicator_name": "Mothers with newborns receiving maternity benefits",
+        "country": "Armenia",
+        "value": 61.6,
+        "year": 2019
+    },
+    {
+        "indicator": "150005",
+        "indicator_name": "Mothers with newborns receiving maternity benefits",
+        "country": "Australia",
+        "value": 100,
+        "year": 2019
+    },
+    {
+        "indicator": "150005",
+        "indicator_name": "Mothers with newborns receiving maternity benefits",
+        "country": "Azerbaijan",
+        "value": 16,
+        "year": 2019
+    },
+    {
+        "indicator": "150005",
+        "indicator_name": "Mothers with newborns receiving maternity benefits",
+        "country": "Bangladesh",
+        "value": 20.9,
+        "year": 2019
+    },
+    {
+        "indicator": "150005",
+        "indicator_name": "Mothers with newborns receiving maternity benefits",
+        "country": "Bhutan",
+        "value": 10.4,
+        "year": 2019
+    },
+    {
+        "indicator": "150005",
+        "indicator_name": "Mothers with newborns receiving maternity benefits",
+        "country": "Brunei Darussalam",
+        "value": 62.9,
+        "year": 2019
+    },
+    {
+        "indicator": "150005",
+        "indicator_name": "Mothers with newborns receiving maternity benefits",
+        "country": "China",
+        "value": 63.9,
+        "year": 2019
+    },
+    {
+        "indicator": "150005",
+        "indicator_name": "Mothers with newborns receiving maternity benefits",
+        "country": "Georgia",
+        "value": 26,
+        "year": 2019
+    },
+    {
+        "indicator": "150005",
+        "indicator_name": "Mothers with newborns receiving maternity benefits",
+        "country": "Indonesia",
+        "value": 28.4,
+        "year": 2019
+    },
+    {
+        "indicator": "150005",
+        "indicator_name": "Mothers with newborns receiving maternity benefits",
+        "country": "Iran, Islamic Republic of",
+        "value": 13.1,
+        "year": 2019
+    },
+    {
+        "indicator": "150005",
+        "indicator_name": "Mothers with newborns receiving maternity benefits",
+        "country": "Kazakhstan",
+        "value": 44.2,
+        "year": 2019
+    },
+    {
+        "indicator": "150005",
+        "indicator_name": "Mothers with newborns receiving maternity benefits",
+        "country": "Kyrgyzstan",
+        "value": 23.8,
+        "year": 2019
+    },
+    {
+        "indicator": "150005",
+        "indicator_name": "Mothers with newborns receiving maternity benefits",
+        "country": "Lao People's Democratic Republic",
+        "value": 12.7,
+        "year": 2019
+    },
+    {
+        "indicator": "150005",
+        "indicator_name": "Mothers with newborns receiving maternity benefits",
+        "country": "Malaysia",
+        "value": 46.5,
+        "year": 2019
+    },
+    {
+        "indicator": "150005",
+        "indicator_name": "Mothers with newborns receiving maternity benefits",
+        "country": "Maldives",
+        "value": 26.2,
+        "year": 2019
+    },
+    {
+        "indicator": "150005",
+        "indicator_name": "Mothers with newborns receiving maternity benefits",
+        "country": "Mongolia",
+        "value": 100,
+        "year": 2019
+    },
+    {
+        "indicator": "150005",
+        "indicator_name": "Mothers with newborns receiving maternity benefits",
+        "country": "Myanmar",
+        "value": 1.6,
+        "year": 2019
+    },
+    {
+        "indicator": "150005",
+        "indicator_name": "Mothers with newborns receiving maternity benefits",
+        "country": "Nepal",
+        "value": 9.8,
+        "year": 2019
+    },
+    {
+        "indicator": "150005",
+        "indicator_name": "Mothers with newborns receiving maternity benefits",
+        "country": "New Zealand",
+        "value": 100,
+        "year": 2019
+    },
+    {
+        "indicator": "150005",
+        "indicator_name": "Mothers with newborns receiving maternity benefits",
+        "country": "Philippines",
+        "value": 12.4,
+        "year": 2019
+    },
+    {
+        "indicator": "150005",
+        "indicator_name": "Mothers with newborns receiving maternity benefits",
+        "country": "Russian Federation",
+        "value": 63,
+        "year": 2019
+    },
+    {
+        "indicator": "150005",
+        "indicator_name": "Mothers with newborns receiving maternity benefits",
+        "country": "Singapore",
+        "value": 89.3,
+        "year": 2019
+    },
+    {
+        "indicator": "150005",
+        "indicator_name": "Mothers with newborns receiving maternity benefits",
+        "country": "Solomon Islands",
+        "value": 23.8,
+        "year": 2019
+    },
+    {
+        "indicator": "150005",
+        "indicator_name": "Mothers with newborns receiving maternity benefits",
+        "country": "Sri Lanka",
+        "value": 29.4,
+        "year": 2019
+    },
+    {
+        "indicator": "150005",
+        "indicator_name": "Mothers with newborns receiving maternity benefits",
+        "country": "Tajikistan",
+        "value": 66.5,
+        "year": 2019
+    },
+    {
+        "indicator": "150005",
+        "indicator_name": "Mothers with newborns receiving maternity benefits",
+        "country": "Tonga",
+        "value": 26.3,
+        "year": 2019
+    },
+    {
+        "indicator": "150005",
+        "indicator_name": "Mothers with newborns receiving maternity benefits",
+        "country": "Uzbekistan",
+        "value": 16,
+        "year": 2019
+    },
+    {
+        "indicator": "150005",
+        "indicator_name": "Mothers with newborns receiving maternity benefits",
+        "country": "Viet Nam",
+        "value": 44,
+        "year": 2019
+    },
+    {
+        "indicator": "150006",
+        "indicator_name": "Unemployed receiving unemployment benefits",
+        "country": "Afghanistan",
+        "value": 1.7,
+        "year": 2019
+    },
+    {
+        "indicator": "150006",
+        "indicator_name": "Unemployed receiving unemployment benefits",
+        "country": "Armenia",
+        "value": 0,
+        "year": 2019
+    },
+    {
+        "indicator": "150006",
+        "indicator_name": "Unemployed receiving unemployment benefits",
+        "country": "Australia",
+        "value": 52.7,
+        "year": 2019
+    },
+    {
+        "indicator": "150006",
+        "indicator_name": "Unemployed receiving unemployment benefits",
+        "country": "Azerbaijan",
+        "value": 19.1,
+        "year": 2019
+    },
+    {
+        "indicator": "150006",
+        "indicator_name": "Unemployed receiving unemployment benefits",
+        "country": "Bangladesh",
+        "value": 0,
+        "year": 2019
+    },
+    {
+        "indicator": "150006",
+        "indicator_name": "Unemployed receiving unemployment benefits",
+        "country": "Brunei Darussalam",
+        "value": 0,
+        "year": 2019
+    },
+    {
+        "indicator": "150006",
+        "indicator_name": "Unemployed receiving unemployment benefits",
+        "country": "Cambodia",
+        "value": 0,
+        "year": 2019
+    },
+    {
+        "indicator": "150006",
+        "indicator_name": "Unemployed receiving unemployment benefits",
+        "country": "China",
+        "value": 28.2,
+        "year": 2019
+    },
+    {
+        "indicator": "150006",
+        "indicator_name": "Unemployed receiving unemployment benefits",
+        "country": "Georgia",
+        "value": 0,
+        "year": 2019
+    },
+    {
+        "indicator": "150006",
+        "indicator_name": "Unemployed receiving unemployment benefits",
+        "country": "Indonesia",
+        "value": 0,
+        "year": 2019
+    },
+    {
+        "indicator": "150006",
+        "indicator_name": "Unemployed receiving unemployment benefits",
+        "country": "Iran, Islamic Republic of",
+        "value": 6.7,
+        "year": 2019
+    },
+    {
+        "indicator": "150006",
+        "indicator_name": "Unemployed receiving unemployment benefits",
+        "country": "Japan",
+        "value": 69.3,
+        "year": 2019
+    },
+    {
+        "indicator": "150006",
+        "indicator_name": "Unemployed receiving unemployment benefits",
+        "country": "Kazakhstan",
+        "value": 8.9,
+        "year": 2019
+    },
+    {
+        "indicator": "150006",
+        "indicator_name": "Unemployed receiving unemployment benefits",
+        "country": "Kiribati",
+        "value": 0,
+        "year": 2019
+    },
+    {
+        "indicator": "150006",
+        "indicator_name": "Unemployed receiving unemployment benefits",
+        "country": "Korea, Republic of",
+        "value": 37.1,
+        "year": 2019
+    },
+    {
+        "indicator": "150006",
+        "indicator_name": "Unemployed receiving unemployment benefits",
+        "country": "Kyrgyzstan",
+        "value": 2.7,
+        "year": 2019
+    },
+    {
+        "indicator": "150006",
+        "indicator_name": "Unemployed receiving unemployment benefits",
+        "country": "Lao People's Democratic Republic",
+        "value": 7.6,
+        "year": 2019
+    },
+    {
+        "indicator": "150006",
+        "indicator_name": "Unemployed receiving unemployment benefits",
+        "country": "Malaysia",
+        "value": 3,
+        "year": 2019
+    },
+    {
+        "indicator": "150006",
+        "indicator_name": "Unemployed receiving unemployment benefits",
+        "country": "Marshall Islands",
+        "value": 0,
+        "year": 2019
+    },
+    {
+        "indicator": "150006",
+        "indicator_name": "Unemployed receiving unemployment benefits",
+        "country": "Micronesia, Federated States of",
+        "value": 0,
+        "year": 2019
+    },
+    {
+        "indicator": "150006",
+        "indicator_name": "Unemployed receiving unemployment benefits",
+        "country": "Mongolia",
+        "value": 28.8,
+        "year": 2019
+    },
+    {
+        "indicator": "150006",
+        "indicator_name": "Unemployed receiving unemployment benefits",
+        "country": "Nauru",
+        "value": 2.8,
+        "year": 2019
+    },
+    {
+        "indicator": "150006",
+        "indicator_name": "Unemployed receiving unemployment benefits",
+        "country": "Nepal",
+        "value": 0,
+        "year": 2019
+    },
+    {
+        "indicator": "150006",
+        "indicator_name": "Unemployed receiving unemployment benefits",
+        "country": "New Zealand",
+        "value": 44.9,
+        "year": 2019
+    },
+    {
+        "indicator": "150006",
+        "indicator_name": "Unemployed receiving unemployment benefits",
+        "country": "Pakistan",
+        "value": 0,
+        "year": 2019
+    },
+    {
+        "indicator": "150006",
+        "indicator_name": "Unemployed receiving unemployment benefits",
+        "country": "Philippines",
+        "value": 0,
+        "year": 2019
+    },
+    {
+        "indicator": "150006",
+        "indicator_name": "Unemployed receiving unemployment benefits",
+        "country": "Russian Federation",
+        "value": 82.7,
+        "year": 2019
+    },
+    {
+        "indicator": "150006",
+        "indicator_name": "Unemployed receiving unemployment benefits",
+        "country": "Singapore",
+        "value": 0,
+        "year": 2019
+    },
+    {
+        "indicator": "150006",
+        "indicator_name": "Unemployed receiving unemployment benefits",
+        "country": "Solomon Islands",
+        "value": 0,
+        "year": 2019
+    },
+    {
+        "indicator": "150006",
+        "indicator_name": "Unemployed receiving unemployment benefits",
+        "country": "Sri Lanka",
+        "value": 0,
+        "year": 2019
+    },
+    {
+        "indicator": "150006",
+        "indicator_name": "Unemployed receiving unemployment benefits",
+        "country": "Tajikistan",
+        "value": 20.8,
+        "year": 2019
+    },
+    {
+        "indicator": "150006",
+        "indicator_name": "Unemployed receiving unemployment benefits",
+        "country": "Thailand",
+        "value": 61,
+        "year": 2019
+    },
+    {
+        "indicator": "150006",
+        "indicator_name": "Unemployed receiving unemployment benefits",
+        "country": "Timor-Leste",
+        "value": 0,
+        "year": 2019
+    },
+    {
+        "indicator": "150006",
+        "indicator_name": "Unemployed receiving unemployment benefits",
+        "country": "Türkiye",
+        "value": 18.3,
+        "year": 2019
+    },
+    {
+        "indicator": "150006",
+        "indicator_name": "Unemployed receiving unemployment benefits",
+        "country": "Uzbekistan",
+        "value": 0.8,
+        "year": 2019
+    },
+    {
+        "indicator": "150006",
+        "indicator_name": "Unemployed receiving unemployment benefits",
+        "country": "Vanuatu",
+        "value": 0,
+        "year": 2019
+    },
+    {
+        "indicator": "150006",
+        "indicator_name": "Unemployed receiving unemployment benefits",
+        "country": "Viet Nam",
+        "value": 66.6,
+        "year": 2019
+    },
+    {
+        "indicator": "150007",
+        "indicator_name": "Employed covered in the event of work injury",
+        "country": "Afghanistan",
+        "value": 4.2,
+        "year": 2019
+    },
+    {
+        "indicator": "150007",
+        "indicator_name": "Employed covered in the event of work injury",
+        "country": "Armenia",
+        "value": 53.2,
+        "year": 2019
+    },
+    {
+        "indicator": "150007",
+        "indicator_name": "Employed covered in the event of work injury",
+        "country": "Australia",
+        "value": 72,
+        "year": 2019
+    },
+    {
+        "indicator": "150007",
+        "indicator_name": "Employed covered in the event of work injury",
+        "country": "Azerbaijan",
+        "value": 32.1,
+        "year": 2019
+    },
+    {
+        "indicator": "150007",
+        "indicator_name": "Employed covered in the event of work injury",
+        "country": "Bangladesh",
+        "value": 12.5,
+        "year": 2019
+    },
+    {
+        "indicator": "150007",
+        "indicator_name": "Employed covered in the event of work injury",
+        "country": "Bhutan",
+        "value": 28.4,
+        "year": 2019
+    },
+    {
+        "indicator": "150007",
+        "indicator_name": "Employed covered in the event of work injury",
+        "country": "Brunei Darussalam",
+        "value": 88,
+        "year": 2019
+    },
+    {
+        "indicator": "150007",
+        "indicator_name": "Employed covered in the event of work injury",
+        "country": "Cambodia",
+        "value": 17.2,
+        "year": 2019
+    },
+    {
+        "indicator": "150007",
+        "indicator_name": "Employed covered in the event of work injury",
+        "country": "China",
+        "value": 29.7,
+        "year": 2019
+    },
+    {
+        "indicator": "150007",
+        "indicator_name": "Employed covered in the event of work injury",
+        "country": "Georgia",
+        "value": 48.9,
+        "year": 2019
+    },
+    {
+        "indicator": "150007",
+        "indicator_name": "Employed covered in the event of work injury",
+        "country": "Hong Kong, China",
+        "value": 85.6,
+        "year": 2019
+    },
+    {
+        "indicator": "150007",
+        "indicator_name": "Employed covered in the event of work injury",
+        "country": "Indonesia",
+        "value": 22.5,
+        "year": 2019
+    },
+    {
+        "indicator": "150007",
+        "indicator_name": "Employed covered in the event of work injury",
+        "country": "Iran, Islamic Republic of",
+        "value": 45.8,
+        "year": 2019
+    },
+    {
+        "indicator": "150007",
+        "indicator_name": "Employed covered in the event of work injury",
+        "country": "Japan",
+        "value": 83.6,
+        "year": 2019
+    },
+    {
+        "indicator": "150007",
+        "indicator_name": "Employed covered in the event of work injury",
+        "country": "Kazakhstan",
+        "value": 75.4,
+        "year": 2019
+    },
+    {
+        "indicator": "150007",
+        "indicator_name": "Employed covered in the event of work injury",
+        "country": "Kiribati",
+        "value": 32.8,
+        "year": 2019
+    },
+    {
+        "indicator": "150007",
+        "indicator_name": "Employed covered in the event of work injury",
+        "country": "Korea, Republic of",
+        "value": 85.2,
+        "year": 2019
+    },
+    {
+        "indicator": "150007",
+        "indicator_name": "Employed covered in the event of work injury",
+        "country": "Kyrgyzstan",
+        "value": 44,
+        "year": 2019
+    },
+    {
+        "indicator": "150007",
+        "indicator_name": "Employed covered in the event of work injury",
+        "country": "Lao People's Democratic Republic",
+        "value": 6.7,
+        "year": 2019
+    },
+    {
+        "indicator": "150007",
+        "indicator_name": "Employed covered in the event of work injury",
+        "country": "Malaysia",
+        "value": 49.8,
+        "year": 2019
+    },
+    {
+        "indicator": "150007",
+        "indicator_name": "Employed covered in the event of work injury",
+        "country": "Mongolia",
+        "value": 76,
+        "year": 2019
+    },
+    {
+        "indicator": "150007",
+        "indicator_name": "Employed covered in the event of work injury",
+        "country": "Myanmar",
+        "value": 8.5,
+        "year": 2019
+    },
+    {
+        "indicator": "150007",
+        "indicator_name": "Employed covered in the event of work injury",
+        "country": "Nepal",
+        "value": 3.8,
+        "year": 2019
+    },
+    {
+        "indicator": "150007",
+        "indicator_name": "Employed covered in the event of work injury",
+        "country": "New Zealand",
+        "value": 100,
+        "year": 2019
+    },
+    {
+        "indicator": "150007",
+        "indicator_name": "Employed covered in the event of work injury",
+        "country": "Papua New Guinea",
+        "value": 6.4,
+        "year": 2019
+    },
+    {
+        "indicator": "150007",
+        "indicator_name": "Employed covered in the event of work injury",
+        "country": "Philippines",
+        "value": 27.8,
+        "year": 2019
+    },
+    {
+        "indicator": "150007",
+        "indicator_name": "Employed covered in the event of work injury",
+        "country": "Russian Federation",
+        "value": 79.1,
+        "year": 2019
+    },
+    {
+        "indicator": "150007",
+        "indicator_name": "Employed covered in the event of work injury",
+        "country": "Singapore",
+        "value": 72.6,
+        "year": 2019
+    },
+    {
+        "indicator": "150007",
+        "indicator_name": "Employed covered in the event of work injury",
+        "country": "Solomon Islands",
+        "value": 33.3,
+        "year": 2019
+    },
+    {
+        "indicator": "150007",
+        "indicator_name": "Employed covered in the event of work injury",
+        "country": "Sri Lanka",
+        "value": 58,
+        "year": 2019
+    },
+    {
+        "indicator": "150007",
+        "indicator_name": "Employed covered in the event of work injury",
+        "country": "Tajikistan",
+        "value": 0,
+        "year": 2019
+    },
+    {
+        "indicator": "150007",
+        "indicator_name": "Employed covered in the event of work injury",
+        "country": "Thailand",
+        "value": 31,
+        "year": 2019
+    },
+    {
+        "indicator": "150007",
+        "indicator_name": "Employed covered in the event of work injury",
+        "country": "Timor-Leste",
+        "value": 31.3,
+        "year": 2019
+    },
+    {
+        "indicator": "150007",
+        "indicator_name": "Employed covered in the event of work injury",
+        "country": "Türkiye",
+        "value": 60.3,
+        "year": 2019
+    },
+    {
+        "indicator": "150007",
+        "indicator_name": "Employed covered in the event of work injury",
+        "country": "Turkmenistan",
+        "value": 52.6,
+        "year": 2019
+    },
+    {
+        "indicator": "150007",
+        "indicator_name": "Employed covered in the event of work injury",
+        "country": "Uzbekistan",
+        "value": 44.1,
+        "year": 2019
+    },
+    {
+        "indicator": "150007",
+        "indicator_name": "Employed covered in the event of work injury",
+        "country": "Vanuatu",
+        "value": 28.1,
+        "year": 2019
+    },
+    {
+        "indicator": "150007",
+        "indicator_name": "Employed covered in the event of work injury",
+        "country": "Viet Nam",
+        "value": 26.2,
+        "year": 2019
+    },
+    {
+        "indicator": "150008",
+        "indicator_name": "Persons above retirement age receiving a pension",
+        "country": "Afghanistan",
+        "value": 24.7,
+        "year": 2019
+    },
+    {
+        "indicator": "150008",
+        "indicator_name": "Persons above retirement age receiving a pension",
+        "country": "Armenia",
+        "value": 65.2,
+        "year": 2019
+    },
+    {
+        "indicator": "150008",
+        "indicator_name": "Persons above retirement age receiving a pension",
+        "country": "Australia",
+        "value": 100,
+        "year": 2019
+    },
+    {
+        "indicator": "150008",
+        "indicator_name": "Persons above retirement age receiving a pension",
+        "country": "Azerbaijan",
+        "value": 72.8,
+        "year": 2019
+    },
+    {
+        "indicator": "150008",
+        "indicator_name": "Persons above retirement age receiving a pension",
+        "country": "Bangladesh",
+        "value": 38,
+        "year": 2019
+    },
+    {
+        "indicator": "150008",
+        "indicator_name": "Persons above retirement age receiving a pension",
+        "country": "Bhutan",
+        "value": 18.8,
+        "year": 2019
+    },
+    {
+        "indicator": "150008",
+        "indicator_name": "Persons above retirement age receiving a pension",
+        "country": "Brunei Darussalam",
+        "value": 90.9,
+        "year": 2019
+    },
+    {
+        "indicator": "150008",
+        "indicator_name": "Persons above retirement age receiving a pension",
+        "country": "Cambodia",
+        "value": 9.9,
+        "year": 2019
+    },
+    {
+        "indicator": "150008",
+        "indicator_name": "Persons above retirement age receiving a pension",
+        "country": "China",
+        "value": 100,
+        "year": 2019
+    },
+    {
+        "indicator": "150008",
+        "indicator_name": "Persons above retirement age receiving a pension",
+        "country": "Cook Islands",
+        "value": 100,
+        "year": 2019
+    },
+    {
+        "indicator": "150008",
+        "indicator_name": "Persons above retirement age receiving a pension",
+        "country": "Georgia",
+        "value": 92.4,
+        "year": 2019
+    },
+    {
+        "indicator": "150008",
+        "indicator_name": "Persons above retirement age receiving a pension",
+        "country": "Indonesia",
+        "value": 14.1,
+        "year": 2019
+    },
+    {
+        "indicator": "150008",
+        "indicator_name": "Persons above retirement age receiving a pension",
+        "country": "Iran, Islamic Republic of",
+        "value": 33.7,
+        "year": 2019
+    },
+    {
+        "indicator": "150008",
+        "indicator_name": "Persons above retirement age receiving a pension",
+        "country": "Japan",
+        "value": 100,
+        "year": 2019
+    },
+    {
+        "indicator": "150008",
+        "indicator_name": "Persons above retirement age receiving a pension",
+        "country": "Kazakhstan",
+        "value": 99.6,
+        "year": 2019
+    },
+    {
+        "indicator": "150008",
+        "indicator_name": "Persons above retirement age receiving a pension",
+        "country": "Kiribati",
+        "value": 93.8,
+        "year": 2019
+    },
+    {
+        "indicator": "150008",
+        "indicator_name": "Persons above retirement age receiving a pension",
+        "country": "Korea, Republic of",
+        "value": 100,
+        "year": 2019
+    },
+    {
+        "indicator": "150008",
+        "indicator_name": "Persons above retirement age receiving a pension",
+        "country": "Kyrgyzstan",
+        "value": 100,
+        "year": 2019
+    },
+    {
+        "indicator": "150008",
+        "indicator_name": "Persons above retirement age receiving a pension",
+        "country": "Lao People's Democratic Republic",
+        "value": 6.3,
+        "year": 2019
+    },
+    {
+        "indicator": "150008",
+        "indicator_name": "Persons above retirement age receiving a pension",
+        "country": "Malaysia",
+        "value": 18.6,
+        "year": 2019
+    },
+    {
+        "indicator": "150008",
+        "indicator_name": "Persons above retirement age receiving a pension",
+        "country": "Maldives",
+        "value": 100,
+        "year": 2019
+    },
+    {
+        "indicator": "150008",
+        "indicator_name": "Persons above retirement age receiving a pension",
+        "country": "Marshall Islands",
+        "value": 62.7,
+        "year": 2019
+    },
+    {
+        "indicator": "150008",
+        "indicator_name": "Persons above retirement age receiving a pension",
+        "country": "Micronesia, Federated States of",
+        "value": 100,
+        "year": 2019
+    },
+    {
+        "indicator": "150008",
+        "indicator_name": "Persons above retirement age receiving a pension",
+        "country": "Mongolia",
+        "value": 100,
+        "year": 2019
+    },
+    {
+        "indicator": "150008",
+        "indicator_name": "Persons above retirement age receiving a pension",
+        "country": "Myanmar",
+        "value": 14.9,
+        "year": 2019
+    },
+    {
+        "indicator": "150008",
+        "indicator_name": "Persons above retirement age receiving a pension",
+        "country": "Nauru",
+        "value": 95.7,
+        "year": 2019
+    },
+    {
+        "indicator": "150008",
+        "indicator_name": "Persons above retirement age receiving a pension",
+        "country": "Nepal",
+        "value": 84.2,
+        "year": 2019
+    },
+    {
+        "indicator": "150008",
+        "indicator_name": "Persons above retirement age receiving a pension",
+        "country": "New Zealand",
+        "value": 100,
+        "year": 2019
+    },
+    {
+        "indicator": "150008",
+        "indicator_name": "Persons above retirement age receiving a pension",
+        "country": "Pakistan",
+        "value": 3,
+        "year": 2019
+    },
+    {
+        "indicator": "150008",
+        "indicator_name": "Persons above retirement age receiving a pension",
+        "country": "Papua New Guinea",
+        "value": 22.3,
+        "year": 2019
+    },
+    {
+        "indicator": "150008",
+        "indicator_name": "Persons above retirement age receiving a pension",
+        "country": "Philippines",
+        "value": 48,
+        "year": 2019
+    },
+    {
+        "indicator": "150008",
+        "indicator_name": "Persons above retirement age receiving a pension",
+        "country": "Russian Federation",
+        "value": 100,
+        "year": 2019
+    },
+    {
+        "indicator": "150008",
+        "indicator_name": "Persons above retirement age receiving a pension",
+        "country": "Singapore",
+        "value": 33.1,
+        "year": 2019
+    },
+    {
+        "indicator": "150008",
+        "indicator_name": "Persons above retirement age receiving a pension",
+        "country": "Solomon Islands",
+        "value": 20.5,
+        "year": 2019
+    },
+    {
+        "indicator": "150008",
+        "indicator_name": "Persons above retirement age receiving a pension",
+        "country": "Sri Lanka",
+        "value": 35.7,
+        "year": 2019
+    },
+    {
+        "indicator": "150008",
+        "indicator_name": "Persons above retirement age receiving a pension",
+        "country": "Tajikistan",
+        "value": 93.7,
+        "year": 2019
+    },
+    {
+        "indicator": "150008",
+        "indicator_name": "Persons above retirement age receiving a pension",
+        "country": "Thailand",
+        "value": 89.1,
+        "year": 2019
+    },
+    {
+        "indicator": "150008",
+        "indicator_name": "Persons above retirement age receiving a pension",
+        "country": "Timor-Leste",
+        "value": 100,
+        "year": 2019
+    },
+    {
+        "indicator": "150008",
+        "indicator_name": "Persons above retirement age receiving a pension",
+        "country": "Tonga",
+        "value": 90,
+        "year": 2019
+    },
+    {
+        "indicator": "150008",
+        "indicator_name": "Persons above retirement age receiving a pension",
+        "country": "Türkiye",
+        "value": 100,
+        "year": 2019
+    },
+    {
+        "indicator": "150008",
+        "indicator_name": "Persons above retirement age receiving a pension",
+        "country": "Tuvalu",
+        "value": 15,
+        "year": 2019
+    },
+    {
+        "indicator": "150008",
+        "indicator_name": "Persons above retirement age receiving a pension",
+        "country": "Uzbekistan",
+        "value": 100,
+        "year": 2019
+    },
+    {
+        "indicator": "150008",
+        "indicator_name": "Persons above retirement age receiving a pension",
+        "country": "Vanuatu",
+        "value": 8.5,
+        "year": 2019
+    },
+    {
+        "indicator": "150008",
+        "indicator_name": "Persons above retirement age receiving a pension",
+        "country": "Viet Nam",
+        "value": 40.9,
+        "year": 2019
+    }
+]

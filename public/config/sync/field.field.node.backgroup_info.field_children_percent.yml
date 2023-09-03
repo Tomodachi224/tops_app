@@ -1,0 +1,23 @@
+uuid: 62ad5651-7e53-49e8-b14f-c9904bfe1426
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_children_percent
+    - node.type.backgroup_info
+id: node.backgroup_info.field_children_percent
+field_name: field_children_percent
+entity_type: node
+bundle: backgroup_info
+label: 'Children (0-14)'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: float

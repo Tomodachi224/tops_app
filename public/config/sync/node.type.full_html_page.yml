@@ -1,0 +1,11 @@
+uuid: b4d793fb-e065-40f8-8a99-0d3bafacc962
+langcode: en
+status: true
+dependencies: {  }
+name: 'Full HTML Page'
+type: full_html_page
+description: 'This content type is created for Full HTML page'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

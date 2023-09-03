@@ -1,0 +1,8 @@
+uuid: 3bf4c352-9b1e-44bc-aea4-80e2fd8a8be4
+langcode: en
+status: true
+dependencies: {  }
+name: 'KP Category'
+vid: kp_category
+description: 'Knowledge Product Category'
+weight: 0

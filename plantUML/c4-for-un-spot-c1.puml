@@ -1,0 +1,28 @@
+ʹc4-for-un-spot-c1.puml
+@startuml 1.SPOT-System-Context
+!includeurl https://raw.githubusercontent.com/seungsoo0son/c4-plantuml-for-un/master/c4-for-un.puml
+ 
+LAYOUT_WITH_LEGEND()
+title Social Protection Online Tool - Context Diagram
+caption by paul@thinkbluedata.com
+ 
+Person_Ext(person1Alias, "Public User")
+Person(person2Alias, "Admin User")
+ 
+System_Ext(system2Alias, "Drupal", "Monitor Drupal library versions and security issues")
+System_Ext(system4Alias, "Google Analytics", "Site tracking statistics")
+System(systemAlias, "Social Protection Online Tool System", "Allows Admin to manage site contents. \nAllows Public users to access public website contents.")
+System_Ext(system3Alias, "SendGrid", "Send email from Social Protection Online Tool system to the configured email when software updates are available to Admin.")
+System_Ext(system5Alias, "Simulation Servers", "Provide Plumber APIs for simulation dashboard")
+ 
+ 
+Access(person1Alias, systemAlias, "Access the public contents of the website")
+Access(person2Alias, systemAlias, "Manage the Drupal admin pages")
+Access(person2Alias, systemAlias, "Edit content of the web pages")
+ 
+Access(systemAlias, system2Alias, "Update Drupal")
+Access(systemAlias, system4Alias, "Send tracking data")
+Access(systemAlias, system3Alias, "Send e-mails")
+Access(systemAlias, system5Alias, "Get data")
+Access_U(system3Alias, person2Alias, "Send e-mails")
+@enduml

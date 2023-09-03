@@ -1,0 +1,8 @@
+uuid: 6FFE1582-1621-455B-8FE3-6D727BE3AC94
+langcode: en
+status: true
+dependencies: {  }
+id: opigno-admin
+label: 'Opigno admin'
+description: ''
+locked: false

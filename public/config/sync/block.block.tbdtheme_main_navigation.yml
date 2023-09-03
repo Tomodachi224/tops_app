@@ -1,0 +1,27 @@
+uuid: e19edbb9-aeb6-4dcd-b75b-0913c06848b8
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - tbdtheme
+_core:
+  default_config_hash: z9XoSvc4xVismoYD95u0c0qNlchey070Cc99Ph79qOw
+id: tbdtheme_main_navigation
+theme: tbdtheme
+region: nav_main
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: true
+visibility: {  }

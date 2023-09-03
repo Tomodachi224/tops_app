@@ -1,0 +1,23 @@
+uuid: a19c8c2c-1cd8-4cfc-8e0c-5d453b436e33
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_maternal
+    - node.type.backgroup_info
+id: node.backgroup_info.field_maternal
+field_name: field_maternal
+entity_type: node
+bundle: backgroup_info
+label: 'Maternal mortality'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: float

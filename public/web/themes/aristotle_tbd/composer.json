@@ -1,0 +1,10 @@
+{
+    "name": "drupal/aristotle_tbd",
+    "type": "drupal-theme",
+    "description": "Aristotle.",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "drupal/core": "^9",
+        "drupal/css_editor": "^2.0"
+    }
+}

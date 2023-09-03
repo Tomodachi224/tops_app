@@ -1,0 +1,50 @@
+uuid: 1b8dff2e-7ed0-46d4-93ef-3c0fd30e90d0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.covid_resource.field_attach_images
+    - field.field.node.covid_resource.field_description
+    - field.field.node.covid_resource.field_link
+    - node.type.covid_resource
+  module:
+    - image
+    - user
+id: node.covid_resource.default
+targetEntityType: node
+bundle: covid_resource
+mode: default
+content:
+  field_attach_images:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_description:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_link:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  search_api_excerpt: true

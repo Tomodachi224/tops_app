@@ -1,0 +1,19 @@
+uuid: a5f219d4-3178-4163-88a9-2a76ad2731b5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_anchor
+    - taxonomy.vocabulary.methodology
+id: taxonomy_term.methodology.field_anchor
+field_name: field_anchor
+entity_type: taxonomy_term
+bundle: methodology
+label: Anchor
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

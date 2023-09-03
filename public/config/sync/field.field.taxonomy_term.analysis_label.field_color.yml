@@ -1,0 +1,22 @@
+uuid: 92a0fabe-aa28-45ef-ab7d-625b933cd4c7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_color
+    - taxonomy.vocabulary.analysis_label
+  module:
+    - color_field
+id: taxonomy_term.analysis_label.field_color
+field_name: field_color
+entity_type: taxonomy_term
+bundle: analysis_label
+label: Color
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  opacity: 1
+field_type: color_field_type

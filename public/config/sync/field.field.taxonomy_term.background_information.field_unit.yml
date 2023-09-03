@@ -1,0 +1,19 @@
+uuid: 2e738a58-5948-4b3a-8737-e5943a4c8ce4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_unit
+    - taxonomy.vocabulary.background_information
+id: taxonomy_term.background_information.field_unit
+field_name: field_unit
+entity_type: taxonomy_term
+bundle: background_information
+label: Unit
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

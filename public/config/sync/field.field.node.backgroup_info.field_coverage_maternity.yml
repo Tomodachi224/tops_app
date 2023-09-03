@@ -1,0 +1,23 @@
+uuid: 03141e05-0c3e-4167-a8c5-9e687c67b245
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_coverage_maternity
+    - node.type.backgroup_info
+id: node.backgroup_info.field_coverage_maternity
+field_name: field_coverage_maternity
+entity_type: node
+bundle: backgroup_info
+label: 'Effective Coverage for Maternity'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: float

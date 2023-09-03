@@ -1,0 +1,30 @@
+uuid: a862148e-ebd0-4299-a274-c854d424e63e
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.who_s_new
+  module:
+    - system
+    - views
+  theme:
+    - aristotle
+id: dashboard_views_block_who_s_new_block_1
+theme: aristotle
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:who_s_new-block_1'
+settings:
+  id: 'views_block:who_s_new-block_1'
+  label: 'Dashboard: Who&#039;s new'
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    context_mapping: {  }
+    pages: /opigno

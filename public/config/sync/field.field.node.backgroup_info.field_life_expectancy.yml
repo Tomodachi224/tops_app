@@ -1,0 +1,23 @@
+uuid: f81a174f-821a-4f01-b495-f0bd4ba9c1fb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_life_expectancy
+    - node.type.backgroup_info
+id: node.backgroup_info.field_life_expectancy
+field_name: field_life_expectancy
+entity_type: node
+bundle: backgroup_info
+label: 'Life expectancy at birth'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: float

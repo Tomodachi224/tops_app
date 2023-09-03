@@ -1,0 +1,7 @@
+name: 'Assessment Tool'
+type: module
+description: 'Provides an assessment tool for the Engage part of the Social Protection Toolbox.'
+core: 8.x
+core_version_requirement: ^8 || ^9
+package: 'Social Development Division'
+version: '8.x-1.0'

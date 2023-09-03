@@ -1,0 +1,25 @@
+//----------------------------------------------------------//
+//	POPOVER
+//----------------------------------------------------------//
+.has-popover:focus {
+  outline: 0;
+}
+// .popover-header {
+//   padding: $popover-header-padding-y $popover-header-padding-x 0.25rem;
+//   border: 0;
+//   @include font-size($font-size-lg);
+// }
+// .popover-body {
+//   padding: 0 $popover-body-padding-x $popover-body-padding-y;
+// }
+
+.popover-header {
+  padding: 0.5rem;
+  background-color: #f7f7f7;
+  font-size: 16px;
+}
+.popover-body {
+  padding: 0.5rem;
+  font-weight: 400;
+  font-size: 14px;
+}

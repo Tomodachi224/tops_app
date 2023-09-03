@@ -1,0 +1,33 @@
+uuid: 2a00605e-50b4-4657-81ff-fb13162a7fee
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.custom_layout_page.body
+    - field.field.node.custom_layout_page.layout_builder__layout
+    - node.type.custom_layout_page
+  module:
+    - text
+    - user
+id: node.custom_layout_page.teaser
+targetEntityType: node
+bundle: custom_layout_page
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  layout_builder__layout: true
+  search_api_excerpt: true

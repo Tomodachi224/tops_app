@@ -1,0 +1,38 @@
+// Card style when hover
+.card-hover:hover{
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+@media (min-width: 2100px) {
+  .pb-xxxl-0 {
+    padding-bottom: 0 !important;
+  }
+}
+
+// Dynamic class by color variables
+@each $color, $value in $colors {
+  .hover-bg-#{$color} {
+    &:hover {
+      background-color: $value !important;
+    }
+  }
+}
+
+// methodology dynamic content
+.methodology-anchor {
+  scroll-margin-top: 110px;
+  sup {
+    color: $link-text;
+  }
+  p {
+    a {
+      color: $link-text;
+    }
+  }
+}
+
+// Text shadow
+.text-shadow {
+  text-shadow: 1px 1px rgb(251, 249, 249);
+}

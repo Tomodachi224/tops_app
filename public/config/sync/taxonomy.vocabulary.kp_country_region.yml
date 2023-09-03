@@ -1,0 +1,8 @@
+uuid: 4c0592bb-fb58-4729-af87-1f2f16e01df4
+langcode: en
+status: true
+dependencies: {  }
+name: 'KP Country Region'
+vid: kp_country_region
+description: 'Knowledge Product Country Region'
+weight: 0

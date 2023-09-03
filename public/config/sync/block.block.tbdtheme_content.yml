@@ -1,0 +1,22 @@
+uuid: ced86e6b-8b8b-4170-9e33-73697c3c871a
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - tbdtheme
+_core:
+  default_config_hash: 7SoSBFsI-c0aYHbFVL5dZgHe2Ljh35ChW9T7r6DDs9o
+id: tbdtheme_content
+theme: tbdtheme
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

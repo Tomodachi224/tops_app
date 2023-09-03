@@ -1,0 +1,11 @@
+uuid: 9f6874dc-49c7-43de-95f4-4e811a439ef8
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: H_IMJflMyXLkY2Jnjg3v7Tq32Z5nwo0JhAaOO2l5MyY
+id: opigno_video
+label: Video
+description: 'Opigno video (either external or internal) activity type'
+summary: ''
+image: {  }

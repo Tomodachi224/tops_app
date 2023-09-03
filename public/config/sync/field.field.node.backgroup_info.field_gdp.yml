@@ -1,0 +1,23 @@
+uuid: 89815669-f4e5-45f7-b0c8-4569980896f8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_gdp
+    - node.type.backgroup_info
+id: node.backgroup_info.field_gdp
+field_name: field_gdp
+entity_type: node
+bundle: backgroup_info
+label: 'GDP per capita'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: float

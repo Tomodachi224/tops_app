@@ -1,0 +1,19 @@
+uuid: 5b1effc9-53ee-4c4f-9d5b-47028f35cc7a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_display_name
+    - taxonomy.vocabulary.analysis_label
+id: taxonomy_term.analysis_label.field_display_name
+field_name: field_display_name
+entity_type: taxonomy_term
+bundle: analysis_label
+label: 'Display Name'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

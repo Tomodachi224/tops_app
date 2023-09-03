@@ -1,0 +1,69 @@
+ʹc4-for-un-usv-c3.puml
+@startuml 3.SPOT-System-Deployment-ToBe
+!includeurl https://raw.githubusercontent.com/seungsoo0son/c4-plantuml-for-un/master/c4-for-un.puml
+ 
+LAYOUT_WITH_LEGEND()
+title Social Protection Online Tool  - Deployment Diagram
+caption by paul@thinkbluedata.com
+ 
+Person_Ext(person1Alias, "Public User")
+Person(person4Alias, "Admin User")
+ 
+Node_Boundary(WBE1, "Web Browser"){
+   Container(SPA1, "Web Application", "Javascript")
+}
+Access(person1Alias, SPA1, "")
+Access(person4Alias, SPA1, "")
+ 
+ 
+Person(person2Alias, "Infrastructure Admin")
+Node_Boundary(WBE3, "Web Browser"){
+   Container(SPA3, "Web Application", "Javascript")
+}
+Access(person2Alias, SPA3, "")
+ 
+DC_Boundary(DC1, "DigitalOcean"){
+ 
+   Zone_Boundary(Z1, "Access Zone"){
+       Box(gatewayAlias, "Application Gateway/Load Balancer")
+   }
+ 
+   Zone_Boundary(Z2, "Application Zone"){
+        Node_Boundary(DN1, "Drupal / API"){
+            Container(containerD1Alias, "Drupal-Frontend-UI", "PHP, Javascript")
+            Container(containerD2Alias, "Drupal-Backend", "PHP")
+            Container(containerD3Alias, "Drupal-API", "REST")
+        }
+        Node_Boundary(DN3, "Node / API"){
+           Container(containerD5Alias, "Loopback API", "REST")
+        }
+   }
+   Node_Boundary(DN2, "Simulation servers"){
+      Container(containerD4Alias, "Plumber API", "REST")
+      Container(containerD6Alias, "Load Balancer", "REST")
+      Container(containerD7Alias, "10 Simulation Docker containers", "REST")
+   }
+ 
+   Access(gatewayAlias, containerD1Alias, "<HTTPS:443>")
+   Access(gatewayAlias, containerD2Alias, "<HTTPS:443>")
+   Access(gatewayAlias, containerD3Alias, "<HTTPS:443>")
+   Access(gatewayAlias, containerD4Alias, "<HTTPS:443>")
+   Access(containerD1Alias, containerD5Alias, "<HTTPS:443>")
+   Access(containerD1Alias, containerD4Alias, "<HTTPS:443>")
+   Access(containerD4Alias, containerD6Alias, "<HTTPS:443>")
+   Access(containerD6Alias, containerD7Alias, "<HTTPS:443>")
+}
+ 
+Access(SPA1, gatewayAlias, "<HTTPS:443>")
+Access(SPA3, DC1, "<HTTPS:443>")
+ 
+System_Ext(system2Alias, "Drupal")
+System_Ext(system3Alias, "SendGrid")
+System_Ext(system4Alias, "Google Analytics")
+ 
+Access(containerD2Alias, system2Alias, "<HTTPS:443>")
+Access(containerD2Alias, system3Alias, "<HTTPS:443>")
+Access(containerD2Alias, system4Alias, "<HTTPS:443>")
+Access_U(system3Alias, person4Alias, "<HTTPS:443>")
+ 
+@enduml

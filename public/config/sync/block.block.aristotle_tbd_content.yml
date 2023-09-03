@@ -1,0 +1,22 @@
+uuid: 2d541a41-1a66-45a4-827b-9f0edf1f7327
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - aristotle_tbd
+_core:
+  default_config_hash: 7SoSBFsI-c0aYHbFVL5dZgHe2Ljh35ChW9T7r6DDs9o
+id: aristotle_tbd_content
+theme: aristotle_tbd
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,16 @@
+tid,name,field_short_name,field_x_label,field_y_label,field_x_unit,field_y_unit,field_data_source
+40001,"Simulated coverage of the whole population, by consumption expenditure deciles",Deciles (Population),Coverage (%),Deciles,%,,ESCAP calculation based on HIES (2016)
+40002,"Simulated coverage of the whole population, by different types of households",Household type,Coverage (%),Household Type,%,,ESCAP calculation based on HIES (2016)
+40003,Coverage with existing schemes and post reforms,Change,,,,,ESCAP calculation based on HIES (2016)
+40004,"Simulated impact on the household consumption expenditure for the whole population, by consumption expenditure deciles",Deciles (Population),Increase in per capita consumption expenditure (%),Deciles,%,,ESCAP calculation based on HIES (2016)
+40005,"Simulated impact on the household consumption expenditure among recipient households, by consumption expenditure deciles",Deciles (Recipients),Increase in per capita consumption expenditure (%),Deciles,%,,ESCAP calculation based on HIES (2016)
+40006,"Simulated impact on the household consumption expenditure among recipient households, by diﬀerent household types",Household type,Increase in per capita consumption expenditure (%),Household Type,%,,ESCAP calculation based on HIES (2016)
+40007,"Simulated change in poverty rates, whole population",Rates (Population),Poverty Line,Poverty Rate (%),,%,ESCAP calculation based on HIES (2016)
+40008,"Simulated change in poverty rates, recipient households",Rates (Recipients),Poverty Line,Poverty Rate (%),,%,ESCAP calculation based on HIES (2016)
+40009,"Simulated change of the poverty gap index, whole population",Gap (Population),Poverty Line,Poverty Rate (%),,%,ESCAP calculation based on HIES (2016)
+40010,"Simulated change on poverty gap index, recipient households",Gap (Recipients),Poverty Line,Poverty Rate (%),,%,ESCAP calculation based on HIES (2016)
+40011,Simulated change in inequality by inequality metric,Inequality,Poverty Line,Poverty Rate (%),,%,ESCAP calculation based on HIES (2016)
+40012,"Projected annual spending (% of GDP), by scheme, by year",% of GDP,Year,,,,ESCAP calculation based on economic and population data from IMF and UN DESA
+40013,"Required investment as a percentage of government revenue, by year",% of Revenue,Year,,,,ESCAP calculation based on economic and population data from IMF and UN DESA
+40014,Public spending on functional expenses as % of GDP,% of Expenses,Functional expenses,% of GDP,,%,programme(s) costs are based on economic and population data from IMF and UN DESA
+40015,Government tax revenue from income and corporate taxes,Taxes,,,,,

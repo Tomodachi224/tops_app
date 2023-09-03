@@ -1,0 +1,8 @@
+uuid: 4cbee149-89b6-4283-96cf-b747efb21a27
+langcode: en
+status: true
+dependencies: {  }
+name: 'Analysis Poverty Mean Tested'
+vid: analysis_poverty_mean_tested
+description: ''
+weight: 0

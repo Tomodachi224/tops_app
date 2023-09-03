@@ -1,0 +1,8 @@
+uuid: e9696265-cc4b-418c-80d2-9130e4c9ea5f
+langcode: en
+status: true
+dependencies: {  }
+name: 'Background Information'
+vid: background_information
+description: ''
+weight: 0

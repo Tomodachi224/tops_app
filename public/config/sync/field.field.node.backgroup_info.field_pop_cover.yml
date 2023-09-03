@@ -1,0 +1,23 @@
+uuid: 0e5e0b9e-bc4a-4796-ac27-7ea5b4508b6d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pop_cover
+    - node.type.backgroup_info
+id: node.backgroup_info.field_pop_cover
+field_name: field_pop_cover
+entity_type: node
+bundle: backgroup_info
+label: 'Population Covered by at least one social protection benefit'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: float

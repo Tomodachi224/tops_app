@@ -1,0 +1,20 @@
+uuid: e81ddb7a-2879-4d5f-96d8-23dffc12eae7
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy_term_depth
+title: 'Queue: Taxonomy term depth update'
+id: ultimate_cron_queue_taxonomy_term_depth_update_depth
+weight: 10
+module: taxonomy_term_depth
+callback: 'ultimate_cron.queue_worker:queueCallback'
+scheduler:
+  id: simple
+  configuration:
+    rules:
+      - '* * * * *'
+launcher:
+  id: serial
+logger:
+  id: database

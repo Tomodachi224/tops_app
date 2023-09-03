@@ -1,0 +1,15 @@
+uuid: 21162622-1888-4d2a-9453-a5a03456fd43
+langcode: en
+status: true
+dependencies: {  }
+name: default
+label: Default
+triggers:
+  login: login
+destination_path: 'internal:/catalogue'
+pages_type: 0
+pages: ''
+language: ''
+roles: {  }
+weight: 0
+enabled: true

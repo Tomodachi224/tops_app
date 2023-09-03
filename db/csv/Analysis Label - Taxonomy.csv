@@ -1,0 +1,59 @@
+name,tid,weight,field_display_name,field_color
+Lowest,20001,1,Lowest welfare decile,#39C7FA
+2,20002,2,Welfare decile 2,#808080
+3,20003,3,Welfare decile 3,#FFB266
+4,20004,4,Welfare decile 4,#FF0000
+5,20005,5,Welfare decile 5,#800000
+6,20006,6,Welfare decile 6,#FFFF00
+7,20007,7,Welfare decile 7,#808000
+8,20008,8,Welfare decile 8,#00FF00
+9,20009,9,Welfare decile 9,#008000
+Highest,20010,10,Highest welfare decile,#B8BCC9
+Total (decile),20011,11,Total Population,#0060C2
+"Couple household, with children",20012,12,"Couple household, with children",#0000FF
+"Couple household, with no children",20013,13,"Couple household, with no children",#000080
+Single parent/caregiver (<60 years),20017,14,Single parent/caregiver (<60 years),#FF00FF
+"One-person household, 60+ years",20015,15,"One-person household, 60+ years",#800080
+"One-person household, 18-59 years",20014,16,"One-person household, 18-59 years",#C0C0C0
+Three generation household,20019,17,Three generation household,#808080
+Skipped generation,20018,18,Skipped generation,#FFB266
+Other household types,20016,19,Other household types,#FF0000
+Total (types of households),20039,20,Total,#800000
+Whole population,20020,21,Whole population,#FFFF00
+Among children,20021,22,Among children,#808000
+National,20022,23,National,#00FF00
+International (PPP $1.9),20023,24,IPL $1.9,#008000
+International (PPP $3.2),20024,25,IPL $3.2,#00FFFF
+International (PPP $5.5),20025,26,IPL $5.5,#008080
+Gini index,20026,27,Gini index,#0000FF
+Palma ratio,20027,28,Palma ratio,#000080
+Quintile Ratio,20028,29,Quintile ratio,#FF00FF
+2021,20029,30,2021,#800080
+2022,20030,31,2022,#C0C0C0
+2023,20031,32,2023,#808080
+2024,20032,33,2024,#FFB266
+2025,20033,34,2025,#FF0000
+2026,20034,35,2026,#800000
+2027,20035,36,2027,#FFFF00
+2028,20036,37,2028,#808000
+2029,20037,38,2029,#00FF00
+2030,20038,39,2030,#008000
+Among persons with disabilities,20041,40,Among persons with disabilities,#805100
+Among older persons,20040,41,Among older persons,#80004b
+General public services,20042,42,General public services,
+Defence,20043,43,Defence,
+Public order & safety,20044,44,Public order & safety,
+Economic Affairs,20045,45,Economic Affairs,
+Environment,20046,46,Environment,
+Housing,20047,47,Housing,
+Health,20048,48,Health,
+Culture,20049,49,Culture,
+Education,20050,50,Education,
+Social Protection,20051,51,Social Protection,
+Highest personal income tax bracket (per cent of net income and capital gains),20052,52,Highest personal income tax bracket (per cent of net income and capital gains),
+Corporate tax (per cent of net profits and capital gains),20053,53,Corporate tax (per cent of net profits and capital gains),
+"Total cost of the programme(s) as percentage of tax revenue from income, profits and capital gains (per cent)",20054,54,"Total cost of the programme(s) as percentage of tax revenue from income, profits and capital gains (per cent)",
+Exlusion Errors,20055,55,Exlusion Errors,#39C7FA,
+Inclusion Errors,20056,56,Inclusion Errors,#0060C2,
+2031,20057,57,2031,#800080
+Among mothers of newborns,20058,58,Among mothers of newborns,#80004b

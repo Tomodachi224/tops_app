@@ -1,0 +1,49 @@
+uuid: db28aa10-e51d-44bb-9ef0-92c791403699
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.map_country.field_lat
+    - field.field.taxonomy_term.map_country.field_long
+    - field.field.taxonomy_term.map_country.field_region
+    - taxonomy.vocabulary.map_country
+  module:
+    - text
+id: taxonomy_term.map_country.default
+targetEntityType: taxonomy_term
+bundle: map_country
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_lat:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_long:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_region:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+hidden:
+  search_api_excerpt: true

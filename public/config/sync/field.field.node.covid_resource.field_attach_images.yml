@@ -1,0 +1,38 @@
+uuid: 9b7c2b0f-9ec8-4061-a27a-b9bea9c1d947
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_attach_images
+    - node.type.covid_resource
+  module:
+    - image
+id: node.covid_resource.field_attach_images
+field_name: field_attach_images
+entity_type: node
+bundle: covid_resource
+label: 'Attach Images'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: covid-resource
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+field_type: image

@@ -1,0 +1,18 @@
+.overview-title {
+  font-weight: 700;
+  font-size: 14px;
+  color: #8F9BB3;
+}
+.overview-info,
+.overview-info * {
+    font-weight: 400;
+    font-size: 16px;
+    color: #222B45;
+}
+
+.overview-info>p {
+    margin-bottom: 0;
+}
+.toc>br:first-child {
+  display: none;
+}

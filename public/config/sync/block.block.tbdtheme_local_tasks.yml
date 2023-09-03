@@ -1,0 +1,39 @@
+uuid: a566edbd-63a6-46a2-a8fa-62a75ededf51
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_visibility_conditions
+    - system
+  theme:
+    - tbdtheme
+_core:
+  default_config_hash: T0UKPgwhErHl3IRk_Aprxd63KaEbxVIJ8p6ZVzrieGU
+id: tbdtheme_local_tasks
+theme: tbdtheme
+region: content
+weight: -3
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: "/home\r\n/analysis-app/*\r\n/action-plan\r\n/e-learning\r\n/knowledge-products\r\n/kp-app\r\n/simulation-tool\r\n/regional-comparison-app"
+  not_node_type:
+    id: not_node_type
+    bundles:
+      book: book
+      knowledge_product: knowledge_product
+    negate: null
+  not_taxonomy_vocabulary:
+    id: not_taxonomy_vocabulary
+    bundles: {  }
+    negate: null

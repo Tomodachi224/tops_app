@@ -1,0 +1,12 @@
+# NPM packages folder.
+node_modules/
+
+# Others
+assets/dist
+assets/dist-vue
+assets/dist-vac
+assets/dev
+.firebase
+
+# Nova
+.nova/

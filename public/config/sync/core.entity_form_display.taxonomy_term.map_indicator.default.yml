@@ -1,0 +1,82 @@
+uuid: 7ae06119-f76d-46df-a081-52fb8edaf9c1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.map_indicator.field_description
+    - field.field.taxonomy_term.map_indicator.field_display_name
+    - field.field.taxonomy_term.map_indicator.field_type
+    - field.field.taxonomy_term.map_indicator.field_unit
+    - taxonomy.vocabulary.map_indicator
+  module:
+    - path
+    - text
+id: taxonomy_term.map_indicator.default
+targetEntityType: taxonomy_term
+bundle: map_indicator
+mode: default
+content:
+  description:
+    type: text_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_description:
+    type: text_textarea_with_summary
+    weight: 103
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  field_display_name:
+    type: string_textfield
+    weight: 101
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_type:
+    type: string_textfield
+    weight: 102
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_unit:
+    type: string_textfield
+    weight: 104
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 100
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,19 @@
+uuid: c1ca84c3-9f0e-41be-999f-25669565d56a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_x_label
+    - taxonomy.vocabulary.detail_chart
+id: taxonomy_term.detail_chart.field_x_label
+field_name: field_x_label
+entity_type: taxonomy_term
+bundle: detail_chart
+label: 'X Label'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

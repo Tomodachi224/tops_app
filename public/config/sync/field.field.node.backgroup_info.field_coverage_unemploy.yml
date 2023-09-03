@@ -1,0 +1,23 @@
+uuid: a7b93d72-d102-4dbf-933d-ae3904028e4e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_coverage_unemploy
+    - node.type.backgroup_info
+id: node.backgroup_info.field_coverage_unemploy
+field_name: field_coverage_unemploy
+entity_type: node
+bundle: backgroup_info
+label: 'Effective Coverage for Unemployment'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: float

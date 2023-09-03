@@ -1,0 +1,51 @@
+uuid: d553526f-c4e0-4ecc-8f5c-c27d305da759
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.knowledge_product.field_additional_info_section
+    - field.field.node.knowledge_product.field_attach_images
+    - field.field.node.knowledge_product.field_country_region
+    - field.field.node.knowledge_product.field_download
+    - field.field.node.knowledge_product.field_dspace_url
+    - field.field.node.knowledge_product.field_knowledge_product_cover
+    - field.field.node.knowledge_product.field_knowledge_products_categor
+    - field.field.node.knowledge_product.field_knowledge_products_series
+    - field.field.node.knowledge_product.field_order
+    - field.field.node.knowledge_product.field_programme_of_work
+    - field.field.node.knowledge_product.field_publication_date
+    - field.field.node.knowledge_product.field_sdg_areas
+    - field.field.node.knowledge_product.field_table_of_content
+    - field.field.node.knowledge_product.field_tag
+    - field.field.node.knowledge_product.field_youtube
+    - node.type.knowledge_product
+  module:
+    - user
+id: node.knowledge_product.teaser
+targetEntityType: node
+bundle: knowledge_product
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_additional_info_section: true
+  field_attach_images: true
+  field_country_region: true
+  field_download: true
+  field_dspace_url: true
+  field_knowledge_product_cover: true
+  field_knowledge_products_categor: true
+  field_knowledge_products_series: true
+  field_order: true
+  field_programme_of_work: true
+  field_publication_date: true
+  field_sdg_areas: true
+  field_table_of_content: true
+  field_tag: true
+  field_youtube: true
+  search_api_excerpt: true

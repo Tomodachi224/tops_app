@@ -1,0 +1,47 @@
+@mixin b5-make-link(
+  $a-link-color: $link-color,
+  $a-link-decoration: $link-decoration,
+  $a-link-hover-color: $link-hover-color,
+  $a-link-hover-decoration: $link-hover-decoration,
+  $target-class: ""
+) {
+  a#{$target-class} {
+    color: $a-link-color;
+    text-decoration: $a-link-decoration;
+
+    &:hover {
+      color: $a-link-hover-color;
+      text-decoration: $a-link-hover-decoration;
+    }
+  }
+}
+
+// Admin drupal styles.
+@import "./drupal/admin";
+@import "./drupal/buttons";
+@import "./drupal/footer";
+@import "./drupal/forms";
+@import "./drupal/jquery.ui";
+@import "./drupal/layout";
+@import "./drupal/local_tasks";
+@import "./drupal/media_library";
+@import "./drupal/misc";
+@import "./drupal/navbar";
+@import "./drupal/paragraphs";
+@import "./drupal/regions";
+@import "./drupal/table";
+@import "./drupal/theme";
+@import "./drupal/views";
+
+// Bootstrap fixes
+// @TODO: update .close style to be .btn-close
+// @see: https://getbootstrap.com/docs/5.1/components/alerts/#dismissing
+.alert-dismissible {
+  .close {
+    color: $black;
+  }
+}
+
+code {
+  overflow-y: auto;
+}

@@ -1,0 +1,324 @@
+[
+  {
+    "country": "China",
+    "region": "Asia and the Pacific",
+    "sub_region": "Eastern Asia",
+    "iso": "CHN",
+    "value": 6
+  },
+  {
+    "country": "Hong Kong, China",
+    "region": "Asia and the Pacific",
+    "sub_region": "Eastern Asia",
+    "iso": "HKG",
+    "value": 4
+  },
+  {
+    "country": "Japan",
+    "region": "Asia and the Pacific",
+    "sub_region": "Eastern Asia",
+    "iso": "JPN",
+    "value": 7
+  },
+  {
+    "country": "Korea, Dem. People’s Rep.",
+    "region": "Asia and the Pacific",
+    "sub_region": "Eastern Asia",
+    "iso": "PRK",
+    "value": 6
+  },
+  {
+    "country": "Korea, Republic of",
+    "region": "Asia and the Pacific",
+    "sub_region": "Eastern Asia",
+    "iso": "KOR",
+    "value": 6
+  },
+  {
+    "country": "Macao, China",
+    "region": "Asia and the Pacific",
+    "sub_region": "Eastern Asia",
+    "iso": "MAC",
+    "value": 7
+  },
+  {
+    "country": "Mongolia",
+    "region": "Asia and the Pacific",
+    "sub_region": "Eastern Asia",
+    "iso": "MNG",
+    "value": 5
+  },
+  {
+    "country": "Brunei Darussalam",
+    "region": "Asia and the Pacific",
+    "sub_region": "South-Eastern Asia",
+    "iso": "BRN",
+    "value": 6
+  },
+  {
+    "country": "Cambodia",
+    "region": "Asia and the Pacific",
+    "sub_region": "South-Eastern Asia",
+    "iso": "KHM",
+    "value": 7
+  },
+  {
+    "country": "Indonesia",
+    "region": "Asia and the Pacific",
+    "sub_region": "South-Eastern Asia",
+    "iso": "IDN",
+    "value": 6
+  },
+  {
+    "country": "Lao PDR",
+    "region": "Asia and the Pacific",
+    "sub_region": "South-Eastern Asia",
+    "iso": "LAO",
+    "value": 6
+  },
+  {
+    "country": "Malaysia",
+    "region": "Asia and the Pacific",
+    "sub_region": "South-Eastern Asia",
+    "iso": "MYS",
+    "value": 6
+  },
+  {
+    "country": "Myanmar",
+    "region": "Asia and the Pacific",
+    "sub_region": "South-Eastern Asia",
+    "iso": "MMR",
+    "value": 6
+  },
+  {
+    "country": "Philippines",
+    "region": "Asia and the Pacific",
+    "sub_region": "South-Eastern Asia",
+    "iso": "PHL",
+    "value": 6
+  },
+  {
+    "country": "Singapore",
+    "region": "Asia and the Pacific",
+    "sub_region": "South-Eastern Asia",
+    "iso": "SGP",
+    "value": 6
+  },
+  {
+    "country": "Thailand",
+    "region": "Asia and the Pacific",
+    "sub_region": "South-Eastern Asia",
+    "iso": "THA",
+    "value": 1
+  },
+  {
+    "country": "Timor-Leste",
+    "region": "Asia and the Pacific",
+    "sub_region": "South-Eastern Asia",
+    "iso": "TLS",
+    "value": 7
+  },
+  {
+    "country": "Viet Nam",
+    "region": "Asia and the Pacific",
+    "sub_region": "South-Eastern Asia",
+    "iso": "VNM",
+    "value": 4
+  },
+  {
+    "country": "Afghanistan",
+    "region": "Asia and the Pacific",
+    "sub_region": "Southern Asia",
+    "iso": "AFG",
+    "value": 7
+  },
+  {
+    "country": "Bangladesh",
+    "region": "Asia and the Pacific",
+    "sub_region": "Southern Asia",
+    "iso": "BGD",
+    "value": 6
+  },
+  {
+    "country": "Bhutan",
+    "region": "Asia and the Pacific",
+    "sub_region": "Southern Asia",
+    "iso": "BTN",
+    "value": 6
+  },
+  {
+    "country": "India",
+    "region": "Asia and the Pacific",
+    "sub_region": "Southern Asia",
+    "iso": "IND",
+    "value": 6
+  },
+  {
+    "country": "Iran, Islamic Republic of",
+    "region": "Asia and the Pacific",
+    "sub_region": "Southern Asia",
+    "iso": "IRN",
+    "value": 1
+  },
+  {
+    "country": "Maldives",
+    "region": "Asia and the Pacific",
+    "sub_region": "Southern Asia",
+    "iso": "MDV",
+    "value": 7
+  },
+  {
+    "country": "Nepal",
+    "region": "Asia and the Pacific",
+    "sub_region": "Southern Asia",
+    "iso": "NPL",
+    "value": 6
+  },
+  {
+    "country": "Pakistan",
+    "region": "Asia and the Pacific",
+    "sub_region": "Southern Asia",
+    "iso": "PAK",
+    "value": 4
+  },
+  {
+    "country": "Sri Lanka",
+    "region": "Asia and the Pacific",
+    "sub_region": "Southern Asia",
+    "iso": "LKA",
+    "value": 6
+  },
+  {
+    "country": "American Samoa",
+    "region": "Asia and the Pacific",
+    "sub_region": "Oceania",
+    "iso": "ASM",
+    "value": 7
+  },
+  {
+    "country": "Australia",
+    "region": "Asia and the Pacific",
+    "sub_region": "Oceania",
+    "iso": "AUS",
+    "value": 5
+  },
+  {
+    "country": "Fiji",
+    "region": "Asia and the Pacific",
+    "sub_region": "Oceania",
+    "iso": "FJI",
+    "value": 4
+  },
+  {
+    "country": "French Polynesia",
+    "region": "Asia and the Pacific",
+    "sub_region": "Oceania",
+    "iso": "PYF",
+    "value": 7
+  },
+  {
+    "country": "Guam",
+    "region": "Asia and the Pacific",
+    "sub_region": "Oceania",
+    "iso": "GUM",
+    "value": 7
+  },
+  {
+    "country": "Kiribati",
+    "region": "Asia and the Pacific",
+    "sub_region": "Oceania",
+    "iso": "KIR",
+    "value": 6
+  },
+  {
+    "country": "Marshall Islands",
+    "region": "Asia and the Pacific",
+    "sub_region": "Oceania",
+    "iso": "MHL",
+    "value": 6
+  },
+  {
+    "country": "Micronesia, Federated States of",
+    "region": "Asia and the Pacific",
+    "sub_region": "Oceania",
+    "iso": "FSM",
+    "value": 6
+  },
+  {
+    "country": "Nauru",
+    "region": "Asia and the Pacific",
+    "sub_region": "Oceania",
+    "iso": "NRU",
+    "value": 7
+  },
+  {
+    "country": "New Caledonia",
+    "region": "Asia and the Pacific",
+    "sub_region": "Oceania",
+    "iso": "NCL",
+    "value": 7
+  },
+  {
+    "country": "New Zealand",
+    "region": "Asia and the Pacific",
+    "sub_region": "Oceania",
+    "iso": "NZL",
+    "value": 5
+  },
+  {
+    "country": "Northern Mariana Islands",
+    "region": "Asia and the Pacific",
+    "sub_region": "Oceania",
+    "iso": "MNP",
+    "value": 7
+  },
+  {
+    "country": "Palau",
+    "region": "Asia and the Pacific",
+    "sub_region": "Oceania",
+    "iso": "PLW",
+    "value": 6
+  },
+  {
+    "country": "Papua New Guinea",
+    "region": "Asia and the Pacific",
+    "sub_region": "Oceania",
+    "iso": "PNG",
+    "value": 6
+  },
+  {
+    "country": "Samoa",
+    "region": "Asia and the Pacific",
+    "sub_region": "Oceania",
+    "iso": "WSM",
+    "value": 6
+  },
+  {
+    "country": "Solomon Islands",
+    "region": "Asia and the Pacific",
+    "sub_region": "Oceania",
+    "iso": "SLB",
+    "value": 6
+  },
+  {
+    "country": "Tonga",
+    "region": "Asia and the Pacific",
+    "sub_region": "Oceania",
+    "iso": "TON",
+    "value": 7
+  },
+  {
+    "country": "Tuvalu",
+    "region": "Asia and the Pacific",
+    "sub_region": "Oceania",
+    "iso": "TUV",
+    "value": 7
+  },
+  {
+    "country": "Vanuatu",
+    "region": "Asia and the Pacific",
+    "sub_region": "Oceania",
+    "iso": "VUT",
+    "value": 6
+  }
+]

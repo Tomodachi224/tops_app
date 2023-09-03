@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "internal-185808"
+  },
+  "targets": {
+    "internal-185808": {
+      "hosting": {
+        "spp-185808": [
+          "spp-185808"
+        ]
+      }
+    }
+  }
+}

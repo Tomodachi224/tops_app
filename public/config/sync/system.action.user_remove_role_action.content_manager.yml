@@ -1,0 +1,14 @@
+uuid: fcc53a05-153d-4913-9ad7-9d0ef691c6d6
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.content_manager
+  module:
+    - user
+id: user_remove_role_action.content_manager
+label: 'Remove the Content manager role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: content_manager

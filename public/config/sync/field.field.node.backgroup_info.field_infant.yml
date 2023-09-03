@@ -1,0 +1,23 @@
+uuid: bcc66427-5587-4425-ac19-fad3a2e4bd09
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_infant
+    - node.type.backgroup_info
+id: node.backgroup_info.field_infant
+field_name: field_infant
+entity_type: node
+bundle: backgroup_info
+label: 'Infant mortality rate'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: float

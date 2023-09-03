@@ -1,0 +1,22 @@
+uuid: 93fe371b-7faa-44f2-9138-0110780f4e7b
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - aristotle_tbd
+_core:
+  default_config_hash: spSelD-gW7QuXyv6Lt0MDcPJCaMeXHGZ3PoX8ncun28
+id: aristotle_tbd_powered_by_drupal
+theme: aristotle_tbd
+region: footer
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,25 @@
+uuid: 0af25b33-70fe-4736-b15a-35b1aa55b914
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - tbdtheme
+_core:
+  default_config_hash: HNfKjY9E46c4Vbbjqha1tR8RAuO8GIG5Wv72eGkJAqE
+id: tbdtheme_branding
+theme: tbdtheme
+region: nav_branding
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

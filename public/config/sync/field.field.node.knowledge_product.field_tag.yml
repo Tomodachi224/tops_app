@@ -1,0 +1,29 @@
+uuid: 079e82dc-816f-41f2-a0dd-3dc7b7c663a7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tag
+    - node.type.knowledge_product
+    - taxonomy.vocabulary.kp_tag
+id: node.knowledge_product.field_tag
+field_name: field_tag
+entity_type: node
+bundle: knowledge_product
+label: Tag
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      kp_tag: kp_tag
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

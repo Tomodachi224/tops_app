@@ -1,0 +1,19 @@
+uuid: ea1511a7-296b-4bd8-bc7b-bb55e347deb4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_y_label
+    - taxonomy.vocabulary.detail_chart
+id: taxonomy_term.detail_chart.field_y_label
+field_name: field_y_label
+entity_type: taxonomy_term
+bundle: detail_chart
+label: 'Y Label'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

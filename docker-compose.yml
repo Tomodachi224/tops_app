@@ -1,0 +1,96 @@
+version: "3.7"
+services:
+  db:
+    build:
+      context: ./db/.
+      args:
+        version: ${MYSQL_TAG}
+    container_name: "${PROJECT_NAME}_db"
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+    ports:
+      - 3306:3306
+    volumes:
+      - ./db/mysql:/var/lib/mysql
+      - ./db/backup:/var/lib/backup
+  mongo:
+    image: mongo:4.4.14
+    platform: linux/arm64/v8
+    restart: unless-stopped
+    container_name: "${PROJECT_NAME}_mongo"
+    volumes:
+      - ./mongo/data/:/data/db
+      - ./mongo/initdb:/opt/server/mongo/initdb
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ${MONGO_INITDB_ROOT_USERNAME}
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_INITDB_ROOT_PASSWORD}
+      MONGO_DATABASE: "${PROJECT_NAME}db"
+    ports:
+      - "27017:27017"
+  php:
+    build:
+      context: ./php/.
+      args:
+        version: ${PHP_TAG}
+    container_name: "${PROJECT_NAME}_php"
+    environment:
+      COMPOSER_MEMORY_LIMIT: -1
+      COMPOSER_PROCESS_TIMEOUT: 900
+    volumes:
+      - ./public/:/var/www/html
+  nginx:
+    build:
+      context: ./nginx/.
+      args:
+        version: ${NGINX_TAG}
+    container_name: "${PROJECT_NAME}_nginx"
+    restart: always
+    volumes:
+      - ./public/:/var/www/html
+      - ./nginx/conf.d:/etc/nginx/conf.d
+    ports:
+      - "80:80"
+    depends_on:
+      - php
+  mongo-express:
+    image: mongo-express
+    restart: always
+    container_name: "${PROJECT_NAME}_me"
+    environment:
+      ME_CONFIG_MONGODB_ADMINUSERNAME: ${MONGO_INITDB_ROOT_USERNAME}
+      ME_CONFIG_MONGODB_ADMINPASSWORD: ${MONGO_INITDB_ROOT_PASSWORD}
+      ME_CONFIG_MONGODB_SERVER: "${PROJECT_NAME}_mongo"
+      ME_CONFIG_MONGODB_ENABLE_ADMIN: "true"
+    ports:
+      - "8081:8081"
+    depends_on:
+      - mongo
+  rapis:
+    build:
+      context: './node/rapis/.'
+    container_name: "${PROJECT_NAME}_rapis"
+    environment:
+      PORT: 3001
+      MONGO_HOST: "${PROJECT_NAME}_mongo"
+      MONGO_PORT: 27017
+      MONGO_INITDB_ROOT_USERNAME: ${MONGO_INITDB_ROOT_USERNAME}
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_INITDB_ROOT_PASSWORD}
+      SERVER_PATH: "http://${PROJECT_NAME}_nginx"
+    volumes:
+      - /home/node/app/node_modules
+      - ./node/rapis/src:/home/node/app/src
+    ports:
+      - 9301:3001
+    depends_on:
+      - mongo
+  pma:
+    image: phpmyadmin/phpmyadmin
+    container_name: ${PROJECT_NAME}_phpmyadmin
+    restart: always
+    ports:
+      - "8000:80"
+volumes:
+  public: {}

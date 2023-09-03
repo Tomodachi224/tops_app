@@ -1,0 +1,7 @@
+uuid: 9a0ec297-302d-4c2d-b456-86eda3d43c8e
+langcode: en
+status: false
+dependencies: {  }
+formId: node_backgroup_info_form
+captchaType: default
+label: node_backgroup_info_form

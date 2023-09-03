@@ -1,0 +1,46 @@
+[
+  {
+    "_id": "1",
+    "scheme": "Child  Benefit",
+    "age_eligibility_min": 0,
+    "age_eligibility_max": 17,
+    "benefit_amount": 5,
+    "poverty_tested": false,
+    "admin_cost": 5,
+    "sub_ids": ""
+  },
+  {
+    "_id": "2",
+    "scheme": "Disability",
+    "age_eligibility_min": 0,
+    "age_eligibility_max": 100,
+    "benefit_amount": 17,
+    "poverty_tested": false,
+    "admin_cost": 5,
+    "sub_ids": ""
+  },
+  {
+    "_id": "3",
+    "scheme": "Old Age",
+    "age_eligibility_min": 65,
+    "age_eligibility_max": 100,
+    "benefit_amount": 17,
+    "poverty_tested": false,
+    "admin_cost": 5,
+    "sub_ids": ""
+  },
+  {
+    "_id": "4",
+    "scheme": "Combined",
+    "age_eligibility_min": null,
+    "age_eligibility_max": null,
+    "benefit_amount": null,
+    "poverty_tested": "",
+    "admin_cost": null,
+    "sub_ids": [
+      1,
+      2,
+      3
+    ]
+  }
+]

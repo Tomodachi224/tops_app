@@ -1,0 +1,29 @@
+uuid: 441f0035-a182-4f55-a933-5a2626748ef8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_knowledge_products_categor
+    - node.type.knowledge_product
+    - taxonomy.vocabulary.kp_category
+id: node.knowledge_product.field_knowledge_products_categor
+field_name: field_knowledge_products_categor
+entity_type: node
+bundle: knowledge_product
+label: Category
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      kp_category: kp_category
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

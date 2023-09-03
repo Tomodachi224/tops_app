@@ -1,0 +1,23 @@
+.footer-title {
+  font-family: Georgia;
+}
+.footer-list {
+  margin-bottom: 0;
+  li > a {
+    color: white;
+    font-size: 14px;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+.link-hover {
+  &:hover {
+    text-decoration: underline;
+  }
+}
+.footer-form {
+  input {
+    -webkit-appearance: auto;
+  }
+}

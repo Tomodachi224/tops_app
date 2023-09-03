@@ -1,0 +1,20 @@
+uuid: 5ac7836b-7415-4f60-9171-2675f7696eb5
+langcode: en
+status: true
+dependencies:
+  module:
+    - group
+_core:
+  default_config_hash: S4UDjr7ukV6gYDSzSg7eYkLUU9DWNgRKShLr4NkVqBc
+id: group.field_lp_price
+field_name: field_lp_price
+entity_type: group
+type: float
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

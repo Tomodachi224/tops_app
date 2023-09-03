@@ -1,0 +1,25 @@
+uuid: e22f2047-b879-42e6-9a99-40e69c3116f3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_order
+    - node.type.knowledge_product
+id: node.knowledge_product.field_order
+field_name: field_order
+entity_type: node
+bundle: knowledge_product
+label: order
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

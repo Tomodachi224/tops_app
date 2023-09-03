@@ -1,0 +1,10 @@
+uuid: a0438d23-5249-4cd9-a226-70d1a7129a4f
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: CoxitRSi5_Dl8K2nz_qlNftsKNDJ9jsnrgAEufRaOCE
+name: Folders
+vid: tft_tree
+description: 'TFT Folders'
+weight: 0

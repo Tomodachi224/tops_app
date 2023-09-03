@@ -1,0 +1,8 @@
+uuid: 6f922fbc-59b9-4fac-b482-0ac852af4693
+langcode: en
+status: true
+dependencies: {  }
+id: default
+label: default
+threshold: 0.8
+challenge: recaptcha/reCAPTCHA

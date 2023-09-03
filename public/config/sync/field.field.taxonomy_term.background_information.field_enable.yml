@@ -1,0 +1,23 @@
+uuid: 8b49003a-b08b-40ad-b1ae-b58f12ff7437
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_enable
+    - taxonomy.vocabulary.background_information
+id: taxonomy_term.background_information.field_enable
+field_name: field_enable
+entity_type: taxonomy_term
+bundle: background_information
+label: Enable
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'True'
+  off_label: 'False'
+field_type: boolean

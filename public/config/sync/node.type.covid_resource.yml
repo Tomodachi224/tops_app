@@ -1,0 +1,11 @@
+uuid: f5281260-d95a-4e1a-b52e-c580c0b3d098
+langcode: en
+status: true
+dependencies: {  }
+name: 'Covid Resource'
+type: covid_resource
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

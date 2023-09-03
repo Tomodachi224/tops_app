@@ -1,0 +1,22 @@
+uuid: 81bb1fab-b3fb-4857-a4ae-21cffc921470
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - tbdtheme
+_core:
+  default_config_hash: 7qCtaoR2xbDNMAgVtL_kLS7EgcV5EWn5uyUFys87WnU
+id: tbdtheme_messages
+theme: tbdtheme
+region: content
+weight: -5
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Messages
+  label_display: '0'
+  provider: system
+visibility: {  }

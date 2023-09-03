@@ -1,0 +1,172 @@
+<!-- @NOTE: Move to themes/custom/tbdthmeme/templates/layout/page.html.twig -->
+<nav class="navbar navbar-light flex-column shadow-lg navbar-sticky">
+  <div class="container flex-row flex-nowrap align-items-center p-2 bg-white" style="max-height: 48px;">
+    <div class="navbar-brand small d-flex align-items-center p-0">
+      <a class="d-none d-lg-block" href="/"><img src="img/UNESCAP75.png" height="40px" alt="" /></a>
+      <a href="/"><img src="img/action-plan-logo.png" height="40px" alt="" /></a>
+    </div>
+    <div class="navbar-other">
+      <ul class="navbar-nav flex-row align-items-center ms-auto" data-sm-skip="true">
+        <li class="nav-item d-flex flex-row">
+          <a class="d-none d-lg-flex nav-link d-flex align-items-center pe-3" href="/home">
+            <i class="uil uil-angle-left"></i><span class="fw-light">Back to SPOT</span>
+          </a>
+          <a class="d-none d-lg-flex nav-link d-flex align-items-center pe-3" href="/glossary" target="_blank">
+           <span class="fw-light fs-14">Glossary</span>
+          </a>
+          <a class="d-none d-lg-flex nav-link d-flex align-items-center pe-3" href="/methodology-app" target="_blank">
+            <span class="fw-light fs-14">Methodology</span>
+           </a>
+          <a class="d-block d-lg-none nav-link" href="/home"><i class="uil uil-home-alt"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="uil uil-search"></i></a>
+        </li>
+        <li class="nav-item">
+          <div class="navbar-hamburger">
+            <button class="hamburger animate plain" data-bs-toggle="collapse-relative"
+              data-bs-target=".collapse-relative" data-bs-target-root=".navbar" aria-controls="collapse-relative"
+              aria-expanded="false" aria-label="Toggle navigation">
+              <span></span>
+            </button>
+          </div>
+        </li>
+      </ul>
+      <!-- /.navbar-nav -->
+    </div>
+  </div>
+  <!-- /.container -->
+  <div class="w-100 border-top bg-white">
+    <div class="collapse collapse-relative">
+      <div class="container d-none d-lg-flex flex-column justify-content-center align-items-center gap-3 py-3">
+        <div class="row w-75">
+          <div class="col-12 col-md-3">
+            <ui class="list-group">
+              <li class="list-group-item p-1 border-0 fw-light p-0">
+                <a class="hamburger-nav" href="/home"><img class="svg-inject icon-svg icon-svg-sm text-white"
+                    src="img/icons/home.svg" alt="" style="width: 18px; height: 18px;" />
+                  <strong>SPOT</strong></a>
+              </li>
+              <li class="list-group-item p-1 border-0 fw-light"><a class="hamburger-nav" href="/about-us">About us</a>
+              </li>
+            </ui>
+          </div>
+          <div class="col-12 col-md-3">
+            <ui class="list-group">
+              <li class="list-group-item p-1 border-0 fw-light"><a class="hamburger-nav" href="/simulation-tool"><img
+                    class="svg-inject icon-svg icon-svg-sm mx-1 my-1 primary-icon" src="img/icons/simulate.svg" alt=""
+                    style="width: 18px; height: 18px;" />Simulate</a>
+              </li>
+              <li class="list-group-item p-1 border-0 fw-light"><a class="hamburger-nav" href="/e-learning"><img
+                    class="svg-inject icon-svg icon-svg-sm text-white mx-1 my-1 primary-icon" src="img/icons/dash.svg"
+                    alt="" style="width: 18px; height: 18px;" />Learn</a>
+              </li>
+              <li class="list-group-item p-1 border-0 fw-light"><a class="hamburger-nav" href="/explore"><img
+                    class="svg-inject icon-svg icon-svg-sm mx-1 my-1 primary-icon" src="img/icons/bulb2.svg" alt=""
+                    style="width: 18px; height: 18px;" />Build</a></li>
+            </ui>
+          </div>
+          <div class="col-12 col-md-3">
+            <ui class="list-group">
+              <li class="list-group-item p-1 border-0 fw-light"><a class="hamburger-nav" href="/">Advanced Search</a>
+              </li>
+              <li class="list-group-item p-1 border-0 fw-light"><a class="hamburger-nav" href="#">Data
+                  Dashboard</a></li>
+              <!-- <li class="list-group-item p-1 border-0 fw-light"><a class="hamburger-nav" href="/home#newsEvents">News &
+                  Events</a></li> -->
+            </ui>
+          </div>
+          <div class="col-12 col-md-3">
+            <ui class="list-group">
+              <li class="list-group-item p-1 border-0 fw-light"><a class="hamburger-nav" href="#">Accessibility and
+                  settings</a></li>
+              <li class="list-group-item p-1 border-0 fw-light"><a class="hamburger-nav" href="/">Contact us</a></li>
+              <li class="list-group-item p-1 border-0 fw-light"><a class="hamburger-nav" href="/user/login">Login</a>
+              </li>
+            </ui>
+          </div>
+        </div>
+      </div>
+      <div class="d-block d-lg-none w-100">
+        <ui class="list-group rounded-0">
+          <li class="list-group-item p-2 px-10 border-0 fw-light bg-light-blue-grey1"><a class="hamburger-nav"
+              href="/simulation-tool"><img class="svg-inject icon-svg icon-svg-sm mx-1 my-1 primary-icon"
+                src="img/icons/simulate.svg" alt="" style="width: 18px; height: 18px;" />Simulate</a>
+          </li>
+          <li class="list-group-item p-2 px-10 border-0 fw-light bg-light-blue-grey1"><a class="hamburger-nav"
+              href="/e-learning"><img class="svg-inject icon-svg icon-svg-sm text-white mx-1 my-1 primary-icon"
+                src="img/icons/dash.svg" alt="" style="width: 18px; height: 18px;" />Learn</a>
+          </li>
+          <li class="list-group-item p-2 px-10 border-0 fw-light bg-light-blue-grey1"><a class="hamburger-nav"
+              href="/explore"><img class="svg-inject icon-svg icon-svg-sm mx-1 my-1 primary-icon"
+                src="img/icons/bulb2.svg" alt="" style="width: 18px; height: 18px;" />Build</a></li>
+          <li class="list-group-item p-2 px-13 border-0 fw-light"><a class="hamburger-nav" href="/about-us">About
+              us</a>
+          </li>
+          <li class="list-group-item p-2 px-13 border-0 fw-light"><a class="hamburger-nav" href="/">Advanced
+              Search</a>
+          </li>
+          <li class="list-group-item p-2 px-13 border-0 fw-light"><a class="hamburger-nav" href="#">Data
+              Dashboard</a></li>
+          <li class="list-group-item p-2 px-13 border-0 fw-light"><a class="hamburger-nav" href="#">Accessibility and
+              settings</a></li>
+          <li class="list-group-item p-2 px-13 border-0 fw-light"><a class="hamburger-nav" href="/">Contact us</a>
+          </li>
+          <li class="list-group-item p-2 px-13 border-0 fw-light"><a class="hamburger-nav" href="/user/login">Login</a>
+          </li>
+        </ui>
+      </div>
+    </div> <!-- .collapse-relative -->
+  </div>
+  <!-- Navigation Menu -->
+  <nav class="navbar center-nav navbar-expand-lg bg-nav-bg flex-column shadow-lg">
+    <div class="d-none d-lg-block container">
+      <div class="row">
+        <a href="/" class="p-0 pe-0 me-7 d-flex align-items-center" style="width: 97px;">
+          <img src="img/icons/spot-logo-full.svg" class="svg-inject" alt="" />
+        </a>
+        <a href="/simulation-tool"
+          class="{{ 'simulation-tool' in site_url ? 'bg-simulation-tool' : '' }} home-nav text-white fw-normal px-2 m-0 border border-top-0 border-bottom-0 d-flex justify-content-center align-items-center"
+          style="width: 147px; height: 40px;">
+          <img src="img/icons/simulate.svg" class="svg-inject icon-svg icon-svg-md" alt="" style="width: 27px;" />
+          <h5 class="fw-light text-light m-0 ps-2">Simulate</h5>
+        </a>
+        <a href="/e-learning"
+          class="{{ 'e-learning' in site_url ? 'bg-elearning' : '' }} home-nav elearning text-white fw-normal px-2 m-0 border-end d-flex justify-content-center align-items-center"
+          style="width: 147px; height: 40px;">
+          <img src="img/icons/dash.svg" class="svg-inject icon-svg icon-svg-md" alt="" style="width: 27px;" />
+          <h5 class="fw-light text-light m-0 ps-2">Learn</h5>
+        </a>
+        <a href="/explore"
+          class="{{ 'kp-app' in site_url ? 'bg-policy-primer' : '' }} home-nav policy-primer text-white fw-normal px-2 m-0 border-end d-flex justify-content-center align-items-center"
+          style="width: 147px; height: 40px;">
+          <img src="img/icons/bulb2.svg" class="svg-inject icon-svg icon-svg-md" alt="" style="width: 27px;" />
+          <h5 class="fw-light text-light m-0 ps-2">Build</h5>
+        </a>
+      </div>
+    </div>
+    <div class="d-block d-lg-none w-100">
+      <div class="d-flex flex-row justify-content-start">
+        <a href="/simulation-tool"
+          class="{{ 'simulation-tool' in site_url ? 'bg-simulation-tool' : '' }} flex-grow-1 home-nav text-white fw-normal px-2 m-0 border border-top-0 border-bottom-0 d-flex justify-content-center align-items-center"
+          style="height: 40px;">
+          <img src="img/icons/simulate.svg" class="svg-inject icon-svg icon-svg-md" alt="" style="width: 27px;" />
+          <h5 class="fw-light text-light m-0 ps-2">Simulate</h5>
+        </a>
+        <a href="/e-learning"
+          class="{{ 'e-learning' in site_url ? 'bg-elearning' : '' }} flex-grow-1 home-nav elearning text-white fw-normal px-2 m-0 border-end d-flex justify-content-center align-items-center"
+          style="height: 40px;">
+          <img src="img/icons/dash.svg" class="svg-inject icon-svg icon-svg-md" alt="" style="width: 27px;" />
+          <h5 class="fw-light text-light m-0 ps-2">Learn</h5>
+        </a>
+        <a href="/explore"
+          class="{{ 'kp-app' in site_url ? 'bg-policy-primer' : '' }} flex-grow-1 home-nav policy-primer text-white fw-normal px-2 m-0 border-end d-flex justify-content-center align-items-center"
+          style="height: 40px;">
+          <img src="img/icons/bulb2.svg" class="svg-inject icon-svg icon-svg-md" alt="" style="width: 27px;" />
+          <h5 class="fw-light text-light m-0 ps-2">Build</h5>
+        </a>
+      </div>
+    </div>
+  </nav>
+  <!-- /Navigation Menu -->
+</nav>

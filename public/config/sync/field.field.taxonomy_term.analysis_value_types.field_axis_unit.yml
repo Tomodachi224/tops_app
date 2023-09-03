@@ -1,0 +1,19 @@
+uuid: 0b2bd716-ae9e-482b-8c8b-c5c8542eeaae
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_axis_unit
+    - taxonomy.vocabulary.analysis_value_types
+id: taxonomy_term.analysis_value_types.field_axis_unit
+field_name: field_axis_unit
+entity_type: taxonomy_term
+bundle: analysis_value_types
+label: 'Axis Unit'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

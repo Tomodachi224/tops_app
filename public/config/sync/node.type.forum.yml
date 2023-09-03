@@ -1,0 +1,16 @@
+uuid: fdf0ffcd-a70a-4904-8a7b-c0dc5e075b87
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - forum
+_core:
+  default_config_hash: ERCHDVB33lub-cz7DSYR7HuBlYJjmVUdPw0IIYa3ZXc
+name: 'Forum topic'
+type: forum
+description: 'A <em>forum topic</em> starts a new discussion thread within a forum.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

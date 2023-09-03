@@ -1,0 +1,19 @@
+uuid: a0af3f44-fe58-406b-af55-16e99b98df1e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_link
+    - taxonomy.vocabulary.video
+id: taxonomy_term.video.field_link
+field_name: field_link
+entity_type: taxonomy_term
+bundle: video
+label: Link
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

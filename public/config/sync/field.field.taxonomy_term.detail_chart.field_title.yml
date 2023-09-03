@@ -1,0 +1,19 @@
+uuid: 5ee5e6fa-0f3a-4031-a3b3-a3687c68dc6e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_title
+    - taxonomy.vocabulary.detail_chart
+id: taxonomy_term.detail_chart.field_title
+field_name: field_title
+entity_type: taxonomy_term
+bundle: detail_chart
+label: Title
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

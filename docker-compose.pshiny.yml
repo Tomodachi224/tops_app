@@ -1,0 +1,23 @@
+version: "3.7"
+services:
+  app:
+    build:
+      context: ./shiny/.
+      dockerfile: ./Dockerfile-Plumber
+    networks:
+      - pshiny-net
+  nginx:
+    image: nginx
+    container_name: "pshiny_nginx"
+    restart: always
+    ports:
+      - "9388:80"
+    volumes:
+      - ./nginx/pshiny.conf.d:/etc/nginx/conf.d
+    networks:
+      - pshiny-net
+volumes:
+  public: {}
+networks:
+  pshiny-net:
+    name: pshiny-net

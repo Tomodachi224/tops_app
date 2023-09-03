@@ -1,0 +1,23 @@
+uuid: e3b96d36-3d05-4cb7-8cb0-e6740e5f62ea
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_is_public
+    - taxonomy.vocabulary.analysis_country
+id: taxonomy_term.analysis_country.field_is_public
+field_name: field_is_public
+entity_type: taxonomy_term
+bundle: analysis_country
+label: 'Is Public'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

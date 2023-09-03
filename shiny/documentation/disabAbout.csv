@@ -1,0 +1,25 @@
+Country,Dataset includes questions on disability,National prevalence (%),ChildrenAge,children%,AdultsAge,Adults%,Older persons Age,Older persons %,Total
+Armenia,Yes,5.1,0-17 years,3.9,18-59 years,46,60+ years,50,100
+Bangladesh,Yes,6.7,0-15 years,24.4,16-59 years,43.1,60+ years,32.5,100
+Bhutan,Yes,2.8,0-17 years,16.5,18-59 years,32,60+ years,51.4,100
+Cambodia,Yes,62,0-17 years,0,18-59 years,37.2,60+ years,62.8,100
+Cook Islands,No,1.7,0-14 years,6.8,15-59 years,76.2,60+ years,17,100
+Georgia,No,3.2,0-14 years,5,15-59 years,60,60+ years,35,100
+India,Yes,2.1,0-15 years,10.1,16-59 years,31.8,60+ years,58.1,100
+Indonesia,No,2.5,0-17 years,8.8,18-59 years,45.4,60+ years,45.8,100
+Kiribati,Yes,5.8,0-17 years,31.9,18-59 years,36.8,60+ years,31.3,100
+Kyrgyzstan,No,2.5,0-14 years,5,15-59 years,60,60+ years,35,100
+Lao,No,0.91,5-17 years,36.12,18-59 years,55.79,60+ years,8.09,100
+Maldives,No,10.9,5-14 years,12.1,15-49 years,40.5,50+ years,47.4,100
+Marshall Islands,Yes,3.5,5-17 years,13.47,18-59 years,46.57,60+ years,39.96,100
+Micronesia,No,11,0-17 years,40.6,18-59 years,52.72,60+ years,6.68,100
+Mongolia,Yes,3.9,0-17 years,9.9,18-59 years,66.4,60+ years,23.7,100
+Myanmar,No,13,5-17 years,34.5,18-59 years,54.84,60+ years,10.65,100
+Nepal,No,1.9,0-19 years,25.2,20-59 years,48.3,60+ years,25.6,100
+Pakistan,No,2.5,0-14 years,5,15-59 years,60,60+ years,35,100
+Philippines,No,1.6,0-14 years,18.9,15-59 years,52.9,60+ years,28.2,100
+Sri Lanka,Yes,8.7,0-14 years,3.6,15-59 years,43.2,60+ years,53.2,100
+Thailand,Yes,3.2,0-15 years,5.6,16-59 years,44.9,60+ years,49.5,100
+Turkey,Yes,3.8,0-17 years,14,18-59 years,41.2,60+ years,44.8,100
+Uzbekistan,Yes,3.5,0-17 years,33.42,18-59 years,58.42,60+ years,8.16,100
+Vietnam,No,7.8,5-15 years,3.8,16-59 years,41.8,60+ years,54.6,100

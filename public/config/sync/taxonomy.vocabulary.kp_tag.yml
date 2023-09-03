@@ -1,0 +1,8 @@
+uuid: b064da83-4442-42f7-b3d2-3cfe4e803b2d
+langcode: en
+status: true
+dependencies: {  }
+name: 'KP Tag'
+vid: kp_tag
+description: 'Knowledge Product Tag for SPOT'
+weight: 0

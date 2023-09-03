@@ -1,0 +1,12 @@
+uuid: cd4aa988-cb41-4ae9-9a72-4832fae1ccc3
+langcode: en
+status: true
+dependencies:
+  module:
+    - private_message
+_core:
+  default_config_hash: oFIXnx5sHjxyZL1448nGFA3zxzF4MKDrqpuMkJaXAFc
+id: private_message_thread.inbox
+label: Inbox
+targetEntityType: private_message_thread
+cache: true

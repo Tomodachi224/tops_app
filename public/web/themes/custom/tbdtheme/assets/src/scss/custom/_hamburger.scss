@@ -1,0 +1,9 @@
+.hamburger-nav {
+  &:hover {
+    font-weight: bold;
+    color: rgba($dark-blue, 1);
+    path {
+      fill: $dark-blue;
+    }
+  }
+}

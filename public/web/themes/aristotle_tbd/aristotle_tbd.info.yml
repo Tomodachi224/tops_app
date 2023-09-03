@@ -1,0 +1,23 @@
+type: theme
+name: Aristotle Custom
+description: 'Custom verion of Aristotle '
+package: ''
+core_version_requirement: ^8 || ^9
+logo: logo.svg
+base theme: aristotle
+
+libraries:
+  - aristotle_tbd/custom
+  - aristotle_tbd/spot_header_styles
+
+regions:
+  # help: 'Help'
+  branding: 'Branding'
+  menu: 'Menu'
+  admin_opigno: 'Admin opigno menu'
+  status_messages: 'Status messages'
+  top: 'Top'
+  sidebar_first: 'Sidebar first'
+  content: 'Content'
+  footer: 'Footer'
+  spot_header_region: 'SPOT Header Region'

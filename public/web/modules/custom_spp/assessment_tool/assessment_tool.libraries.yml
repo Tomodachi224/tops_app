@@ -1,0 +1,38 @@
+assessment_map:
+  version: 1.4.0
+  js:
+    /libraries/maphilight/jquery.maphilight.min.js: {}
+    js/assessment_map.js: {}
+  css:
+    theme:
+      css/assessment_map.css: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+
+assessment_tabs:
+  version: 2.2
+  js:
+    # https://www.sunsean.com/idTabs/jquery.idTabs.min.js: { type: external, minified: true, weight: -1 }
+    js/jquery.idTabs.min.js: {}
+    js/assessment_tabs.js: {}
+  css:
+    theme:
+      css/assessment_tool.css: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+
+assessment_tool:
+  version: VERSION
+  js:
+    /libraries/icheck/icheck.min.js: {}
+    /libraries/raphael/raphael.min.js: {}
+    js/assessment_tool.js: {}
+  css:
+    theme:
+      css/icheck/skins/flat/yesno.css: {}
+      css/assessment_tool.css: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once

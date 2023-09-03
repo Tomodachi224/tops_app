@@ -1,0 +1,12 @@
+uuid: 0e0baeff-9d9c-49c4-ae6c-fc106cdb7934
+langcode: en
+status: true
+dependencies: {  }
+id: contact_us
+label: 'Contact us'
+recipients:
+  - spot@thinkbluedata.com
+reply: ''
+weight: 0
+message: ''
+redirect: /home

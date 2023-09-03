@@ -1,0 +1,18 @@
+uuid: a72c4ccd-d724-4b20-b5d7-b12ee937c576
+langcode: en
+status: true
+dependencies:
+  module:
+    - customize_jsonapi
+    - hal
+    - user
+id: custom_api_get_current_user
+plugin_id: custom_api_get_current_user
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - hal_json
+  authentication:
+    - cookie

@@ -1,0 +1,23 @@
+uuid: 7d94f0b8-367d-4a68-a4bb-85d60fe854c6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_description
+    - taxonomy.vocabulary.map_indicator
+  module:
+    - text
+id: taxonomy_term.map_indicator.field_description
+field_name: field_description
+entity_type: taxonomy_term
+bundle: map_indicator
+label: Description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

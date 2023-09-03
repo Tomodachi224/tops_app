@@ -1,0 +1,19 @@
+uuid: 7d90f6b4-2fe5-4da9-8647-b5841cb00cb9
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: taxonomy_term.field_insight
+field_name: field_insight
+entity_type: taxonomy_term
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

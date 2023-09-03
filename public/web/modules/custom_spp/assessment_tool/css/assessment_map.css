@@ -1,0 +1,12 @@
+.page-title {
+	text-align: center;
+	margin-bottom: 2rem;
+}
+#world-map {
+  margin: 0 auto;
+  width: 700px;
+}
+#world-map area {
+  display: block;
+  cursor: pointer;
+}

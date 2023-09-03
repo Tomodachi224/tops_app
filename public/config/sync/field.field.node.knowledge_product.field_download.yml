@@ -1,0 +1,19 @@
+uuid: 5f7e703f-8fd6-465a-9daf-0606cb3a076f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_download
+    - node.type.knowledge_product
+id: node.knowledge_product.field_download
+field_name: field_download
+entity_type: node
+bundle: knowledge_product
+label: Download
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

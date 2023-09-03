@@ -1,0 +1,64 @@
+//----------------------------------------------------------//
+//	FORMS
+//----------------------------------------------------------//
+input,
+textarea,
+select {
+  -webkit-appearance: none; // !important;
+}
+.form-floating > label {
+  color: $form-label-color;
+  @include font-size($input-font-size);
+}
+.search-form {
+  position: relative;
+  .form-control {
+    margin: 0;
+    padding-right: 2.25rem !important;
+  }
+  &:before {
+    content: $icon-search;
+    font-family: $font-family-unicons;
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0.75rem;
+    @include font-size(0.9rem);
+    color: $input-placeholder-color;
+    z-index: 1;
+  }
+}
+.form-check-input {
+  box-shadow: $box-shadow;
+  margin-top: 0.1rem;
+  border-color: #00AEEF;
+  background-color: #C1EFFF;
+  &:focus {
+    border-color: #00AEEF;
+    background-color: #C1EFFF;
+  }
+}
+// .form-switch .form-check-input {
+//   width: 2em;
+//   margin-left: -2.5em;
+//   background-image: url("data:image/svg xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'><circle r='3' fill='#fff'/></svg>");
+//   background-position: left center;
+//   border-radius: 2em;
+//   transition: background-position .15s ease-in-out;
+// }
+.form-select {
+  background-clip: padding-box;
+}
+.input-group > .form-control:focus,
+.input-group > .form-select:focus {
+  z-index: 0;
+}
+form.dark-fields .form-control {
+  background: rgba($white, 0.03);
+  border-color: rgba($white, 0.1);
+  color: $gray-300;
+  &:focus {
+    border-color: rgba($main-color, 0.5);
+  }
+}

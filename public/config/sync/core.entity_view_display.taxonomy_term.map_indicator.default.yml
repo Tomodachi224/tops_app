@@ -1,0 +1,57 @@
+uuid: 18955371-ef07-47ad-a907-8383f5efeb41
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.map_indicator.field_description
+    - field.field.taxonomy_term.map_indicator.field_display_name
+    - field.field.taxonomy_term.map_indicator.field_type
+    - field.field.taxonomy_term.map_indicator.field_unit
+    - taxonomy.vocabulary.map_indicator
+  module:
+    - text
+id: taxonomy_term.map_indicator.default
+targetEntityType: taxonomy_term
+bundle: map_indicator
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_description:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_display_name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_type:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_unit:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 4
+    region: content
+hidden:
+  search_api_excerpt: true

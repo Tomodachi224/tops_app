@@ -1,0 +1,8 @@
+uuid: 3f39818a-47d3-4051-a515-2097a232ffa5
+langcode: en
+status: true
+dependencies: {  }
+name: 'Analysis Scheme'
+vid: analysis_scheme
+description: ''
+weight: 0

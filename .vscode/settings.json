@@ -1,0 +1,17 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.tslint": true,
+    "source.fixAll": true,
+    "source.organizeImports": true
+  },
+  "editor.renderWhitespace": "all",
+  "editor.tabSize": 2,
+  "files.autoSave": "onWindowChange",
+  "files.associations": {
+    "*.theme": "php",
+    "*.twig": "php",
+    "*.rmd": "markdown"
+  },
+  "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
+}

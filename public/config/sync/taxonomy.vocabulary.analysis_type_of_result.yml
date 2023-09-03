@@ -1,0 +1,8 @@
+uuid: 335b7b99-3331-4e1d-b6ac-04125069074c
+langcode: en
+status: true
+dependencies: {  }
+name: 'Analysis Type of Result'
+vid: analysis_type_of_result
+description: ''
+weight: 0

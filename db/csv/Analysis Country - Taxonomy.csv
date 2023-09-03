@@ -1,0 +1,26 @@
+name,tid,weight,field_currency_code,field_code,field_data_source,field_region,field_poverty_type,field_is_public
+Armenia,50001,1,AMD,ARM,Armenia Household Integrated Living Conditions Survey 2020,NCA,$5.50,1
+Bangladesh,50002,2,BDT,BGD,"Household Income and Expenditure Surveys (HIES), 2016",SSWA,$3.20,1
+Bhutan,50003,3,BTN,BTN,"Bhutan Living Standard Survey (BLSS), 2017",SSWA,$3.20,1
+Cambodia,50004,4,KHR,KHM,"Cambodia Socio-Economic Survey (CSES), 2019-20",SEA,$3.20,1
+Cook Islands,50005,5,NZD,COK,"Household Income and Expenditure Surveys (HIES), 2015",PAC,$5.50,1
+Georgia,50006,6,GEL,GEO,"Household Incomes and Expenditures Survey (HIES), 2021",NCA,$3.20,1
+India,50007,7,INR,IND,"India Human Development Survey (IHDS), 2012",SSWA,$3.20,1
+Indonesia,50008,8,IDR,IDN,"National Socio-Economic Survey (SUSENAS), 2017",SEA,$3.20,1
+Kiribati,50009,9,AUD,KIR,"Household Income and Expenditure Surveys (HIES), 2019",PAC,$3.20,1
+Kyrgyzstan,50010,10,KGS,KGZ,"Kyrgyz Integrated Household Survey (KIHS), 2018",NCA,$3.20,1
+Maldives,50011,12,MVR,MDV,Household Income and Expenditure Surveys (HIES) (2019),SSWA,$5.50,1
+Mongolia,50012,15,MNT,MNG,"Household Socio-Economic Survey (HSES), 2018",ENEA,$3.20,1
+Nepal,50013,17,NPR,NPL,"Annual Household Survey (AHS), 2015-16",SSWA,$3.20,1
+Pakistan,50014,18,PKR,PAK,"Household Integrated Income & Consumption survey (HIICS), 2015-2016",SSWA,$3.20,1
+Philippines,50015,19,PHP,PHL,"Annual Poverty Indicator Survey (APIS), 2019",SEA,$3.20,1
+Sri Lanka,50016,20,LKR,LKA,"Household Income and Expenditure Surveys (HIES), 2016",SSWA,$3.20,1
+Thailand,50017,21,THB,THA,"Household Socio-Economic Survey (SES), 2018",SEA,$5.50,1
+Türkiye,50018,22,TRY,TUR,"Household Budget Survey (HBS), 2019",SSWA,$5.50,1
+Viet Nam,50019,24,VND,VNM,"Vietnam Household Living Standards Survey (VHLSS), 2016",SEA,$3.20,1
+Simulation Country,50020,24,KHR,KHM,"Simulation Country Socio-Economic Survey (CSES), 2019-20",SEA,$3.20,0
+Myanmar,50021,16,MMK,MMR,Myanmar Poverty and Living Conditions Survey 2014-2015,SEA,$3.20,1
+Lao PDR,50022,11,LAK,LAO,Lao Expenditure and Consumption Survey 2018-19 (LECS VI),SEA,$3.20,1
+Marshall Islands,50023,13,USD,MHL,Marshall Islands Household Income Expenditure Survey 2019,PAC,$3.20,1
+Micronesia,50024,14,USD,FSM,Federated States of Micronesia Household Income Expenditure Survey 2013,PAC,$3.20,1
+Uzbekistan,50024,23,UZS,UZB,"Listening to the Citizens of Uzbekistan (L2CU), 2018",NCA,$3.20,1

@@ -1,0 +1,9 @@
+.image-wrapper {
+  &.bg-orange:before {
+    background: rgba($orange, 0.5);
+  }
+
+  &.bg-red1:before {
+    background: rgba($red1, 0.5);
+  }
+}

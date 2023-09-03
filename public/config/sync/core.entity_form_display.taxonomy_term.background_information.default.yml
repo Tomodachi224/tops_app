@@ -1,0 +1,80 @@
+uuid: 5feb4f1b-c36f-4960-8b77-57d41482e0ab
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.background_information.field_enable
+    - field.field.taxonomy_term.background_information.field_field_name
+    - field.field.taxonomy_term.background_information.field_unit
+    - taxonomy.vocabulary.background_information
+  module:
+    - path
+    - text
+id: taxonomy_term.background_information.default
+targetEntityType: taxonomy_term
+bundle: background_information
+mode: default
+content:
+  description:
+    type: text_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_enable:
+    type: boolean_checkbox
+    weight: 131
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  field_field_name:
+    type: string_textfield
+    weight: 101
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_unit:
+    type: string_textfield
+    weight: 102
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  simple_sitemap:
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  simple_sitemap_index_now:
+    weight: 130
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 100
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+hidden: {  }

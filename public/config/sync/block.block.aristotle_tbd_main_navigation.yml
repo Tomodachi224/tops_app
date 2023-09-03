@@ -1,0 +1,40 @@
+uuid: 2a7aee50-8a82-40c8-b137-d434848d5cb6
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - block_visibility_conditions
+    - system
+  theme:
+    - aristotle_tbd
+_core:
+  default_config_hash: z9XoSvc4xVismoYD95u0c0qNlchey070Cc99Ph79qOw
+id: aristotle_tbd_main_navigation
+theme: aristotle_tbd
+region: menu
+weight: -5
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: true
+visibility:
+  not_node_type:
+    id: not_node_type
+    bundles: {  }
+    negate: null
+  not_taxonomy_vocabulary:
+    id: not_taxonomy_vocabulary
+    bundles: {  }
+    negate: null
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/catalogue\r\n/statistics/*\r\n/group/*\r\n/opigno_module/*\r\n/admin/structure/opigno_module/*/edit\r\n/admin/structure/opigno_import/*\r\n/admin/structure/opigno_activity/add/*\r\n/admin/structure/opigno_activity/*/edit\r\n/admin/content/certificates/\r\n/certificate/*\r\n/module/*\r\n/opigno/*\r\n/calendar/*\r\n/opigno_notifications\r\n/private-messages\r\n/manage-connections\r\n/user-profile/*\r\n/user/*/achievements\r\n/activity/*\r\n/user/*"

@@ -1,0 +1,22 @@
+uuid: a523a8c7-0aaa-4871-b886-7b6fe146d069
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - aristotle_tbd
+_core:
+  default_config_hash: 7qCtaoR2xbDNMAgVtL_kLS7EgcV5EWn5uyUFys87WnU
+id: aristotle_tbd_messages
+theme: aristotle_tbd
+region: content
+weight: -5
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Messages
+  label_display: '0'
+  provider: system
+visibility: {  }

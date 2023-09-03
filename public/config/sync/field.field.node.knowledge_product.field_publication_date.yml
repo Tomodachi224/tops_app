@@ -1,0 +1,21 @@
+uuid: c9438429-7ab1-45bf-920b-7b686d156c37
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_publication_date
+    - node.type.knowledge_product
+  module:
+    - datetime
+id: node.knowledge_product.field_publication_date
+field_name: field_publication_date
+entity_type: node
+bundle: knowledge_product
+label: 'Publication Date'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

@@ -1,0 +1,8 @@
+uuid: 27854528-dc21-449e-a0cf-13a84f864849
+langcode: en
+status: true
+dependencies: {  }
+name: 'Analysis Value Types'
+vid: analysis_value_types
+description: ''
+weight: 0

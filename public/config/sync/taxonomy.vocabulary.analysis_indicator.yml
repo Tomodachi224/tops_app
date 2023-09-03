@@ -1,0 +1,8 @@
+uuid: 98f60e8e-fd3e-48c1-a7bb-e0589661c2fe
+langcode: en
+status: true
+dependencies: {  }
+name: 'Analysis Indicator'
+vid: analysis_indicator
+description: ''
+weight: 0

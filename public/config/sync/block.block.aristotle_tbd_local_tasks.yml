@@ -1,0 +1,39 @@
+uuid: 88d06166-0c03-4175-a6e4-9fa478591115
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_visibility_conditions
+    - system
+  theme:
+    - aristotle_tbd
+_core:
+  default_config_hash: T0UKPgwhErHl3IRk_Aprxd63KaEbxVIJ8p6ZVzrieGU
+id: aristotle_tbd_local_tasks
+theme: aristotle_tbd
+region: content
+weight: -3
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: "/home\r\n/group/*\r\n/analysis-app/*\r\n/action-plan\r\n/e-learning\r\n/knowledge-products\r\n/kp-app\r\n/simulation-tool\r\n/regional-comparison-app\r\n/user/*"
+  not_node_type:
+    id: not_node_type
+    bundles:
+      book: book
+      knowledge_product: knowledge_product
+    negate: null
+  not_taxonomy_vocabulary:
+    id: not_taxonomy_vocabulary
+    bundles: {  }
+    negate: null

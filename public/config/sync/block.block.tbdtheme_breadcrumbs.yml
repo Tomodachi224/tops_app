@@ -1,0 +1,36 @@
+uuid: 5f25f27f-9da4-4b8f-8a6e-eb2673a563d1
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_visibility_conditions
+    - system
+  theme:
+    - tbdtheme
+_core:
+  default_config_hash: 9TzbBoEEOcqAgZVGntqnqjW9p2Y0V9Fh0Lvt3x7n65s
+id: tbdtheme_breadcrumbs
+theme: tbdtheme
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: "<front>\r\n/home\r\n/action-plan\r\n/e-learning\r\n/simulation-tool\r\n/about-us\r\n/analysis-app/*/*\r\n/dashboard-app\r\n/dashboard-app/*/*\r\n/covid\r\n/regional-comparison-app"
+  not_node_type:
+    id: not_node_type
+    bundles:
+      custom_layout_page: custom_layout_page
+    negate: null
+  not_taxonomy_vocabulary:
+    id: not_taxonomy_vocabulary
+    bundles: {  }
+    negate: null

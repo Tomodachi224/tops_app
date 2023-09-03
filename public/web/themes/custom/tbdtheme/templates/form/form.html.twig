@@ -1,0 +1,20 @@
+{#
+/**
+ * @file
+ * Theme override for a 'form' element.
+ *
+ * Available variables
+ * - attributes: A list of HTML attributes for the wrapper element.
+ * - children: The child elements of the form.
+ *
+ * @see template_preprocess_form()
+ */
+#}
+{%
+set container_class = ( '/contact' in path('<current>') ) ? 'px-lg-22' : '0'
+%}
+<div class="container {{container_class}}">
+  <form{{ attributes }}>
+    {{ children }}
+  </form>
+</div>

@@ -1,0 +1,13 @@
+footer {
+  padding: $footer-padding;
+  font-size: 85%;
+
+  &.footer-dark {
+    @include b5-make-link($light, none, $light, none);
+  }
+
+  .region-footer {
+    display: flex;
+    flex-direction: column;
+  }
+}

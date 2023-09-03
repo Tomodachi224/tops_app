@@ -1,0 +1,19 @@
+uuid: 2e06dbfa-8236-4b5e-8261-5d79f6acc1f2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_lat
+    - taxonomy.vocabulary.map_country
+id: taxonomy_term.map_country.field_lat
+field_name: field_lat
+entity_type: taxonomy_term
+bundle: map_country
+label: lat
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

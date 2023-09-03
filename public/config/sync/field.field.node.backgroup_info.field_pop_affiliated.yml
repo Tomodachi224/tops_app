@@ -1,0 +1,23 @@
+uuid: 0882441d-81d2-41e3-898c-2670713b36b8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pop_affiliated
+    - node.type.backgroup_info
+id: node.backgroup_info.field_pop_affiliated
+field_name: field_pop_affiliated
+entity_type: node
+bundle: backgroup_info
+label: 'Population Affiliated to a social health protection scheme'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: float

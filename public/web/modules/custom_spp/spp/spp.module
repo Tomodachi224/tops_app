@@ -1,0 +1,65 @@
+<?php
+
+/**
+ * Implements template_preprocess_block().
+ */
+function spp_preprocess_block(&$variables)
+{
+  // Custom block type helper classes.
+  if (!isset($variables['elements']['content']['#block_content'])) {
+    // This checks whether we actually have a custom, fielded block type, or if
+    // we're working with a generic out-of-the-box block.
+    return;
+  }
+
+  $block_id = $variables['content']['#block_content']->id();
+  // check for specific blocks
+  if (in_array($block_id, ['28', '33', '32', '30'])) {
+    $content = $variables['content']['body'][0]['#text'];
+    $countries = get_countries(TRUE);
+    $country_list = load_countries($countries);
+    $variables['content']['body'][0]['#text'] = str_replace('[##country-list##]', $country_list, $content);
+    $content = $variables['content']['body'][0]['#text'];
+    $variables['content']['body'][0]['#text'] = str_replace('[##country-count##]', count($countries), $content);
+  }
+}
+
+function get_countries($check_public = FALSE)
+{
+  $condition = [
+    'status' => TRUE,
+    'vid' => 'analysis_country'
+  ];
+  if ($check_public) {
+    $condition['field_is_public'] = TRUE;
+  }
+  $terms = \Drupal::entityTypeManager()
+    ->getStorage('taxonomy_term')
+    ->loadByProperties($condition);
+  return $terms;
+}
+
+function load_countries($terms)
+{
+  $country_list = '';
+  usort($terms, fn($a, $b) => $a->getWeight() - $b->getWeight());
+  foreach ($terms as $term) {
+    $tid = $term->get('tid')->value;
+    $name = $term->get('name')->value;
+    $is_public = $term->get('field_is_public')->value;
+    if (
+      (\Drupal::currentUser()->isAnonymous() && $is_public) ||
+      (!\Drupal::currentUser()->isAnonymous())
+    ) {
+      $country_list .= '<option value="' . $tid . '">' . $name . '</option>';
+    }
+  }
+  return $country_list;
+}
+function spp_preprocess_field(&$variables, $hook) {
+  $element = $variables['element'];
+  $parentEntity = $element['#object']; 
+  if ($parentEntity && $parentEntity->getEntityTypeId() == 'paragraph' ) {
+    $variables['attributes']['data-id'] = 'accordian-'.$parentEntity->id();
+  }
+}

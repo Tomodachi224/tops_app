@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  @@include('_head.html')
+</head>
+
+<body>
+  <!-- @NOTE: Move to themes/custom/tbdthmeme/templates/content/node--alias--knowledge-products.html.twig -->
+  <div class="content-wrapper">
+    <header class="wrapper bg-light">
+      @@include('_header.html')
+    </header>
+    <!-- /header -->
+    <!-- Banner -->
+    <section class="wrapper image-wrapper bg-image bg-cover simulator-banner"
+      data-image-src="/themes/custom/tbdtheme/assets/dist/img/template/Group_766.png">
+      <div class="container py-15">
+        <div class="row">
+          <div class="col col-lg-6">
+            <h3 class="display-3 fw-normal mb-3 text-main-body-text text-center text-lg-start">Social Protection
+              Simulator</h3>
+            <p class="lead fs-lg text-main-body-text text-center text-lg-start fw-light">Discover the impact of social
+              protection on poverty, inequality and consumption in Asia and the Pacific.</p>
+            <div class="d-flex flex-column flex-md-row gap-5">
+              <div class="fs-15">
+                <select class="form-select rounded-1 country-ddl" name="country1" id="country1">
+                  <option value="">Choose your country</option>
+                  [##country-list##]
+                </select>
+              </div>
+              <div class="bt-wrapper">
+                <div class="country-ddl-overlay"></div>      
+              
+              <a href='/dashboard-app/combined/normal?filter={"mode":"combined","pageLevel":{"scheme":["70001","70002","70003"]},"scenario1":{"country":"50001","benefit_level":"30002","poverty_mean_tested":"80001"},"scenario2":{"country":"50001","benefit_level":"30002","poverty_mean_tested":"80001"},"detailScenario1":{"country":"50001","scheme_details":[{"scheme":"70001","age":[0,18],"benefit_percent":4,"benefit_currency":0,"benefit_ppp":0,"admin_cost":5,"pmt":100,"is_selected":true},{"scheme":"70002","age":[0,100],"benefit_percent":14,"benefit_currency":0,"benefit_ppp":0,"admin_cost":5,"pmt":100,"is_selected":true},{"scheme":"70003","age":[65,100],"benefit_percent":16,"benefit_currency":0,"benefit_ppp":0,"admin_cost":5,"pmt":100,"is_selected":true}]},"detailScenario2":{"country":"50001","scheme_details":[{"scheme":"70001","age":[0,18],"benefit_percent":4,"benefit_currency":0,"benefit_ppp":0,"admin_cost":5,"pmt":100,"is_selected":true},{"scheme":"70002","age":[0,100],"benefit_percent":14,"benefit_currency":0,"benefit_ppp":0,"admin_cost":5,"pmt":100,"is_selected":true},{"scheme":"70003","age":[65,100],"benefit_percent":16,"benefit_currency":0,"benefit_ppp":0,"admin_cost":5,"pmt":100,"is_selected":true}]},"showToolbar":false}'
+                type="button" data-country="country1"
+                class="button-ddl text-white d-none d-lg-block btn btn-sm rounded-0 btn-simulation-tool fw-light m-0 w-20"
+                style="font-size: 0.85rem;">GET STARTED</a>
+              <a href='/dashboard-app/combined/normal?filter={"mode":"combined","pageLevel":{"scheme":["70001","70002","70003"]},"scenario1":{"country":"50001","benefit_level":"30002","poverty_mean_tested":"80001"},"scenario2":{"country":"50001","benefit_level":"30002","poverty_mean_tested":"80001"},"detailScenario1":{"country":"50001","scheme_details":[{"scheme":"70001","age":[0,18],"benefit_percent":4,"benefit_currency":0,"benefit_ppp":0,"admin_cost":5,"pmt":100,"is_selected":true},{"scheme":"70002","age":[0,100],"benefit_percent":14,"benefit_currency":0,"benefit_ppp":0,"admin_cost":5,"pmt":100,"is_selected":true},{"scheme":"70003","age":[65,100],"benefit_percent":16,"benefit_currency":0,"benefit_ppp":0,"admin_cost":5,"pmt":100,"is_selected":true}]},"detailScenario2":{"country":"50001","scheme_details":[{"scheme":"70001","age":[0,18],"benefit_percent":4,"benefit_currency":0,"benefit_ppp":0,"admin_cost":5,"pmt":100,"is_selected":true},{"scheme":"70002","age":[0,100],"benefit_percent":14,"benefit_currency":0,"benefit_ppp":0,"admin_cost":5,"pmt":100,"is_selected":true},{"scheme":"70003","age":[65,100],"benefit_percent":16,"benefit_currency":0,"benefit_ppp":0,"admin_cost":5,"pmt":100,"is_selected":true}]},"showToolbar":false}'
+                type="button" data-country="country1"
+                class="button-ddl text-white d-block d-lg-none btn btn-sm rounded-0 btn-simulation-tool fw-light m-0 w-100"
+                style="font-size: 0.85rem;">GET STARTED</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Banner -->
+
+    <!-- About -->
+    <section class="wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 col-xl-10 mx-auto py-10">
+            <h3 class="display-3 fw-normal pb-4 text-center">About the Social Protection Simulator</h3>
+            <h5 class="fw-light px-md-16 px-lg-3">The ESCAP Social Protection Simulator estimates the impact of
+              introducing social protection scheme on poverty, inequality and consumption. The impact can be
+              estimated for rural and urban households, as well as for different income groups and family
+              configurations. It also computes the cost of simulated programmes, providing different illustrative
+              options to expand fiscal space for social protection.
+            </h5>
+            <h5 class="fw-light px-md-16 px-lg-3">Users can design social protection schemes in a country by setting
+              parameters related to eligibility criteria, coverage levels and benefit amounts. The Simulator allows the
+              user to analyze one scheme at a time or to combine different schemes and build a customized social
+              protection package.
+            </h5>
+            <h5 class="fw-light px-md-16 px-lg-3">In addition to simulating the impact in one country, users can compare
+              social protection schemes of their choice within and across different countries.</h5>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /About -->
+
+    <!-- Cards1 -->
+    <section>
+      <div class="container py-0 py-md-5 mb-5">
+        <div class="row gx-md-5 gy-5 text-center">
+          <div class="col-12 col-md-4">
+            <div class="card h-100 shadow-none border">
+              <div class="card-body">
+                <img src="/themes/custom/tbdtheme/assets/dist/img/icons/star.svg"
+                  class="svg-inject icon-svg icon-svg-md mb-3 simulation-tool-icon" alt="" />
+                <h4 class="fw-normal">Features child, disability and old age benefits</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card h-100 shadow-none border">
+              <div class="card-body">
+                <img src="/themes/custom/tbdtheme/assets/dist/img/icons/star.svg"
+                  class="svg-inject icon-svg icon-svg-md mb-3 simulation-tool-icon" alt="" />
+                <h4 class="fw-normal">Includes [##country-count##] countries across Asia-Pacific</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="ard h-100 shadow-none border">
+              <div class="card-body">
+                <img src="/themes/custom/tbdtheme/assets/dist/img/icons/star.svg"
+                  class="svg-inject icon-svg icon-svg-md mb-3 simulation-tool-icon" alt="" />
+                <h4 class="fw-normal">Builds on Household Income and Expenditure Surveys</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Cards1 -->
+
+    <!-- Main Cards-->
+    <section class="bg-main-cards">
+      <div class="container pb-4">
+        <div class="row m-0 py-5">
+          <h4 class="display-4 fw-normal mb-3 text-white text-center text-center">Did you know that social
+            protection <br/> can significantly reduce poverty and inequality?</h4>
+        </div>
+        <div class="row m-0">
+          <div class="col-12 col-md-6">
+            <div class="row">
+              <div class="col-12 col-md-6 px-md-0">
+                <img class="w-100" src="/themes/custom/tbdtheme/assets/dist/img/template/poverty-tile.png">
+              </div>
+              <div class="col-12 col-md-6 py-3">
+                <h6 class="lead fw-light">Poverty</h6>
+                <p class="fw-light fs-16 text-white">
+                  A <strong>universal child benefit scheme</strong> set at the global average benefit level could reduce
+                  poverty
+                  among recipients by
+                  11% in Armenia to 100% in Maldives and Türkiye as measured by the international poverty line ($1.9).
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="row">
+              <div class="col-12 col-md-6 px-md-0">
+                <img class="w-100" src="/themes/custom/tbdtheme/assets/dist/img/template/inequality-tile.png">
+              </div>
+              <div class="col-12 col-md-6 py-3">
+                <h6 class="lead fw-light">Inequality</h6>
+                <p class="fw-light fs-16 text-white">
+                  A combination of universal child benefit, disability benefit and old-age benefit set at the global
+                  average
+                  benefit level <strong>could reduce inequality</strong> as measured by the Palma ratio from 5% in
+                  <strong>Cambodia</strong> to
+                  29% in <strong>Georgia</strong>.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row m-0">
+          <div class="col-12 col-md-6">
+            <div class="row">
+              <div class="col-12 col-md-6 py-3">
+                <h6 class="lead fw-light">Consumption</h6>
+                <p class="fw-light fs-16 text-white">
+                  Reductions in poverty and inequality operate through an increase in consumption. The poorest 10% in
+                  the
+                  whole population can experience an <strong>increase in their household consumption</strong> from 8% in
+                  <strong>Kiribati</strong> to 53% in
+                  the <strong>Philippines</strong>.
+                </p>
+              </div>
+              <div class="col-12 col-md-6 px-md-0">
+                <img class="w-100" src="/themes/custom/tbdtheme/assets/dist/img/template/consumption-tile.png"
+                  width="312">
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="row">
+              <div class="col-12 col-md-6 py-3">
+                <h6 class="lead fw-light">Cost</h6>
+                <p class="fw-light fs-16 text-white">
+                  These large and positive impacts are affordable. In 2023, the cost of a combination of
+                  universal
+                  social protection schemes would range between 2% of GDP in <strong>Bangladesh</strong> to 4% in
+                  <strong>Georgia</strong>.
+                </p>
+              </div>
+              <div class="col-12 col-md-6 px-md-0">
+                <img class="w-100" src="/themes/custom/tbdtheme/assets/dist/img/template/cost-tile.png" width="312">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="row">
+      <p class="fw-light px-0 px-lg-22 py-10 text-center">
+        <strong>Note:</strong> The results are obtained from the ESCAP Social Protection Simulator in June 2022.
+      </p>
+    </div>
+    <!-- /Main Cards -->
+
+    <!-- Regional -->
+    <section class="wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-6 d-flex d-lg-none justify-content-center">
+            <img src="/themes/custom/tbdtheme/assets/dist/img/template/RegionalCompare.jpg" class="mb-6 w-100" alt="" />
+          </div>
+          <div class="col-12 col-lg-6">
+            <h2 class="display-4 mb-3 fw-normal">Would you like to compare the impact of universal social protection
+              across the Asia Pacific region?</h2>
+            <p class="fw-light">Explore the dashboard to see the impact of a comprehensive and universal social
+              protection package with benefit levels at global or OECD averages.</p>
+
+            <div class="d-flex flex-column flex-md-row gap-5">
+
+              <a href='/regional-comparison-app' type="button"
+                class="text-white d-none d-lg-block btn btn-sm rounded-0 btn-simulation-tool fw-light m-0 w-auto"
+                style="font-size: 0.85rem;">EXPLORE REGIONAL COMPARISION</a>
+              <a href='/regional-comparison-app' type="button"
+                class="text-white d-block d-lg-none btn btn-sm rounded-0 btn-simulation-tool fw-light w-100 m-0"
+                style="font-size: 0.85rem;">EXPLORE REGIONAL COMPARISION</a>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 d-none d-lg-block">
+            <div class="image-box-container">
+              <img src="/themes/custom/tbdtheme/assets/dist/img/template/RegionalCompare.jpg" class="w-100" alt="" />
+              <div class="container-overlay-text">
+                <!--p class="overlay-text m-0 ps-2 fs-12">
+                  <span>Photo credit:</span>
+                  <a target="_blank" href="https://unsplash.com/photos/XoBWUBA3Amg">unsplash/@lorenmary</a>
+                </p-->
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center">
+            <hr class="d-none d-lg-block bg-simulation-tool border-1 w-50 my-12">
+            <hr class="d-block d-lg-none bg-simulation-tool border-1 w-100 my-12">
+          </div>
+        </div>
+    </section>
+    <!--Regional End-->
+    <!-- Country Analysis -->
+    <!-- Country Analysis -->
+    <section class="wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-6 d-flex d-lg-none justify-content-center">
+            <img src="/themes/custom/tbdtheme/assets/dist/img/template/image_60.png" class="mb-6"
+              style="width: -webkit-fill-available;" alt="" />
+          </div>
+          <div class="col-12 col-lg-6">
+            <h2 class="display-4 mb-3 fw-normal">Would you like to explore the impact of universal social protection in
+              your selected country?</h2>
+            <p class="fw-light">Enter the dashboard for an overview of how a comprehensive and universal social
+              protection package could improve lives.</p>
+            <div class="d-flex flex-column flex-md-row gap-5">
+              <div class="fs-15">
+                <select class="form-select rounded-1 country-ddl" name="country2" id="country2">
+                  <option value="">Choose your country</option>
+                  [##country-list##]
+                </select>
+              </div>
+              <div class="bt-wrapper">
+                <div class="country-ddl-overlay"></div>    
+              <a href='/dashboard-app/combined/normal?filter={"mode":"combined","pageLevel":{"scheme":["70001","70002","70003"]},"scenario1":{"country":"50001","benefit_level":"30002","poverty_mean_tested":"80001"},"scenario2":{"country":"50001","benefit_level":"30002","poverty_mean_tested":"80001"},"detailScenario1":{"country":"50001","scheme_details":[{"scheme":"70001","age":[0,18],"benefit_percent":4,"benefit_currency":0,"benefit_ppp":0,"admin_cost":5,"pmt":100,"is_selected":true},{"scheme":"70002","age":[0,100],"benefit_percent":14,"benefit_currency":0,"benefit_ppp":0,"admin_cost":5,"pmt":100,"is_selected":true},{"scheme":"70003","age":[65,100],"benefit_percent":16,"benefit_currency":0,"benefit_ppp":0,"admin_cost":5,"pmt":100,"is_selected":true}]},"detailScenario2":{"country":"50001","scheme_details":[{"scheme":"70001","age":[0,18],"benefit_percent":4,"benefit_currency":0,"benefit_ppp":0,"admin_cost":5,"pmt":100,"is_selected":true},{"scheme":"70002","age":[0,100],"benefit_percent":14,"benefit_currency":0,"benefit_ppp":0,"admin_cost":5,"pmt":100,"is_selected":true},{"scheme":"70003","age":[65,100],"benefit_percent":16,"benefit_currency":0,"benefit_ppp":0,"admin_cost":5,"pmt":100,"is_selected":true}]},"showToolbar":false}'
+                type="button" data-country="country2"
+                class="button-ddl text-white d-none d-lg-block btn btn-sm rounded-0 btn-simulation-tool fw-light m-0 w-auto"
+                style="font-size: 0.85rem;">EXPLORE YOUR COUNTRY</a>
+              <a href='/dashboard-app/combined/normal?filter={"mode":"combined","pageLevel":{"scheme":["70001","70002","70003"]},"scenario1":{"country":"50001","benefit_level":"30002","poverty_mean_tested":"80001"},"scenario2":{"country":"50001","benefit_level":"30002","poverty_mean_tested":"80001"},"detailScenario1":{"country":"50001","scheme_details":[{"scheme":"70001","age":[0,18],"benefit_percent":4,"benefit_currency":0,"benefit_ppp":0,"admin_cost":5,"pmt":100,"is_selected":true},{"scheme":"70002","age":[0,100],"benefit_percent":14,"benefit_currency":0,"benefit_ppp":0,"admin_cost":5,"pmt":100,"is_selected":true},{"scheme":"70003","age":[65,100],"benefit_percent":16,"benefit_currency":0,"benefit_ppp":0,"admin_cost":5,"pmt":100,"is_selected":true}]},"detailScenario2":{"country":"50001","scheme_details":[{"scheme":"70001","age":[0,18],"benefit_percent":4,"benefit_currency":0,"benefit_ppp":0,"admin_cost":5,"pmt":100,"is_selected":true},{"scheme":"70002","age":[0,100],"benefit_percent":14,"benefit_currency":0,"benefit_ppp":0,"admin_cost":5,"pmt":100,"is_selected":true},{"scheme":"70003","age":[65,100],"benefit_percent":16,"benefit_currency":0,"benefit_ppp":0,"admin_cost":5,"pmt":100,"is_selected":true}]},"showToolbar":false}'
+                type="button" data-country="country2"
+                class="button-ddl text-white d-block d-lg-none btn btn-sm rounded-0 btn-simulation-tool fw-light w-100 m-0"
+                style="font-size: 0.85rem;">EXPLORE YOUR COUNTRY</a>
+            </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 d-none d-lg-block">
+            <div class="image-box-container">
+              <img src="/themes/custom/tbdtheme/assets/dist/img/template/Group_1100.png" class="w-100" alt="" />
+              <div class="container-overlay-text">
+                <!--p class="overlay-text m-0 ps-2 fs-12">
+                  <span>Photo credit:</span>
+                  <a target="_blank" href="https://unsplash.com/photos/XoBWUBA3Amg">unsplash/@lorenmary</a>
+                </p-->
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center">
+            <hr class="d-none d-lg-block bg-simulation-tool border-1 w-50 my-12">
+            <hr class="d-block d-lg-none bg-simulation-tool border-1 w-100 my-12">
+          </div>
+        </div>
+    </section>
+    <!-- /Country Analysis -->
+    <!-- /Country Analysis -->
+
+    <!-- Comparative Analysis -->
+    <section class="wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-6 d-none d-lg-block">
+            <img src="/themes/custom/tbdtheme/assets/dist/img/template/Group_1101.png" class="w-100" 
+              style="width: -webkit-fill-available;" alt="" />
+          </div>
+          <div class="col-12 col-lg-6 d-flex d-lg-none justify-content-center">
+            <img src="/themes/custom/tbdtheme/assets/dist/img/template/image_61.png" class="mb-6"
+              style="width: -webkit-fill-available;" alt="" />
+          </div>
+          <div class="col-12 col-lg-6">
+            <h2 class="display-4 mb-3 fw-normal">Would you like to build a custom-made social protection package and
+              explore
+              its impact in your selected country?</h2>
+            <p class="fw-light">Enter the simulator to build your customized package and explore an overview of how a
+              comprehensive and universal social protection package could improve lives.</p>
+            <div class="d-flex flex-column flex-md-row gap-5">
+              <div class="fs-15">
+                <select class="form-select rounded-1 country-ddl" name="country3" id="country3">
+                  <option value="">Choose your country</option>
+                  [##country-list##]
+                </select>
+              </div>
+              <div class="bt-wrapper">
+                <div class="country-ddl-overlay"></div>    
+              <a href='/dashboard-app/combined/detail?filter={"mode":"combined","pageLevel":{"scheme":["70001","70002","70003"]},"scenario1":{"country":"50001","benefit_level":"30002","poverty_mean_tested":"80001"},"scenario2":{"country":"50001","benefit_level":"30002","poverty_mean_tested":"80001"},"detailScenario1":{"country":"50001","scheme_details":[{"scheme":"70001","age":[0,18],"benefit_percent":4,"benefit_currency":7226.19,"benefit_ppp":35,"admin_cost":5,"pmt":100,"is_selected":true},{"scheme":"70002","age":[0,100],"benefit_percent":14,"benefit_currency":25291.67,"benefit_ppp":121,"admin_cost":5,"pmt":100,"is_selected":true},{"scheme":"70003","age":[65,100],"benefit_percent":16,"benefit_currency":28904.77,"benefit_ppp":138,"admin_cost":5,"pmt":100,"is_selected":true}]},"detailScenario2":{"country":"50001","scheme_details":[{"scheme":"70001","age":[0,18],"benefit_percent":4,"benefit_currency":7226.19,"benefit_ppp":35,"admin_cost":5,"pmt":100,"is_selected":true},{"scheme":"70002","age":[0,100],"benefit_percent":14,"benefit_currency":25291.67,"benefit_ppp":121,"admin_cost":5,"pmt":100,"is_selected":true},{"scheme":"70003","age":[65,100],"benefit_percent":16,"benefit_currency":28904.77,"benefit_ppp":138,"admin_cost":5,"pmt":100,"is_selected":true}]},"showToolbar":true}'
+                type="button" data-country="country3"
+                class="button-ddl text-white d-none d-lg-block btn btn-sm rounded-0 btn-simulation-tool fw-light m-0 w-auto"
+                style="font-size: 0.85rem;">SIMULATE YOUR COUNTRY</a>
+              <a href='/dashboard-app/combined/detail?filter={"mode":"combined","pageLevel":{"scheme":["70001","70002","70003"]},"scenario1":{"country":"50001","benefit_level":"30002","poverty_mean_tested":"80001"},"scenario2":{"country":"50001","benefit_level":"30002","poverty_mean_tested":"80001"},"detailScenario1":{"country":"50001","scheme_details":[{"scheme":"70001","age":[0,18],"benefit_percent":4,"benefit_currency":7226.19,"benefit_ppp":35,"admin_cost":5,"pmt":100,"is_selected":true},{"scheme":"70002","age":[0,100],"benefit_percent":14,"benefit_currency":25291.67,"benefit_ppp":121,"admin_cost":5,"pmt":100,"is_selected":true},{"scheme":"70003","age":[65,100],"benefit_percent":16,"benefit_currency":28904.77,"benefit_ppp":138,"admin_cost":5,"pmt":100,"is_selected":true}]},"detailScenario2":{"country":"50001","scheme_details":[{"scheme":"70001","age":[0,18],"benefit_percent":4,"benefit_currency":7226.19,"benefit_ppp":35,"admin_cost":5,"pmt":100,"is_selected":true},{"scheme":"70002","age":[0,100],"benefit_percent":14,"benefit_currency":25291.67,"benefit_ppp":121,"admin_cost":5,"pmt":100,"is_selected":true},{"scheme":"70003","age":[65,100],"benefit_percent":16,"benefit_currency":28904.77,"benefit_ppp":138,"admin_cost":5,"pmt":100,"is_selected":true}]},"showToolbar":true}'
+                type="button" data-country="country3"
+                class="button-ddl text-white d-block d-lg-none btn btn-sm rounded-0 btn-simulation-tool fw-light w-100 m-0"
+                style="font-size: 0.85rem;">SIMULATE YOUR COUNTRY</a>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <hr class="bg-simulation-tool border-1 w-50 my-12">
+        </div>
+      </div>
+    </section>
+    <!-- /Comparative Analysis -->
+
+    <!--Testimonials-->
+    <section class="wrapper mb-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 ">
+            <div class="testimonial p-4 h-100">
+              <div class="row">
+                <div class="col-8">
+                  <div class="testimonial-text">
+                    <img class="testimonial-quote pb-2 d-block"
+                      src="/themes/custom/tbdtheme/assets/dist/img/template/quote-left.png">
+                    The Social Protection Online Tool (SPOT) Simulator enables policymakers to quickly see how the
+                    design
+                    of
+                    schemes impact poverty, consumption, inequality and the costs.
+                    <div class="text-end"><img class="testimonial-quote pb-2"
+                        src="/themes/custom/tbdtheme/assets/dist/img/template/quote-right.png">
+                    </div>
+                  </div>
+                  <div class="testimonial-author mt-4">H.E. Ms. Ariunzaya Ayush</div>
+                  <div class="testimonial-position">Director of Economic and Social Policy</div>
+                  <div class="d-inline testimonial-metadata ms-4 ps-4 mt-2">#CSocDev7 &nbsp;&nbsp;|&nbsp;&nbsp;</div>
+                  <img src="/themes/custom/tbdtheme/assets/dist/img/escap75-white.png" class="testimonial-logo">
+                </div>
+                <div class="col-4 testimonial-img align-items-center d-flex">
+                  <img class="rounded-circle w-100"
+                    src="/themes/custom/tbdtheme/assets/dist/img/template/testimonial1.png">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 ">
+            <div class="testimonial p-4 h-100">
+              <div class="row">
+                <div class="col-8">
+                  <div class="testimonial-text">
+                    <img class="testimonial-quote pb-2 d-block"
+                      src="/themes/custom/tbdtheme/assets/dist/img/template/quote-left.png">
+                      SPOT empowers policymakers with evidence and tools to better understand the impact of social protection. 
+                      It is a useful platform for countires to implement the Action Plan on Social Protection. 
+                    <div class="text-end"><img class="testimonial-quote pb-2"
+                        src="/themes/custom/tbdtheme/assets/dist/img/template/quote-right.png">
+                    </div>
+                  </div>
+                  <div class="testimonial-author mt-4">H.E. Mr. Boros Samheng</div>
+                  <div class="testimonial-position">Minister, Government of Cambodia</div>
+                  <div class="d-inline testimonial-metadata ms-4 ps-4 mt-2">#CSocDev7 &nbsp;&nbsp;|&nbsp;&nbsp;</div>
+                  <img src="/themes/custom/tbdtheme/assets/dist/img/escap75-white.png" class="testimonial-logo">
+                </div>
+                <div class="col-4 testimonial-img align-items-center d-flex">
+                  <img class="rounded-circle w-100"
+                    src="/themes/custom/tbdtheme/assets/dist/img/template/testimonial2.png">
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-12 col-md-6 offset-md-3">
+            <div class="testimonial p-4 h-100">
+              <div class="row">
+                <div class="col-8">
+                  <div class="testimonial-text">
+                    <img class="testimonial-quote pb-2 d-block"
+                      src="/themes/custom/tbdtheme/assets/dist/img/template/quote-left.png">
+                      The Social Protection simulator describes that social protection is an investment in the economy and jobs by increasing consumption since most jobs in many countries in the region heavily depend on domestic final demands.
+                      
+                    <div class="text-end"><img class="testimonial-quote pb-2"
+                        src="/themes/custom/tbdtheme/assets/dist/img/template/quote-right.png">
+                    </div>
+                  </div>
+                  <div class="testimonial-author mt-4">Francis Kin Upgi</div>
+                  <div class="testimonial-position">Director of Economic and Social Policy</div>
+                  <div class="testimonial-position">International Trade Union Confederation Asia-Pacific</div>
+                  <div class="d-inline testimonial-metadata ms-4 ps-4 mt-2">#CSocDev7 &nbsp;&nbsp;|&nbsp;&nbsp;</div>
+                  <img src="/themes/custom/tbdtheme/assets/dist/img/escap75-white.png" class="testimonial-logo">
+                </div>
+                <div class="col-4 testimonial-img align-items-center d-flex">
+                  <img class="rounded-circle w-100"
+                    src="/themes/custom/tbdtheme/assets/dist/img/template/testimonial3.jpg">
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!--Testimonials End-->
+
+    <!-- Additional Links-->
+    <section id="links" class="wrapper p-lg-12 px-lg-20 mb-20 about-anchor">
+      <div class="container">
+        <div class="row">
+          <h3 class="display-3 fw-normal mb-10 p-0">Additional Links</h3>
+          <h5 class="fw-light p-0">
+            <a href="/methodology-app" target="_blank" class="link-link-blue"
+              style="text-decoration: underline;">Methodology</a>: See the methodology used in the Simulator as well
+            as
+            data sources.
+          </h5>
+          <h5 class="fw-light p-0">
+            <a href="/glossary" target="_blank" class="link-link-blue" style="text-decoration: underline;">Glossary</a>:
+            See the terminology used in the Simulator.
+          </h5>
+        </div>
+        <div class="row">
+          <p class="fw-light px-0 pt-20">
+            <strong>Note:</strong> The simulation is a policy tool for guiding reforms in social protection programmes
+            and therefore does not provide precise estimates of impact, cost and affordability.
+          </p>
+          <p class="fw-light px-0 pb-10">
+            <strong>Suggested Citation:</strong> United Nations, Economic and Social Commission for Asia and the Pacific
+            (ESCAP), Social Protection Simulator. Available at <a href="https://spot.unescap.org/simulator"
+              target="_blank" class="link-link-blue"
+              style="text-decoration: underline;">https://spot.unescap.org/simulator</a> (accessed on DD Month
+            YYYY ).
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- /Additional Links-->
+
+    <!-- Mail -->
+    <section class="wrapper text-center bg-light-blue-grey2">
+      <div class="container">
+        <div class="wrapper text-center py-10 pb-12">
+          <h4 class="fw-light mb-5 px-md-16 px-lg-3">Join our mailing list and receive the latest updates on our work on
+            social protection</h4>
+          <form class="d-flex justify-content-center">
+            <input type="email" class="form-control w-25 rounded-0" id="exampleInputEmail1"
+              placeholder="Enter your email address"><button type="submit"
+              class="btn rounded-0 btn-primary">Join</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- /Mail -->
+  </div>
+
+  <footer class="bg-navy text-white">
+    <div class="container py-13 py-md-15">
+      @@include('_footer.html')
+    </div>
+  </footer>
+  @@include('_scripts.html')
+</body>
+
+</html>

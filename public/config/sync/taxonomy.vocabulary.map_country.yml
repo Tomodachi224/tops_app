@@ -1,0 +1,8 @@
+uuid: 0f8ce8c1-6716-4de3-98e3-6681e781c030
+langcode: en
+status: true
+dependencies: {  }
+name: 'Map Country'
+vid: map_country
+description: ''
+weight: 0

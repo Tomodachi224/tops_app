@@ -1,0 +1,30 @@
+uuid: 23b53e15-6a79-4e9d-8d4a-49cd563a585c
+langcode: en
+status: true
+dependencies:
+  module:
+    - update
+    - update
+title: 'Update indexes'
+id: update_cron
+weight: 0
+module: update
+callback: update_cron
+scheduler:
+  id: simple
+  configuration:
+    rules:
+      - '0+@ */6 * * *'
+launcher:
+  id: serial
+  configuration:
+    timeouts:
+      lock_timeout: 3600
+    launcher:
+      thread: 0
+logger:
+  id: database
+  configuration:
+    method: '3'
+    expire: 1209600
+    retain: 1000

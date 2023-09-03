@@ -1,0 +1,26 @@
+uuid: 1d16cae8-4d8d-48e7-b6fa-0ba427f390b4
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - tbdtheme
+_core:
+  default_config_hash: LAjbHuXwCmY_WUH9vg17NHUfJhaC7Q_jLipWVodFAtQ
+id: tbdtheme_local_actions
+theme: tbdtheme
+region: content
+weight: -2
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '/analysis-app/*'

@@ -1,0 +1,26 @@
+uuid: 21293eda-8b57-4266-bc95-9b9c45b39af5
+langcode: en
+status: true
+dependencies:
+  module:
+    - opigno_dashboard
+    - system
+  theme:
+    - aristotle
+id: dashboard_opigno_user_stats_block
+theme: aristotle
+region: content
+weight: 0
+provider: null
+plugin: opigno_user_stats_block
+settings:
+  id: opigno_user_stats_block
+  label: 'Dashboard: User statistics'
+  label_display: ''
+  provider: opigno_dashboard
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    context_mapping: {  }
+    pages: /opigno

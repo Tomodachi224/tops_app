@@ -1,0 +1,7 @@
+uuid: f5ba73e4-ea0d-4ae1-bd84-155a30e4b8a4
+langcode: en
+status: false
+dependencies: {  }
+formId: node_covid_resource_form
+captchaType: default
+label: node_covid_resource_form

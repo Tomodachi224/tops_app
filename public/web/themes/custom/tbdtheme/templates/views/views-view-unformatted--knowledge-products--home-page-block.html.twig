@@ -1,0 +1,46 @@
+{#
+/**
+ * @file
+ * Theme override to display a view of unformatted rows.
+ *
+ * Available variables:
+ * - title: The title of this group of rows. May be empty.
+ * - rows: A list of the view's row items.
+ *   - attributes: The row's HTML attributes.
+ *   - content: The row's content.
+ * - view: The view object.
+ * - default_row_class: A flag indicating whether default classes should be
+ *   used on rows.
+ *
+ * @see core/themes/classy/templates/views/views-view-unformatted.html.twig
+ */
+#}
+{% if title %}
+  <h3>{{ title }}</h3>
+{% endif %}
+<section class="wrapper text-center mb-15">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-xl-10 mx-auto">
+        <div class="owl-carousel owl-theme basic-slider" data-dots="false">
+          {% for row in rows %}
+            {%
+              set row_classes = [
+                default_row_class ? 'views-row',
+                'item'
+              ]
+            %}
+            <div{{ row.attributes.addClass(row_classes) }}>
+              {{- row.content -}}
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <div class="row pb-15">
+      <div class="col-lg-6 col-xl-10 mx-auto mt-5">
+        <a href="/knowledge-products" type="button" class="btn rounded-0 btn-primary">Know more about Policy Primers</a>
+      </div>
+    </div>
+  </div>
+</section>

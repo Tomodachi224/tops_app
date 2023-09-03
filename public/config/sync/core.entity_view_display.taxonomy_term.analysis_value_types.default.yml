@@ -1,0 +1,60 @@
+uuid: a01f3aac-3b82-4015-8b43-ae4dbbe9d6b0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.analysis_value_types.field_axis_label
+    - field.field.taxonomy_term.analysis_value_types.field_axis_unit
+    - field.field.taxonomy_term.analysis_value_types.field_color
+    - field.field.taxonomy_term.analysis_value_types.field_display_name
+    - taxonomy.vocabulary.analysis_value_types
+  module:
+    - color_field
+    - text
+id: taxonomy_term.analysis_value_types.default
+targetEntityType: taxonomy_term
+bundle: analysis_value_types
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_axis_label:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_axis_unit:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_color:
+    type: color_field_formatter_text
+    label: above
+    settings:
+      format: hex
+      opacity: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_display_name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 4
+    region: content
+hidden:
+  search_api_excerpt: true

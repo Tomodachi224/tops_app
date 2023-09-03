@@ -1,0 +1,8 @@
+uuid: 0f645003-3d4a-4e07-a029-e1e78992395c
+langcode: en
+status: true
+dependencies: {  }
+name: 'Detail Chart'
+vid: detail_chart
+description: 'Chart content editable'
+weight: 0

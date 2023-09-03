@@ -1,0 +1,51 @@
+uuid: 37717fee-b202-4465-80ad-228721b36216
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.ckeditor
+  module:
+    - ckeditor
+format: ckeditor
+editor: ckeditor
+settings:
+  toolbar:
+    rows:
+      -
+        -
+          name: Formatting
+          items:
+            - Bold
+            - Italic
+        -
+          name: Links
+          items:
+            - DrupalLink
+            - DrupalUnlink
+        -
+          name: Lists
+          items:
+            - BulletedList
+            - NumberedList
+        -
+          name: Media
+          items:
+            - Blockquote
+            - DrupalImage
+        -
+          name: Tools
+          items:
+            - Source
+            - ckeditor_wiris_formulaEditor
+            - mathjax
+  plugins:
+    customconfig:
+      ckeditor_custom_config: "enterMode = 2\r\nfillEmptyBlocks = false"
+image_upload:
+  status: false
+  scheme: public
+  directory: inline-images
+  max_size: ''
+  max_dimensions:
+    width: null
+    height: null

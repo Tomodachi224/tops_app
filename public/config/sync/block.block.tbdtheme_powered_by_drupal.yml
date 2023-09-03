@@ -1,0 +1,22 @@
+uuid: 52579cb2-797d-43ec-88c6-cf30dde90e34
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - tbdtheme
+_core:
+  default_config_hash: spSelD-gW7QuXyv6Lt0MDcPJCaMeXHGZ3PoX8ncun28
+id: tbdtheme_powered_by_drupal
+theme: tbdtheme
+region: footer
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

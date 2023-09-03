@@ -1,0 +1,38 @@
+uuid: ae457138-d512-452c-a8b1-2d13ab086f2c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_knowledge_product_cover
+    - node.type.knowledge_product
+  module:
+    - image
+id: node.knowledge_product.field_knowledge_product_cover
+field_name: field_knowledge_product_cover
+entity_type: node
+bundle: knowledge_product
+label: 'Cover Image'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: knowledge-product
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+field_type: image

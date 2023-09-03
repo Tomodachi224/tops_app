@@ -1,0 +1,22 @@
+uuid: a57c4137-4fef-4fb2-9f98-b452d86feedb
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: _steps_
+label: 'Steps Guide'
+type: 'canonical_entities:node'
+pattern: '/steps/[node:title]'
+selection_criteria:
+  b2629472-bda1-441e-838e-8ae4293e265c:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: b2629472-bda1-441e-838e-8ae4293e265c
+    context_mapping:
+      node: node
+    bundles:
+      book: book
+selection_logic: and
+weight: -10
+relationships: {  }

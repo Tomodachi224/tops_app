@@ -1,0 +1,54 @@
+[
+  {
+    "_id": "1",
+    "name": "Simulated coverage of the whole population, by consumption expenditure deciles"
+  },
+  {
+    "_id": "2",
+    "name": "Simulated coverage of the whole population, by different types of households"
+  },
+  {
+    "_id": "3",
+    "name": "Coverage with existing schemes and post reforms"
+  },
+  {
+    "_id": "4",
+    "name": "Simulated impact on the household consumption expenditure for the whole population, by consumption expenditure deciles"
+  },
+  {
+    "_id": "5",
+    "name": "Simulated impact on the household consumption expenditure among recipient households, by consumption expenditure deciles"
+  },
+  {
+    "_id": "6",
+    "name": "Simulated impact on the household consumption expenditure among recipient households, by diﬀerent household types"
+  },
+  {
+    "_id": "7",
+    "name": "Simulated impact on poverty rates, whole population"
+  },
+  {
+    "_id": "8",
+    "name": "Simulated impact on poverty rates, recipient households"
+  },
+  {
+    "_id": "9",
+    "name": "Simulated impact on poverty gap index, whole population"
+  },
+  {
+    "_id": "10",
+    "name": "Simulated impact on poverty gap index, recipient households"
+  },
+  {
+    "_id": "11",
+    "name": "Simulated impact on inequality"
+  },
+  {
+    "_id": "12",
+    "name": "Projected annual spending (% of GDP), by programme, by year"
+  },
+  {
+    "_id": "13",
+    "name": "Required investment as a percentage of government revenue, by year"
+  }
+]

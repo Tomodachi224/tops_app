@@ -1,0 +1,8 @@
+uuid: dd1e6e6a-a765-44ca-96b7-b39d58ffa92e
+langcode: en
+status: true
+dependencies: {  }
+name: 'Analysis Label'
+vid: analysis_label
+description: ''
+weight: 0

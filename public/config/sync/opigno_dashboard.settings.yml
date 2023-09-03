@@ -1,0 +1,33 @@
+_core:
+  default_config_hash: 5Tkf79c1g6WqfP3zsNDW9ULpB4Qus_ErK9FSt4m9YG4
+blocks:
+  opigno_user_stats_block:
+    available: '1'
+    mandatory: 0
+  opigno_social_wall_block:
+    available: '1'
+    mandatory: 0
+  opigno_user_connections_block:
+    available: '1'
+    mandatory: 0
+  'views_block:opigno_group_members-block_pending':
+    available: 1
+    mandatory: 0
+  'views_block:comments_recent-block_1':
+    available: 1
+    mandatory: 0
+  'views_block:latest_active_trainings-block':
+    available: 1
+    mandatory: 0
+  'views_block:opigno_notifications-block_unread_dashboard':
+    available: 1
+    mandatory: 0
+  'views_block:private_message-block_dashboard':
+    available: 1
+    mandatory: 0
+  'views_block:who_s_new-block_1':
+    available: 1
+    mandatory: 0
+  'views_block:who_s_online-who_s_online_block':
+    available: 1
+    mandatory: 0

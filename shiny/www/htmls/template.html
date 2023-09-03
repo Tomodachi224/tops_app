@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  
+<head>
+  <meta charset="utf-8" />
+	<link rel="shortcut icon" href="https://www.socialprotection-toolbox.org/themes/cantaloupe/favicon.ico" type="image/vnd.microsoft.icon" />
+  <title>Social Protection Simulation Tool | Social Protection Toolbox</title>
+  <style>
+  	@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700,700i|Prompt:500');
+
+		html, body {
+  		font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		}
+		body {
+			margin: 0;
+			padding: 0;
+		  background-color: #FFF;
+		  color: #333;
+		}
+		img {
+		  border: 0;
+		  max-width: 100%;
+		  height: auto;
+		  width: auto;
+		}
+		a:link, a:visited {
+		  color: #369;
+		  text-decoration: none;
+		}
+		a:hover, a:focus {
+		  color: #963;
+		  text-decoration: underline;
+		}
+		a:active {
+		  color: #369;
+		  text-decoration: none;
+		}
+		a:focus { outline: 0; }
+		p { margin-bottom: 1.5em; }
+		
+		#page, #header, #navigation, #footer {
+		  margin: 0;
+		  padding: 0;
+		  max-width: 100%;
+		}
+		#header, #content, #navigation, #footer {
+		  padding-left: 10px;
+		  padding-right: 10px;
+		}
+		#content, .container {
+		  margin-left: auto;
+		  margin-right: auto;
+		  max-width: 1200px;
+		}
+		#header {
+		  position: fixed;
+		  top: 0;
+		  left: 0;
+		  right: 0;
+		  min-height: 90px;
+		  z-index: 100;
+		  -moz-box-shadow: 0 3px 10px rgba(15, 15, 15, 0.5);
+		  -webkit-box-shadow: 0 3px 10px rgba(15, 15, 15, 0.5);
+		  box-shadow: 0 3px 10px rgba(15, 15, 15, 0.5);
+		}
+		#header { background-color: #fff167; }
+		#header .container {
+		  position: relative;
+		  background: url('https://www.socialprotection-toolbox.org/themes/cantaloupe/images/background-header.png') 0 0 no-repeat;
+		  min-height: 90px;
+		}
+		#logo {
+			float: left;
+			margin: 0;
+			padding: 0;
+			padding-top: 29px;
+		}
+		#logo img { vertical-align: bottom; }
+		#main {
+			margin-top: 90px;
+		  padding-top: 0;
+		}
+		#main .img-wrapper {
+		  margin: 0;
+		  padding: 0;
+		  width: 100%;
+		}
+		#main .img-wrapper img { width: 100%; }
+
+		#section-top { margin-bottom: 3em; }
+		.section .container {
+		  background-image: url(https://www.socialprotection-toolbox.org/themes/cantaloupe/images/background-body.png);
+		  background-repeat: repeat-y;
+		  background-size: cover;
+		  text-align: center;
+		}
+		.section .description {
+		  font-size: 1.25em;
+		  font-weight: 300;
+		  line-height: 1.2;
+		  margin-top: 1.5em;
+		}
+		#simulation-tool {
+			width: 50%;
+			margin: 0 auto;
+			text-align: left;
+			padding: 1.5em;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			box-shadow: 0 3px 10px rgba(15, 15, 15, 0.5);
+		}
+		#endnote {
+			margin-top: 3em;
+			font-size: 1em;
+			color: #666;
+		}
+		#footer {
+			background: #f2f3f3;
+		  height: 100px;
+		}
+		#footer .container {
+		  padding-top: 1em;
+		  color: #333;
+		  font-size: 0.85em;
+		}
+  </style>
+</head>
+
+
+
+<body>
+	<header id="header" role="banner" class="header">
+  	<div class="container">
+    	<a href="/" title="Home" rel="home" id="logo"><img src="https://www.socialprotection-toolbox.org/themes/cantaloupe/logo.png" alt="Home" /></a>
+    
+    	<div id="navigation">
+    		<nav id="main-menu" role="navigation" tabindex="-1">
+    		</nav>
+    	</div>
+    </div>
+	</header>
+
+  <div id="main">
+    <div class="img-wrapper">
+        <img src="https://www.socialprotection-toolbox.org/files/frontpage/images/section-8.jpg" />
+    </div>
+		<div id="content" class="column" role="main">
+	    <div id="section-top" class="section clearfix">
+	        <div class="container">
+            <div class="description">
+            		<p>The ESCAP Social Protection Simulation Tool estimates the impact of introducing social protection programmes on poverty and inequality and computes the relative cost of simulated programme(s), providing different illustrative options to expand fiscal space for social protection.</p>
+            		<p>Users are able to delve into different policy options where various social protection programmes are introduced in a country, by setting parameters related to eligibility criteria, coverage levels, and transfer values. To further explore alternative scenarios, the user can also modify assumptions about administrative programme costs or to change economy-wide parameters, such as the expected real annual growth rate.</p>
+            </div>
+
+            <div id="simulation-tool">
+            	<!-- The R codes are placed here. -->
+	          </div>
+
+        		<div id="endnote">
+        			<p><strong>Note:</strong> The model is a tool for guiding reforms in social protection programmes, rather than a tool that provides precise estimates of impact, costs and affordability.</p>
+        		</div>
+
+	        </div>
+	    </div>
+  	</div>
+  </div>
+
+  <div id="footer">
+  	  <div class="region-footer container clearfix">
+  			<div style="float:left;">
+  				<a href="http://www.unescap.org/our-work/social-development/inequality-and-social-protection" target="_blank"><img src="https://www.socialprotection-toolbox.org/files/images/logo-escap-color.png"></a>
+				</div>
+  			<div style="float:right;">Copyright © 2019 ESCAP - Social Development Division</div>
+			</div>
+  </div>
+</body>
+</html>

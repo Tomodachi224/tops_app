@@ -1,0 +1,18 @@
+uuid: 119b07c4-4360-4a4b-a06e-d546b47cfc48
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: taxonomy_term.field_is_public
+field_name: field_is_public
+entity_type: taxonomy_term
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

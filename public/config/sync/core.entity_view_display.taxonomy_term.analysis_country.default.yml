@@ -1,0 +1,80 @@
+uuid: f64e6bff-753d-42ff-bcae-f4b08047303f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.analysis_country.field_code
+    - field.field.taxonomy_term.analysis_country.field_currency_code
+    - field.field.taxonomy_term.analysis_country.field_data_source
+    - field.field.taxonomy_term.analysis_country.field_is_public
+    - field.field.taxonomy_term.analysis_country.field_poverty_type
+    - field.field.taxonomy_term.analysis_country.field_region
+    - taxonomy.vocabulary.analysis_country
+  module:
+    - text
+id: taxonomy_term.analysis_country.default
+targetEntityType: taxonomy_term
+bundle: analysis_country
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_code:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_currency_code:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_data_source:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_is_public:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_poverty_type:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_region:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 5
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  search_api_excerpt: true
